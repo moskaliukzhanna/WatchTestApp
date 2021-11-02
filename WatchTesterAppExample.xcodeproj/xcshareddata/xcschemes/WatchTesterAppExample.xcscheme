@@ -29,16 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20FD841927314553007C9602"
-               BuildableName = "WatchTesterAppExampleTests.xctest"
-               BlueprintName = "WatchTesterAppExampleTests"
-               ReferencedContainer = "container:WatchTesterAppExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
