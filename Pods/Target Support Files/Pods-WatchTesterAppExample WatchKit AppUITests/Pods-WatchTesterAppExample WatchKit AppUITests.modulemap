@@ -1,0 +1,6 @@
+module Pods_WatchTesterAppExample_WatchKit_AppUITests {
+  umbrella header "Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

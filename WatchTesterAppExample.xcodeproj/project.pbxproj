@@ -27,6 +27,7 @@
 		20FD845327314555007C9602 /* WatchTesterAppExample_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD845227314555007C9602 /* WatchTesterAppExample_WatchKit_AppTests.swift */; };
 		20FD845D27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD845C27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift */; };
 		20FD845F27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */; };
+		9641FF5081ECB4FD518EB82A /* libPods-WatchTesterAppExample WatchKit AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4B5ED7C647A1A01C0F77B /* libPods-WatchTesterAppExample WatchKit AppUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,9 @@
 		20FD845827314555007C9602 /* WatchTesterAppExample WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchTesterAppExample WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD845C27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExample_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AAA32BDF1A256B09AB19A5F /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WatchTesterAppExample WatchKit AppUITests/Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF4B5ED7C647A1A01C0F77B /* libPods-WatchTesterAppExample WatchKit AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTesterAppExample WatchKit AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C081C92E7B8BF83996A3A7F /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-WatchTesterAppExample WatchKit AppUITests/Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9641FF5081ECB4FD518EB82A /* libPods-WatchTesterAppExample WatchKit AppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +191,8 @@
 				20FD845127314555007C9602 /* WatchTesterAppExample WatchKit AppTests */,
 				20FD845B27314555007C9602 /* WatchTesterAppExample WatchKit AppUITests */,
 				20FD840527314551007C9602 /* Products */,
+				5E2F5F89E14B4C9CB98384DF /* Pods */,
+				4922744940C36B568207D090 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +277,24 @@
 				20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "WatchTesterAppExample WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		4922744940C36B568207D090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4B5ED7C647A1A01C0F77B /* libPods-WatchTesterAppExample WatchKit AppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2F5F89E14B4C9CB98384DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA32BDF1A256B09AB19A5F /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */,
+				9C081C92E7B8BF83996A3A7F /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20FD847627314555007C9602 /* Build configuration list for PBXNativeTarget "WatchTesterAppExample WatchKit AppUITests" */;
 			buildPhases = (
+				40525E3217A3E75E7C339B60 /* [CP] Check Pods Manifest.lock */,
 				20FD845427314555007C9602 /* Sources */,
 				20FD845527314555007C9602 /* Frameworks */,
 				20FD845627314555007C9602 /* Resources */,
@@ -518,6 +544,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40525E3217A3E75E7C339B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchTesterAppExample WatchKit AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20FD840027314551007C9602 /* Sources */ = {
@@ -1084,6 +1135,7 @@
 		};
 		20FD847727314555007C9602 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAA32BDF1A256B09AB19A5F /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1108,6 +1160,7 @@
 		};
 		20FD847827314555007C9602 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C081C92E7B8BF83996A3A7F /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
