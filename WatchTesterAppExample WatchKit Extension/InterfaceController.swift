@@ -37,6 +37,12 @@ class InterfaceController: WKInterfaceController {
 
 extension InterfaceController: WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        
+        WKInterfaceDevice().play(.click)
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        if let value = message["Message"] as? String {
+            kittyImage.setImageNamed(value == "selected" ? "studyCat" : "funnyCat")
+        }
     }
 }
