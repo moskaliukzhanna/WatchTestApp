@@ -75,8 +75,27 @@
             </objects>
             <point key="canvasLocation" x="-16" y="261"/>
         </scene>
+        <!--EventInterfaceController-->
+        <scene sceneID="x8O-IM-vUW">
+            <objects>
+                <controller identifier="EventInterfaceController" id="3O7-Nc-9DB" customClass="EventInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <imageView width="80" height="80" alignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="YPD-MN-EqV"/>
+                        <label height="20" alignment="center" text="Label" textAlignment="center" id="QCq-rD-Qif"/>
+                        <label height="20" alignment="center" text="Label" id="Y9i-IG-MbI"/>
+                    </items>
+                    <connections>
+                        <outlet property="eventCategory" destination="QCq-rD-Qif" id="pyg-3Q-vTC"/>
+                        <outlet property="eventImage" destination="YPD-MN-EqV" id="Z1D-kE-Hbv"/>
+                        <outlet property="eventLabel" destination="Y9i-IG-MbI" id="zWe-xp-oeN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="225" y="267"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="snow" catalog="system" width="124" height="128"/>
         <image name="snowflake" catalog="system" width="124" height="128"/>
     </resources>
 </document>

@@ -23,9 +23,14 @@ class EventTableInterfaceController: WKInterfaceController {
         table.setAccessibilityIdentifier("onboardingTable")
         
         for index in 0..<table.numberOfRows {
-          guard let controller = table.rowController(at: index) as? AWEventRowController else { continue }
-
-          controller.event = events[index]
+            guard let controller = table.rowController(at: index) as? AWEventRowController else { continue }
+            
+            controller.event = events[index]
         }
+    }
+    
+    override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+        let event = events[rowIndex]
+        pushController(withName: "EventInterfaceController", context: event)
     }
 }
