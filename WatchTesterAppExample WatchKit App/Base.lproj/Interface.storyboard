@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch45"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
@@ -10,10 +10,28 @@
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchTesterAppExample_WatchKit_App" customModuleProvider="target">
-                    <color key="backgroundColor" red="0.9276354859" green="0.27571695930000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Go to table" id="JFK-WI-M7b">
+                            <connections>
+                                <action selector="goToTable" destination="AgC-eL-Hgc" id="oEN-dE-9jh"/>
+                            </connections>
+                        </button>
+                        <imageView width="70" height="70" alignment="center" contentMode="scaleAspectFill" id="L1I-LY-ptX"/>
+                    </items>
+                    <connections>
+                        <outlet property="kittyImage" destination="L1I-LY-ptX" id="csh-3b-EHs"/>
+                        <outlet property="tableButton" destination="JFK-WI-M7b" id="USM-gg-3Rn"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="BTz-zp-nES">
+            <objects>
+                <controller id="gmJ-xg-SnS"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="261"/>
         </scene>
     </scenes>
 </document>

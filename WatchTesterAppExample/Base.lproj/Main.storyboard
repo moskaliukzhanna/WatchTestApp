@@ -17,6 +17,9 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ae-rI-TSI">
                                 <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchAcrion:" destination="BYZ-38-t0r" eventType="valueChanged" id="8QF-uJ-ro5"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -26,6 +29,9 @@
                             <constraint firstItem="3Ae-rI-TSI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fkV-HF-g2O"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testSwitch" destination="3Ae-rI-TSI" id="Ho7-ad-Bxj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
