@@ -10,21 +10,22 @@ import Foundation
 
 
 class EventTableInterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet weak var table: WKInterfaceTable!
+    
+    var events = Event.allEvents()
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
-    }
+        table.setNumberOfRows(events.count, withRowType: "AWCell")
+        table.setIsAccessibilityElement(false)
+        table.setAccessibilityIdentifier("onboardingTable")
+        
+        for index in 0..<table.numberOfRows {
+          guard let controller = table.rowController(at: index) as? AWEventRowController else { continue }
 
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
+          controller.event = events[index]
+        }
     }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
-
 }

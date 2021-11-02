@@ -16,10 +16,9 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var kittyImage: WKInterfaceImage!
     
     @IBAction func goToTable() {
-        
+        self.pushController(withName: "EventTableInterfaceController", context: nil)
     }
     
-
     override func awake(withContext context: Any?) {
         tableButton.setAccessibilityIdentifier("table_button")
         kittyImage.setImageNamed("studyCat")
@@ -34,13 +33,10 @@ class InterfaceController: WKInterfaceController {
             session.activate()
         }
     }
-    
 }
 
 extension InterfaceController: WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
     }
-    
-    
 }

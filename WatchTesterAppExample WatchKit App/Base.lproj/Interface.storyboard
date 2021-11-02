@@ -26,12 +26,57 @@
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
         </scene>
-        <!--Interface Controller-->
+        <!--EventTableInterfaceController-->
         <scene sceneID="BTz-zp-nES">
             <objects>
-                <controller id="gmJ-xg-SnS"/>
+                <controller identifier="EventTableInterfaceController" id="gmJ-xg-SnS" customClass="EventTableInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="FKX-qy-4ak">
+                            <items>
+                                <tableRow identifier="AWCell" id="dyH-A5-eVT" customClass="AWEventRowController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Ocs-UU-Ds8">
+                                        <items>
+                                            <separator alignment="left" id="ZhU-yt-skz"/>
+                                            <group alignment="left" layout="vertical" id="9eQ-qb-PG5">
+                                                <items>
+                                                    <group alignment="left" id="ZDR-v6-lxY">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="cy5-FX-iuZ"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="left" id="kVd-s3-KiU">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="K8K-cm-5Tb"/>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                            <group width="40" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" layout="vertical" id="auT-lE-Ghx">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" image="snowflake" catalog="system" contentMode="scaleAspectFill" id="snm-UP-8Y7"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="mainImage" destination="snm-UP-8Y7" id="XBR-Mv-xXe"/>
+                                        <outlet property="mainSeparator" destination="ZhU-yt-skz" id="kf9-7H-SPS"/>
+                                        <outlet property="subtitleLabel" destination="K8K-cm-5Tb" id="xSo-GZ-KjI"/>
+                                        <outlet property="titleLabel" destination="cy5-FX-iuZ" id="zsg-Db-qg9"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="FKX-qy-4ak" id="tiA-a1-wNY"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="261"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="snowflake" catalog="system" width="124" height="128"/>
+    </resources>
 </document>
