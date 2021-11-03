@@ -19,7 +19,6 @@
 		20FD841127314553007C9602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FD841027314553007C9602 /* Assets.xcassets */; };
 		20FD841427314553007C9602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FD841227314553007C9602 /* LaunchScreen.storyboard */; };
 		20FD842927314553007C9602 /* WatchTesterAppExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD842827314553007C9602 /* WatchTesterAppExampleUITests.swift */; };
-		20FD842B27314553007C9602 /* WatchTesterAppExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD842A27314553007C9602 /* WatchTesterAppExampleUITestsLaunchTests.swift */; };
 		20FD842F27314553007C9602 /* WatchTesterAppExample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 20FD842E27314553007C9602 /* WatchTesterAppExample WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		20FD843527314553007C9602 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FD843327314553007C9602 /* Interface.storyboard */; };
 		20FD843727314554007C9602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FD843627314554007C9602 /* Assets.xcassets */; };
@@ -29,7 +28,6 @@
 		20FD844627314554007C9602 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD844527314554007C9602 /* ComplicationController.swift */; };
 		20FD844827314555007C9602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FD844727314555007C9602 /* Assets.xcassets */; };
 		20FD845D27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD845C27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift */; };
-		20FD845F27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */; };
 		9641FF5081ECB4FD518EB82A /* libPods-WatchTesterAppExample WatchKit AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4B5ED7C647A1A01C0F77B /* libPods-WatchTesterAppExample WatchKit AppUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +103,6 @@
 		20FD841527314553007C9602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FD842427314553007C9602 /* WatchTesterAppExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTesterAppExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD842827314553007C9602 /* WatchTesterAppExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExampleUITests.swift; sourceTree = "<group>"; };
-		20FD842A27314553007C9602 /* WatchTesterAppExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		20FD842E27314553007C9602 /* WatchTesterAppExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTesterAppExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD843427314553007C9602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20FD843627314554007C9602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,7 +114,6 @@
 		20FD844927314555007C9602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FD845827314555007C9602 /* WatchTesterAppExample WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchTesterAppExample WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD845C27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExample_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
-		20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7AAA32BDF1A256B09AB19A5F /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WatchTesterAppExample WatchKit AppUITests/Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF4B5ED7C647A1A01C0F77B /* libPods-WatchTesterAppExample WatchKit AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTesterAppExample WatchKit AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C081C92E7B8BF83996A3A7F /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-WatchTesterAppExample WatchKit AppUITests/Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,7 +205,6 @@
 			isa = PBXGroup;
 			children = (
 				20FD842827314553007C9602 /* WatchTesterAppExampleUITests.swift */,
-				20FD842A27314553007C9602 /* WatchTesterAppExampleUITestsLaunchTests.swift */,
 			);
 			path = WatchTesterAppExampleUITests;
 			sourceTree = "<group>";
@@ -243,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				20FD845C27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift */,
-				20FD845E27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "WatchTesterAppExample WatchKit AppUITests";
 			sourceTree = "<group>";
@@ -494,7 +488,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FD842B27314553007C9602 /* WatchTesterAppExampleUITestsLaunchTests.swift in Sources */,
 				20FD842927314553007C9602 /* WatchTesterAppExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +511,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				20FD845D27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITests.swift in Sources */,
-				20FD845F27314555007C9602 /* WatchTesterAppExample_WatchKit_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
