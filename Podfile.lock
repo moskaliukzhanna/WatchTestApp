@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 2fdba147ad522a03fad3392c6ac42a728762e927
+PODS:
+  - WatchTester (0.0.1)
+
+DEPENDENCIES:
+  - WatchTester (from `../../WatchTester`)
+
+EXTERNAL SOURCES:
+  WatchTester:
+    :path: "../../WatchTester"
+
+SPEC CHECKSUMS:
+  WatchTester: 8a72795997d4cb8ec4dcc3cb6ea2b8c80af7e2a1
+
+PODFILE CHECKSUM: e56eff8cb5d54e1f437fac064b9f9b469015a9c1
 
 COCOAPODS: 1.11.2
