@@ -64,12 +64,12 @@ xcrun simctl install "$WATCH" ""$MY_BUILD_DIR"/Debug-watchsimulator/WatchTesterA
 
 
 echo "Starting Watch client..."
-(xcodebuild test                                          \
+#(xcodebuild test                                          \
 #-workspace WatchTesterAppExample.xcworkspace              \
 #-scheme "WatchTesterAppExample"                           \
 #-destination "platform=iOS Simulator,id=${PHONE}" &         -- DON'T NEED TO RUN TESTS ON IPHONE - IT IS APPIUM's RESPONSIBILITY (FOR NOW)
-#xcodebuild test                                           \
-                                     
+
+(xcodebuild test                                            \
 -workspace WatchTesterAppExample.xcworkspace               \
 -scheme "WatchTesterAppExample WatchKit App"               \
 -destination "platform=watchOS Simulator,id=${WATCH}"      )
