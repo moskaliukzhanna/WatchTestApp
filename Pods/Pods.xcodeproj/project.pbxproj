@@ -10,6 +10,35 @@
 		04B5FEF3841C6D9B9A7428DA8136CA1F /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9776AF9A103CFC8211164523634C /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m */; };
 		1140BA4B4585EEDEA5311ABFFA61E8EF /* WatchTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E826FD048C1928DA7D49E8712EE18 /* WatchTester.swift */; };
 		15524F902F62823BDE81A1AD4FCBEE0E /* UITester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CBBD20E2D0B295A9A5FDE740D3333 /* UITester.swift */; };
+		2052BA06274BC72000A1E1E4 /* GreyboxTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA05274BC72000A1E1E4 /* GreyboxTester.swift */; };
+		2052BA6D274BC74D00A1E1E4 /* WKInterfaceController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA0A274BC74D00A1E1E4 /* WKInterfaceController+Additions.h */; };
+		2052BA6E274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA0C274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.h */; };
+		2052BA71274BC74D00A1E1E4 /* HKWorkoutSession+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA0F274BC74D00A1E1E4 /* HKWorkoutSession+Additions.h */; };
+		2052BA72274BC74D00A1E1E4 /* GREYSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA12274BC74D00A1E1E4 /* GREYSwizzler.h */; };
+		2052BA73274BC74D00A1E1E4 /* GREYSurrogateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA13274BC74D00A1E1E4 /* GREYSurrogateDelegate.h */; };
+		2052BA74274BC74D00A1E1E4 /* GREYFatalAsserts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA14274BC74D00A1E1E4 /* GREYFatalAsserts.h */; };
+		2052BA75274BC74D00A1E1E4 /* GREYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA15274BC74D00A1E1E4 /* GREYDefines.h */; };
+		2052BA76274BC74D00A1E1E4 /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA16274BC74D00A1E1E4 /* GREYSwizzler.m */; };
+		2052BA77274BC74D00A1E1E4 /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA17274BC74D00A1E1E4 /* GREYSurrogateDelegate.m */; };
+		2052BA78274BC74D00A1E1E4 /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA18274BC74D00A1E1E4 /* Macros.h */; };
+		2052BA79274BC74D00A1E1E4 /* CMMotionManager+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA1A274BC74D00A1E1E4 /* CMMotionManager+Additions.h */; };
+		2052BA7B274BC74D00A1E1E4 /* CMDeviceMotion+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA1D274BC74D00A1E1E4 /* CMDeviceMotion+Additions.h */; };
+		2052BA7C274BC74D00A1E1E4 /* CMAccelerometerData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA1E274BC74D00A1E1E4 /* CMAccelerometerData+Additions.h */; };
+		2052BA7D274BC74D00A1E1E4 /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA1F274BC74D00A1E1E4 /* CoreMotionHelper.swift */; };
+		2052BA80274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA23274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.m */; };
+		2052BA81274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA24274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.h */; };
+		2052BA83274BC74D00A1E1E4 /* UNNotificationSettings+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA28274BC74D00A1E1E4 /* UNNotificationSettings+Additions.h */; };
+		2052BA86274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA2B274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.h */; };
+		2052BA87274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA2C274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.h */; };
+		2052BA88274BC74D00A1E1E4 /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA2E274BC74D00A1E1E4 /* Receiver.swift */; };
+		2052BA8A274BC74D00A1E1E4 /* MockupsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052BA30274BC74D00A1E1E4 /* MockupsFactory.h */; };
+		2052BA8B274BC74D00A1E1E4 /* HKWorkoutSessionState+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA33274BC74D00A1E1E4 /* HKWorkoutSessionState+Codable.swift */; };
+		2052BA8C274BC74D00A1E1E4 /* HKWorkoutConfiguration+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA34274BC74D00A1E1E4 /* HKWorkoutConfiguration+Encodable.swift */; };
+		2052BAA6274BC74E00A1E1E4 /* MockupsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA52274BC74D00A1E1E4 /* MockupsFactory.m */; };
+		2052BAA8274BC74E00A1E1E4 /* UNNotificationRequest+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA56274BC74D00A1E1E4 /* UNNotificationRequest+Encodable.swift */; };
+		2052BAA9274BC74E00A1E1E4 /* UNNotificationCategory+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA57274BC74D00A1E1E4 /* UNNotificationCategory+Encodable.swift */; };
+		2052BAAA274BC74E00A1E1E4 /* UNNotificationAction+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA58274BC74D00A1E1E4 /* UNNotificationAction+Encodable.swift */; };
+		2052BABC274BC74E00A1E1E4 /* GreyboxWebsocketInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052BA6B274BC74D00A1E1E4 /* GreyboxWebsocketInterface.swift */; };
 		2B5CF6AE540BAE7D9822E6AB2A403E60 /* Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CDF4608CEC7CBD1E4C84C1C684F7DF /* Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		89708E4234B3EF87FE3DCBD73078A13B /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F297F5775C97696FEA2B2D61EC9BFE0 /* WebSocketTypes.swift */; };
 		9FB93755A1CCED5C884B390650607D31 /* WatchTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EB6B3AC80ACDCB8F6C6F100A7A679 /* WatchTester-dummy.m */; };
@@ -35,10 +64,92 @@
 
 /* Begin PBXFileReference section */
 		0C320A4D5912C99FEC1682A115A96EA5 /* WatchTester-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-prefix.pch"; sourceTree = "<group>"; };
-		0D77B7FB392D2695B824735AE0E500F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D77B7FB392D2695B824735AE0E500F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F297F5775C97696FEA2B2D61EC9BFE0 /* WebSocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketTypes.swift; path = WatchTester/WebSocketTypes.swift; sourceTree = "<group>"; };
 		194EFB5467FA51983B1177587F6BC324 /* XCUIElement+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Scroll.swift"; path = "WatchTester/XCUIElement+Scroll.swift"; sourceTree = "<group>"; };
 		1FA2ECD49A5073E87F5A2D4E9081F637 /* WatchTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.release.xcconfig; sourceTree = "<group>"; };
+		2052BA05274BC72000A1E1E4 /* GreyboxTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxTester.swift; sourceTree = "<group>"; };
+		2052BA09274BC74D00A1E1E4 /* WKInterfaceController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+Additions.m"; sourceTree = "<group>"; };
+		2052BA0A274BC74D00A1E1E4 /* WKInterfaceController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+Additions.h"; sourceTree = "<group>"; };
+		2052BA0C274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKWorkoutSessionDelegateProxy.h; sourceTree = "<group>"; };
+		2052BA0D274BC74D00A1E1E4 /* HKWorkoutSession+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HKWorkoutSession+Additions.m"; sourceTree = "<group>"; };
+		2052BA0E274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKWorkoutSessionDelegateProxy.m; sourceTree = "<group>"; };
+		2052BA0F274BC74D00A1E1E4 /* HKWorkoutSession+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HKWorkoutSession+Additions.h"; sourceTree = "<group>"; };
+		2052BA12274BC74D00A1E1E4 /* GREYSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYSwizzler.h; sourceTree = "<group>"; };
+		2052BA13274BC74D00A1E1E4 /* GREYSurrogateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYSurrogateDelegate.h; sourceTree = "<group>"; };
+		2052BA14274BC74D00A1E1E4 /* GREYFatalAsserts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYFatalAsserts.h; sourceTree = "<group>"; };
+		2052BA15274BC74D00A1E1E4 /* GREYDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYDefines.h; sourceTree = "<group>"; };
+		2052BA16274BC74D00A1E1E4 /* GREYSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREYSwizzler.m; sourceTree = "<group>"; };
+		2052BA17274BC74D00A1E1E4 /* GREYSurrogateDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREYSurrogateDelegate.m; sourceTree = "<group>"; };
+		2052BA18274BC74D00A1E1E4 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		2052BA1A274BC74D00A1E1E4 /* CMMotionManager+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Additions.h"; sourceTree = "<group>"; };
+		2052BA1C274BC74D00A1E1E4 /* CMAccelerometerData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMAccelerometerData+Additions.m"; sourceTree = "<group>"; };
+		2052BA1D274BC74D00A1E1E4 /* CMDeviceMotion+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDeviceMotion+Additions.h"; sourceTree = "<group>"; };
+		2052BA1E274BC74D00A1E1E4 /* CMAccelerometerData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMAccelerometerData+Additions.h"; sourceTree = "<group>"; };
+		2052BA1F274BC74D00A1E1E4 /* CoreMotionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		2052BA20274BC74D00A1E1E4 /* CMDeviceMotion+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMDeviceMotion+Additions.m"; sourceTree = "<group>"; };
+		2052BA21274BC74D00A1E1E4 /* CMMotionManager+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Additions.m"; sourceTree = "<group>"; };
+		2052BA23274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceDevice+Additions.m"; sourceTree = "<group>"; };
+		2052BA24274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceDevice+Additions.h"; sourceTree = "<group>"; };
+		2052BA26274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNUserNotificationCenterDelegateProxy.m; sourceTree = "<group>"; };
+		2052BA28274BC74D00A1E1E4 /* UNNotificationSettings+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UNNotificationSettings+Additions.h"; sourceTree = "<group>"; };
+		2052BA29274BC74D00A1E1E4 /* UNNotificationSettings+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UNNotificationSettings+Additions.m"; sourceTree = "<group>"; };
+		2052BA2A274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UNUserNotificationCenter+Additions.m"; sourceTree = "<group>"; };
+		2052BA2B274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNUserNotificationCenterDelegateProxy.h; sourceTree = "<group>"; };
+		2052BA2C274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UNUserNotificationCenter+Additions.h"; sourceTree = "<group>"; };
+		2052BA2E274BC74D00A1E1E4 /* Receiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
+		2052BA2F274BC74D00A1E1E4 /* MethodReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodReceiver.swift; sourceTree = "<group>"; };
+		2052BA30274BC74D00A1E1E4 /* MockupsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockupsFactory.h; sourceTree = "<group>"; };
+		2052BA33274BC74D00A1E1E4 /* HKWorkoutSessionState+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKWorkoutSessionState+Codable.swift"; sourceTree = "<group>"; };
+		2052BA34274BC74D00A1E1E4 /* HKWorkoutConfiguration+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKWorkoutConfiguration+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA35274BC74D00A1E1E4 /* GreyboxWorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSession.swift; sourceTree = "<group>"; };
+		2052BA36274BC74D00A1E1E4 /* GreyboxWorkoutSessionEnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionEnd.swift; sourceTree = "<group>"; };
+		2052BA37274BC74D00A1E1E4 /* GreyboxWorkoutSessionStartActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStartActivity.swift; sourceTree = "<group>"; };
+		2052BA38274BC74D00A1E1E4 /* GreyboxWorkoutSessionPause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPause.swift; sourceTree = "<group>"; };
+		2052BA3A274BC74D00A1E1E4 /* GreyboxWorkoutSessionDelegateDidFail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidFail.swift; sourceTree = "<group>"; };
+		2052BA3B274BC74D00A1E1E4 /* GreyboxWorkoutSessionDelegateDidChangeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidChangeState.swift; sourceTree = "<group>"; };
+		2052BA3C274BC74D00A1E1E4 /* GreyboxWorkoutSessionResume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionResume.swift; sourceTree = "<group>"; };
+		2052BA3D274BC74D00A1E1E4 /* GreyboxWorkoutSessionPrepare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPrepare.swift; sourceTree = "<group>"; };
+		2052BA3E274BC74D00A1E1E4 /* GreyboxWorkoutSessionInitHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionInitHandler.swift; sourceTree = "<group>"; };
+		2052BA3F274BC74D00A1E1E4 /* GreyboxWorkoutSessionStopActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStopActivity.swift; sourceTree = "<group>"; };
+		2052BA40274BC74D00A1E1E4 /* PropertyReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReceiver.swift; sourceTree = "<group>"; };
+		2052BA43274BC74D00A1E1E4 /* CMAccelerometerData+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMAccelerometerData+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA44274BC74D00A1E1E4 /* Axis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		2052BA45274BC74D00A1E1E4 /* CMDeviceMotion+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMDeviceMotion+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA46274BC74D00A1E1E4 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift; sourceTree = "<group>"; };
+		2052BA47274BC74D00A1E1E4 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopAccelerometerUpdates.swift; sourceTree = "<group>"; };
+		2052BA48274BC74D00A1E1E4 /* GreyboxCoreMotionDeviceMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionDeviceMotion.swift; sourceTree = "<group>"; };
+		2052BA49274BC74D00A1E1E4 /* GreyboxCoreMotionAccelerometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionAccelerometerData.swift; sourceTree = "<group>"; };
+		2052BA4A274BC74D00A1E1E4 /* GreyboxCoreMotionStartAccelerometerUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdates.swift; sourceTree = "<group>"; };
+		2052BA4B274BC74D00A1E1E4 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdates.swift; sourceTree = "<group>"; };
+		2052BA4C274BC74D00A1E1E4 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift; sourceTree = "<group>"; };
+		2052BA4D274BC74D00A1E1E4 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopDeviceMotionUpdates.swift; sourceTree = "<group>"; };
+		2052BA4E274BC74D00A1E1E4 /* GreyboxCoreMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotion.swift; sourceTree = "<group>"; };
+		2052BA50274BC74D00A1E1E4 /* GreyboxInterfaceDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxInterfaceDevice.swift; sourceTree = "<group>"; };
+		2052BA51274BC74D00A1E1E4 /* GreyboxSwizzlingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxSwizzlingInterface.swift; sourceTree = "<group>"; };
+		2052BA52274BC74D00A1E1E4 /* MockupsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockupsFactory.m; sourceTree = "<group>"; };
+		2052BA55274BC74D00A1E1E4 /* UNNotification+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotification+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA56274BC74D00A1E1E4 /* UNNotificationRequest+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationRequest+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA57274BC74D00A1E1E4 /* UNNotificationCategory+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationCategory+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA58274BC74D00A1E1E4 /* UNNotificationAction+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA59274BC74D00A1E1E4 /* UNNotificationSettings+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationSettings+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA5A274BC74D00A1E1E4 /* UNNotificationResponse+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationResponse+Encodable.swift"; sourceTree = "<group>"; };
+		2052BA5B274BC74D00A1E1E4 /* GreyboxUserNotificationCenterAddNotificationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterAddNotificationRequest.swift; sourceTree = "<group>"; };
+		2052BA5C274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetDeliveredNotifications.swift; sourceTree = "<group>"; };
+		2052BA5D274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift; sourceTree = "<group>"; };
+		2052BA5E274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationCategories.swift; sourceTree = "<group>"; };
+		2052BA60274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift; sourceTree = "<group>"; };
+		2052BA61274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateWillPresentNotification.swift; sourceTree = "<group>"; };
+		2052BA62274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift; sourceTree = "<group>"; };
+		2052BA63274BC74D00A1E1E4 /* GreyboxUserNotificationCenterSetNotificationCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterSetNotificationCategories.swift; sourceTree = "<group>"; };
+		2052BA64274BC74D00A1E1E4 /* GreyboxUserNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenter.swift; sourceTree = "<group>"; };
+		2052BA65274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift; sourceTree = "<group>"; };
+		2052BA66274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRequestAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRequestAuthorization.swift; sourceTree = "<group>"; };
+		2052BA67274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift; sourceTree = "<group>"; };
+		2052BA68274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetPendingNotificationRequests.swift; sourceTree = "<group>"; };
+		2052BA69274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift; sourceTree = "<group>"; };
+		2052BA6A274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetNotificationSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationSettings.swift; sourceTree = "<group>"; };
+		2052BA6B274BC74D00A1E1E4 /* GreyboxWebsocketInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyboxWebsocketInterface.swift; sourceTree = "<group>"; };
 		287E8C95A4E83ED523665617FF7DD61C /* WatchTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTester.modulemap; sourceTree = "<group>"; };
 		37BEF0AED5827F8D986497D615927179 /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EB654040BD04CD9169B9B66DF64A8BF /* CGGraphics+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGGraphics+Helpers.swift"; path = "WatchTester/CGGraphics+Helpers.swift"; sourceTree = "<group>"; };
@@ -47,13 +158,13 @@
 		59E49E9A16E2D99B694C1C2A0233186A /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Executor.swift; path = WatchTester/Executor.swift; sourceTree = "<group>"; };
 		5A60E642B9D3FFD11E1DC6664E0B5639 /* WatchTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.debug.xcconfig; sourceTree = "<group>"; };
 		73AA84BA37AACBAE28B8940995C73AD1 /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A222C547AECDF7B26334DD492E02324 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		800BAEACE6FEAC5F73F38480D0973DDD /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A222C547AECDF7B26334DD492E02324 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		800BAEACE6FEAC5F73F38480D0973DDD /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		822E826FD048C1928DA7D49E8712EE18 /* WatchTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchTester.swift; path = WatchTester/WatchTester.swift; sourceTree = "<group>"; };
 		905CBBD20E2D0B295A9A5FDE740D3333 /* UITester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITester.swift; path = WatchTester/UITester.swift; sourceTree = "<group>"; };
 		918EB6B3AC80ACDCB8F6C6F100A7A679 /* WatchTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTester-dummy.m"; sourceTree = "<group>"; };
 		9278680B93BF1E7E5C774873FC23F9F9 /* Pods-WatchTesterAppExample WatchKit AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterAppExample WatchKit AppUITests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = WatchTester; path = libWatchTester.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A505FA516FE0B53874699DC8D4470198 /* WatchCommandResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchCommandResponse.swift; path = WatchTester/WatchCommandResponse.swift; sourceTree = "<group>"; };
 		B9CF9776AF9A103CFC8211164523634C /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m"; sourceTree = "<group>"; };
@@ -99,6 +210,245 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		2052BA07274BC74D00A1E1E4 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA08274BC74D00A1E1E4 /* WKInterfaceController */,
+				2052BA0B274BC74D00A1E1E4 /* HKWorkoutSession */,
+				2052BA10274BC74D00A1E1E4 /* Common */,
+				2052BA19274BC74D00A1E1E4 /* CoreMotion */,
+				2052BA22274BC74D00A1E1E4 /* WKInterfaceDevice */,
+				2052BA25274BC74D00A1E1E4 /* UNUserNotificationCenter */,
+			);
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		2052BA08274BC74D00A1E1E4 /* WKInterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA09274BC74D00A1E1E4 /* WKInterfaceController+Additions.m */,
+				2052BA0A274BC74D00A1E1E4 /* WKInterfaceController+Additions.h */,
+			);
+			path = WKInterfaceController;
+			sourceTree = "<group>";
+		};
+		2052BA0B274BC74D00A1E1E4 /* HKWorkoutSession */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA0C274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.h */,
+				2052BA0D274BC74D00A1E1E4 /* HKWorkoutSession+Additions.m */,
+				2052BA0E274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.m */,
+				2052BA0F274BC74D00A1E1E4 /* HKWorkoutSession+Additions.h */,
+			);
+			path = HKWorkoutSession;
+			sourceTree = "<group>";
+		};
+		2052BA10274BC74D00A1E1E4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA11274BC74D00A1E1E4 /* GREY */,
+				2052BA18274BC74D00A1E1E4 /* Macros.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2052BA11274BC74D00A1E1E4 /* GREY */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA12274BC74D00A1E1E4 /* GREYSwizzler.h */,
+				2052BA13274BC74D00A1E1E4 /* GREYSurrogateDelegate.h */,
+				2052BA14274BC74D00A1E1E4 /* GREYFatalAsserts.h */,
+				2052BA15274BC74D00A1E1E4 /* GREYDefines.h */,
+				2052BA16274BC74D00A1E1E4 /* GREYSwizzler.m */,
+				2052BA17274BC74D00A1E1E4 /* GREYSurrogateDelegate.m */,
+			);
+			path = GREY;
+			sourceTree = "<group>";
+		};
+		2052BA19274BC74D00A1E1E4 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA1A274BC74D00A1E1E4 /* CMMotionManager+Additions.h */,
+				2052BA1B274BC74D00A1E1E4 /* Types */,
+				2052BA21274BC74D00A1E1E4 /* CMMotionManager+Additions.m */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
+		2052BA1B274BC74D00A1E1E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA1C274BC74D00A1E1E4 /* CMAccelerometerData+Additions.m */,
+				2052BA1D274BC74D00A1E1E4 /* CMDeviceMotion+Additions.h */,
+				2052BA1E274BC74D00A1E1E4 /* CMAccelerometerData+Additions.h */,
+				2052BA1F274BC74D00A1E1E4 /* CoreMotionHelper.swift */,
+				2052BA20274BC74D00A1E1E4 /* CMDeviceMotion+Additions.m */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2052BA22274BC74D00A1E1E4 /* WKInterfaceDevice */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA23274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.m */,
+				2052BA24274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.h */,
+			);
+			path = WKInterfaceDevice;
+			sourceTree = "<group>";
+		};
+		2052BA25274BC74D00A1E1E4 /* UNUserNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA26274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.m */,
+				2052BA27274BC74D00A1E1E4 /* Types */,
+				2052BA2A274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.m */,
+				2052BA2B274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.h */,
+				2052BA2C274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.h */,
+			);
+			path = UNUserNotificationCenter;
+			sourceTree = "<group>";
+		};
+		2052BA27274BC74D00A1E1E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA28274BC74D00A1E1E4 /* UNNotificationSettings+Additions.h */,
+				2052BA29274BC74D00A1E1E4 /* UNNotificationSettings+Additions.m */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2052BA2D274BC74D00A1E1E4 /* Tester */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA2E274BC74D00A1E1E4 /* Receiver.swift */,
+				2052BA2F274BC74D00A1E1E4 /* MethodReceiver.swift */,
+				2052BA30274BC74D00A1E1E4 /* MockupsFactory.h */,
+				2052BA31274BC74D00A1E1E4 /* HKWorkoutSession */,
+				2052BA40274BC74D00A1E1E4 /* PropertyReceiver.swift */,
+				2052BA41274BC74D00A1E1E4 /* CoreMotion */,
+				2052BA4F274BC74D00A1E1E4 /* WKInterfaceDevice */,
+				2052BA51274BC74D00A1E1E4 /* GreyboxSwizzlingInterface.swift */,
+				2052BA52274BC74D00A1E1E4 /* MockupsFactory.m */,
+				2052BA53274BC74D00A1E1E4 /* UNUserNotificationCenter */,
+				2052BA6B274BC74D00A1E1E4 /* GreyboxWebsocketInterface.swift */,
+			);
+			path = Tester;
+			sourceTree = "<group>";
+		};
+		2052BA31274BC74D00A1E1E4 /* HKWorkoutSession */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA32274BC74D00A1E1E4 /* Types */,
+				2052BA35274BC74D00A1E1E4 /* GreyboxWorkoutSession.swift */,
+				2052BA36274BC74D00A1E1E4 /* GreyboxWorkoutSessionEnd.swift */,
+				2052BA37274BC74D00A1E1E4 /* GreyboxWorkoutSessionStartActivity.swift */,
+				2052BA38274BC74D00A1E1E4 /* GreyboxWorkoutSessionPause.swift */,
+				2052BA39274BC74D00A1E1E4 /* Delegate */,
+				2052BA3C274BC74D00A1E1E4 /* GreyboxWorkoutSessionResume.swift */,
+				2052BA3D274BC74D00A1E1E4 /* GreyboxWorkoutSessionPrepare.swift */,
+				2052BA3E274BC74D00A1E1E4 /* GreyboxWorkoutSessionInitHandler.swift */,
+				2052BA3F274BC74D00A1E1E4 /* GreyboxWorkoutSessionStopActivity.swift */,
+			);
+			path = HKWorkoutSession;
+			sourceTree = "<group>";
+		};
+		2052BA32274BC74D00A1E1E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA33274BC74D00A1E1E4 /* HKWorkoutSessionState+Codable.swift */,
+				2052BA34274BC74D00A1E1E4 /* HKWorkoutConfiguration+Encodable.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2052BA39274BC74D00A1E1E4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA3A274BC74D00A1E1E4 /* GreyboxWorkoutSessionDelegateDidFail.swift */,
+				2052BA3B274BC74D00A1E1E4 /* GreyboxWorkoutSessionDelegateDidChangeState.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2052BA41274BC74D00A1E1E4 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA42274BC74D00A1E1E4 /* Types */,
+				2052BA46274BC74D00A1E1E4 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */,
+				2052BA47274BC74D00A1E1E4 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */,
+				2052BA48274BC74D00A1E1E4 /* GreyboxCoreMotionDeviceMotion.swift */,
+				2052BA49274BC74D00A1E1E4 /* GreyboxCoreMotionAccelerometerData.swift */,
+				2052BA4A274BC74D00A1E1E4 /* GreyboxCoreMotionStartAccelerometerUpdates.swift */,
+				2052BA4B274BC74D00A1E1E4 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */,
+				2052BA4C274BC74D00A1E1E4 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */,
+				2052BA4D274BC74D00A1E1E4 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */,
+				2052BA4E274BC74D00A1E1E4 /* GreyboxCoreMotion.swift */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
+		2052BA42274BC74D00A1E1E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA43274BC74D00A1E1E4 /* CMAccelerometerData+Encodable.swift */,
+				2052BA44274BC74D00A1E1E4 /* Axis.swift */,
+				2052BA45274BC74D00A1E1E4 /* CMDeviceMotion+Encodable.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2052BA4F274BC74D00A1E1E4 /* WKInterfaceDevice */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA50274BC74D00A1E1E4 /* GreyboxInterfaceDevice.swift */,
+			);
+			path = WKInterfaceDevice;
+			sourceTree = "<group>";
+		};
+		2052BA53274BC74D00A1E1E4 /* UNUserNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA54274BC74D00A1E1E4 /* Types */,
+				2052BA5B274BC74D00A1E1E4 /* GreyboxUserNotificationCenterAddNotificationRequest.swift */,
+				2052BA5C274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */,
+				2052BA5D274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */,
+				2052BA5E274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */,
+				2052BA5F274BC74D00A1E1E4 /* Delegate */,
+				2052BA63274BC74D00A1E1E4 /* GreyboxUserNotificationCenterSetNotificationCategories.swift */,
+				2052BA64274BC74D00A1E1E4 /* GreyboxUserNotificationCenter.swift */,
+				2052BA65274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */,
+				2052BA66274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRequestAuthorization.swift */,
+				2052BA67274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */,
+				2052BA68274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */,
+				2052BA69274BC74D00A1E1E4 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */,
+				2052BA6A274BC74D00A1E1E4 /* GreyboxUserNotificationCenterGetNotificationSettings.swift */,
+			);
+			path = UNUserNotificationCenter;
+			sourceTree = "<group>";
+		};
+		2052BA54274BC74D00A1E1E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA55274BC74D00A1E1E4 /* UNNotification+Encodable.swift */,
+				2052BA56274BC74D00A1E1E4 /* UNNotificationRequest+Encodable.swift */,
+				2052BA57274BC74D00A1E1E4 /* UNNotificationCategory+Encodable.swift */,
+				2052BA58274BC74D00A1E1E4 /* UNNotificationAction+Encodable.swift */,
+				2052BA59274BC74D00A1E1E4 /* UNNotificationSettings+Encodable.swift */,
+				2052BA5A274BC74D00A1E1E4 /* UNNotificationResponse+Encodable.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2052BA5F274BC74D00A1E1E4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2052BA60274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */,
+				2052BA61274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */,
+				2052BA62274BC74D00A1E1E4 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		49E1D99714F230146E6E8EDD69F2AF62 /* Pods-WatchTesterAppExample WatchKit AppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +477,9 @@
 		A2AED4837F56B5CE81A7B4CC805A7D67 /* WatchTester */ = {
 			isa = PBXGroup;
 			children = (
+				2052BA05274BC72000A1E1E4 /* GreyboxTester.swift */,
+				2052BA07274BC74D00A1E1E4 /* Swizzling */,
+				2052BA2D274BC74D00A1E1E4 /* Tester */,
 				3EB654040BD04CD9169B9B66DF64A8BF /* CGGraphics+Helpers.swift */,
 				59E49E9A16E2D99B694C1C2A0233186A /* Executor.swift */,
 				905CBBD20E2D0B295A9A5FDE740D3333 /* UITester.swift */,
@@ -200,7 +553,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2052BA7C274BC74D00A1E1E4 /* CMAccelerometerData+Additions.h in Headers */,
+				2052BA75274BC74D00A1E1E4 /* GREYDefines.h in Headers */,
+				2052BA6E274BC74D00A1E1E4 /* HKWorkoutSessionDelegateProxy.h in Headers */,
+				2052BA7B274BC74D00A1E1E4 /* CMDeviceMotion+Additions.h in Headers */,
+				2052BA86274BC74D00A1E1E4 /* UNUserNotificationCenterDelegateProxy.h in Headers */,
+				2052BA6D274BC74D00A1E1E4 /* WKInterfaceController+Additions.h in Headers */,
+				2052BA78274BC74D00A1E1E4 /* Macros.h in Headers */,
+				2052BA74274BC74D00A1E1E4 /* GREYFatalAsserts.h in Headers */,
+				2052BA71274BC74D00A1E1E4 /* HKWorkoutSession+Additions.h in Headers */,
+				2052BA79274BC74D00A1E1E4 /* CMMotionManager+Additions.h in Headers */,
+				2052BA72274BC74D00A1E1E4 /* GREYSwizzler.h in Headers */,
+				2052BA81274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.h in Headers */,
+				2052BA8A274BC74D00A1E1E4 /* MockupsFactory.h in Headers */,
 				AA2851AA275CB9BC4CCD580CD7D22B06 /* WatchTester-umbrella.h in Headers */,
+				2052BA73274BC74D00A1E1E4 /* GREYSurrogateDelegate.h in Headers */,
+				2052BA87274BC74D00A1E1E4 /* UNUserNotificationCenter+Additions.h in Headers */,
+				2052BA83274BC74D00A1E1E4 /* UNNotificationSettings+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,15 +672,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2052BA77274BC74D00A1E1E4 /* GREYSurrogateDelegate.m in Sources */,
 				D3A28EA97AD665B32E1A481DD8577153 /* CGGraphics+Helpers.swift in Sources */,
 				A9A61ADF017385F2D2B17E1882F2DD4F /* Executor.swift in Sources */,
 				15524F902F62823BDE81A1AD4FCBEE0E /* UITester.swift in Sources */,
+				2052BAAA274BC74E00A1E1E4 /* UNNotificationAction+Encodable.swift in Sources */,
+				2052BA80274BC74D00A1E1E4 /* WKInterfaceDevice+Additions.m in Sources */,
+				2052BA7D274BC74D00A1E1E4 /* CoreMotionHelper.swift in Sources */,
+				2052BAA8274BC74E00A1E1E4 /* UNNotificationRequest+Encodable.swift in Sources */,
 				D001B1F61AC64E42532549D9018680DD /* WatchCommandResponse.swift in Sources */,
+				2052BAA9274BC74E00A1E1E4 /* UNNotificationCategory+Encodable.swift in Sources */,
 				1140BA4B4585EEDEA5311ABFFA61E8EF /* WatchTester.swift in Sources */,
 				9FB93755A1CCED5C884B390650607D31 /* WatchTester-dummy.m in Sources */,
+				2052BAA6274BC74E00A1E1E4 /* MockupsFactory.m in Sources */,
 				C046105749F377E46D465B3EA29AABEE /* WebSocketManager.swift in Sources */,
+				2052BA8C274BC74D00A1E1E4 /* HKWorkoutConfiguration+Encodable.swift in Sources */,
 				89708E4234B3EF87FE3DCBD73078A13B /* WebSocketTypes.swift in Sources */,
+				2052BA8B274BC74D00A1E1E4 /* HKWorkoutSessionState+Codable.swift in Sources */,
+				2052BABC274BC74E00A1E1E4 /* GreyboxWebsocketInterface.swift in Sources */,
+				2052BA76274BC74D00A1E1E4 /* GREYSwizzler.m in Sources */,
 				EC3CC38742A63815909DE12E0FB12C90 /* XCTestCase.swift in Sources */,
+				2052BA88274BC74D00A1E1E4 /* Receiver.swift in Sources */,
+				2052BA06274BC72000A1E1E4 /* GreyboxTester.swift in Sources */,
 				FD028554B552CA0263F13F1BB600B28F /* XCUIElement+Helpers.swift in Sources */,
 				CA4D382D43B7D934D4A86325304508EA /* XCUIElement+Scroll.swift in Sources */,
 			);
