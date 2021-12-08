@@ -4,11 +4,11 @@
 
 
   target 'WatchTesterAppExample WatchKit AppUITests' do
-
+    use_frameworks!
    
     # pod 'WatchTester', git: 'https://github.com/moskaliukzhanna/WatchTester.git', :branch => 'pod'
 
-     pod 'WatchTester', path: '../../WatchTester'
+     # pod 'WatchTester', path: '../../WatchTester'
 
   end
 
