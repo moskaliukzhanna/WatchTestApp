@@ -6,21 +6,43 @@
 //
 
 import WatchKit
+import WatchConnectivity
 import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet weak var tableButton: WKInterfaceButton!
+    @IBOutlet weak var kittyImage: WKInterfaceImage!
+    
+    @IBAction func goToTable() {
+        self.pushController(withName: "EventTableInterfaceController", context: nil)
+    }
+    
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        tableButton.setAccessibilityIdentifier("table_button")
+        kittyImage.setImageNamed("studyCat")
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
+        
+        if WCSession.isSupported() {
+            let session = WCSession.default
+            session.delegate = self
+            session.activate()
+        }
+    }
+}
+
+extension InterfaceController: WCSessionDelegate {
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        WKInterfaceDevice().play(.click)
     }
     
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        if let value = message["Message"] as? String {
+            kittyImage.setImageNamed(value == "selected" ? "studyCat" : "funnyCat")
+        }
     }
-
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch45"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
@@ -10,10 +10,92 @@
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchTesterAppExample_WatchKit_App" customModuleProvider="target">
-                    <color key="backgroundColor" red="0.9276354859" green="0.27571695930000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Go to table" id="JFK-WI-M7b">
+                            <connections>
+                                <action selector="goToTable" destination="AgC-eL-Hgc" id="oEN-dE-9jh"/>
+                            </connections>
+                        </button>
+                        <imageView width="70" height="70" alignment="center" contentMode="scaleAspectFill" id="L1I-LY-ptX"/>
+                    </items>
+                    <connections>
+                        <outlet property="kittyImage" destination="L1I-LY-ptX" id="csh-3b-EHs"/>
+                        <outlet property="tableButton" destination="JFK-WI-M7b" id="USM-gg-3Rn"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
         </scene>
+        <!--EventTableInterfaceController-->
+        <scene sceneID="BTz-zp-nES">
+            <objects>
+                <controller identifier="EventTableInterfaceController" id="gmJ-xg-SnS" customClass="EventTableInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="FKX-qy-4ak">
+                            <items>
+                                <tableRow identifier="AWCell" id="dyH-A5-eVT" customClass="AWEventRowController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Ocs-UU-Ds8">
+                                        <items>
+                                            <separator alignment="left" id="ZhU-yt-skz"/>
+                                            <group alignment="left" layout="vertical" id="9eQ-qb-PG5">
+                                                <items>
+                                                    <group alignment="left" id="ZDR-v6-lxY">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="cy5-FX-iuZ"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="left" id="kVd-s3-KiU">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="K8K-cm-5Tb"/>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                            <group width="40" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" layout="vertical" id="auT-lE-Ghx">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" image="snowflake" catalog="system" contentMode="scaleAspectFill" id="snm-UP-8Y7"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="mainImage" destination="snm-UP-8Y7" id="XBR-Mv-xXe"/>
+                                        <outlet property="mainSeparator" destination="ZhU-yt-skz" id="kf9-7H-SPS"/>
+                                        <outlet property="subtitleLabel" destination="K8K-cm-5Tb" id="xSo-GZ-KjI"/>
+                                        <outlet property="titleLabel" destination="cy5-FX-iuZ" id="zsg-Db-qg9"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="FKX-qy-4ak" id="tiA-a1-wNY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16" y="261"/>
+        </scene>
+        <!--EventInterfaceController-->
+        <scene sceneID="x8O-IM-vUW">
+            <objects>
+                <controller identifier="EventInterfaceController" id="3O7-Nc-9DB" customClass="EventInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <imageView width="80" height="80" alignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="YPD-MN-EqV"/>
+                        <label height="20" alignment="center" text="Label" textAlignment="center" id="QCq-rD-Qif"/>
+                        <label height="20" alignment="center" text="Label" id="Y9i-IG-MbI"/>
+                    </items>
+                    <connections>
+                        <outlet property="eventCategory" destination="QCq-rD-Qif" id="pyg-3Q-vTC"/>
+                        <outlet property="eventImage" destination="YPD-MN-EqV" id="Z1D-kE-Hbv"/>
+                        <outlet property="eventLabel" destination="Y9i-IG-MbI" id="zWe-xp-oeN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="225" y="267"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="snow" catalog="system" width="124" height="128"/>
+        <image name="snowflake" catalog="system" width="124" height="128"/>
+    </resources>
 </document>

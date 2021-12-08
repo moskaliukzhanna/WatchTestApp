@@ -7,17 +7,50 @@
 		<key>WatchTesterAppExample WatchKit App (Complication).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>WatchTesterAppExample WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>WatchTesterAppExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>20FD840327314551007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20FD841927314553007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20FD842327314553007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20FD842D27314553007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20FD844D27314555007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20FD845727314555007C9602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
