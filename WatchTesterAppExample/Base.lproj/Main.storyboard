@@ -16,20 +16,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ae-rI-TSI">
-                                <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
+                                <rect key="frame" x="182.5" y="232.5" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchAcrion:" destination="BYZ-38-t0r" eventType="valueChanged" id="8QF-uJ-ro5"/>
                                 </connections>
                             </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PBz-lI-GWX">
+                                <rect key="frame" x="107" y="331" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2bq-L8-YUH"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pux-Zm-6ey">
+                                <rect key="frame" x="178.5" y="385" width="57.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Send"/>
+                                <connections>
+                                    <action selector="sendMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9L9-xi-NvC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.17735603629999999" green="0.8112458588" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3Ae-rI-TSI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="67Z-E3-Vku"/>
+                            <constraint firstItem="3Ae-rI-TSI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="67Z-E3-Vku"/>
+                            <constraint firstItem="Pux-Zm-6ey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Il-wN-G41"/>
+                            <constraint firstItem="PBz-lI-GWX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ANA-UM-hLw"/>
+                            <constraint firstItem="Pux-Zm-6ey" firstAttribute="top" secondItem="PBz-lI-GWX" secondAttribute="bottom" constant="20" id="f0c-S2-mYw"/>
                             <constraint firstItem="3Ae-rI-TSI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fkV-HF-g2O"/>
+                            <constraint firstItem="PBz-lI-GWX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="xMW-Eq-gM9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="messageTextField" destination="PBz-lI-GWX" id="bwp-hj-ZZv"/>
+                        <outlet property="sendButton" destination="Pux-Zm-6ey" id="lzO-Ox-qd2"/>
                         <outlet property="testSwitch" destination="3Ae-rI-TSI" id="Ho7-ad-Bxj"/>
                     </connections>
                 </viewController>

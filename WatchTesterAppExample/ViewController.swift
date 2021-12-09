@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var testSwitch: UISwitch!
     
+    @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var sendButton: UIButton!
+    
+    
     private var selected = false
     
     @IBAction func switchAcrion(_ sender: UISwitch) {
@@ -19,8 +23,22 @@ class ViewController: UIViewController {
         sendMessage(message: selected ? "selected" : "unselected")
     }
     
+    @IBAction func sendMessage(_ sender: UIButton) {
+        if let text = messageTextField.text {
+            selected.toggle()
+            sendMessage(message: text)
+            messageTextField.text = ""
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = UIColor.systemBackground
+        sendButton.tintColor = .purple
+        
+        messageTextField.isEnabled = true
+        testSwitch.accessibilityIdentifier = "cat_switch"
         
         if (WCSession.isSupported()) {
             let session = WCSession.default

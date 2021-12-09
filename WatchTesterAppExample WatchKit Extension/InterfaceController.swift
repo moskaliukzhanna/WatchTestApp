@@ -14,6 +14,7 @@ class InterfaceController: WKInterfaceController {
     
     @IBOutlet weak var tableButton: WKInterfaceButton!
     @IBOutlet weak var kittyImage: WKInterfaceImage!
+    @IBOutlet weak var messageLabel: WKInterfaceLabel!
     
     @IBAction func goToTable() {
         self.pushController(withName: "EventTableInterfaceController", context: nil)
@@ -22,6 +23,7 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         tableButton.setAccessibilityIdentifier("table_button")
         kittyImage.setImageNamed("studyCat")
+        kittyImage.setTintColor(.black)
     }
     
     override func willActivate() {
@@ -42,7 +44,27 @@ extension InterfaceController: WCSessionDelegate {
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
         if let value = message["Message"] as? String {
+            if value == "selected" || value == "unselected" {
             kittyImage.setImageNamed(value == "selected" ? "studyCat" : "funnyCat")
+            } else {
+                messageLabel.setText(value)
+            }
         }
+    }
+    
+    func sessionReachabilityDidChange(_ session: WCSession) {
+        //
+    }
+    
+    func session(_ session: WCSession, didReceiveMessageData messageData: Data) {
+        //
+    }
+    
+    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
+        //
+    }
+    
+    func sessionCompanionAppInstalledDidChange(_ session: WCSession) {
+        //
     }
 }

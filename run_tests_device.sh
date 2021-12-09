@@ -27,8 +27,6 @@ fi
 
 #WATCH_SCHEME="Watch"
 
-flutter pub get
-
 echo "Running pod install..."
 pod install
 
