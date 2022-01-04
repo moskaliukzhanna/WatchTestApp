@@ -18,15 +18,41 @@
                             </connections>
                         </button>
                         <imageView width="70" height="70" alignment="center" contentMode="scaleAspectFill" id="L1I-LY-ptX"/>
+                        <button width="1" alignment="left" title="Go to notification" id="fZl-a8-4Hb">
+                            <connections>
+                                <action selector="goToNotificationScreen" destination="AgC-eL-Hgc" id="AJe-Ka-bp5"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="kittyImage" destination="L1I-LY-ptX" id="csh-3b-EHs"/>
                         <outlet property="messageLabel" destination="fZt-c1-VTa" id="fdt-Vt-bwx"/>
+                        <outlet property="notificationButton" destination="fZl-a8-4Hb" id="t9L-5X-DL5"/>
                         <outlet property="tableButton" destination="JFK-WI-M7b" id="USM-gg-3Rn"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
+        </scene>
+        <!--TestNotificationInterfaceController-->
+        <scene sceneID="rK6-BF-QBq">
+            <objects>
+                <controller identifier="TestNotificationInterfaceController" id="i5M-rz-IaN" customClass="TestNotificationInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Wrist location:" textAlignment="left" id="rh4-IS-3xw"/>
+                        <label alignment="left" text="location" textAlignment="left" id="6pW-AR-3ey"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Show notification" id="hBy-HF-8UJ">
+                            <connections>
+                                <action selector="showNotification" destination="i5M-rz-IaN" id="W2n-Gh-aMu"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="locationLabel" destination="6pW-AR-3ey" id="Hqa-P3-rsk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="224.60606060606062" y="-6.3223140495867769"/>
         </scene>
         <!--EventTableInterfaceController-->
         <scene sceneID="BTz-zp-nES">

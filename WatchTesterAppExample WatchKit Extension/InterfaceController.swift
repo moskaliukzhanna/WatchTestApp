@@ -15,9 +15,14 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var tableButton: WKInterfaceButton!
     @IBOutlet weak var kittyImage: WKInterfaceImage!
     @IBOutlet weak var messageLabel: WKInterfaceLabel!
+    @IBOutlet weak var notificationButton: WKInterfaceButton!
     
     @IBAction func goToTable() {
         self.pushController(withName: "EventTableInterfaceController", context: nil)
+    }
+    
+    @IBAction func goToNotificationScreen() {
+        self.pushController(withName: "TestNotificationInterfaceController", context: nil)
     }
     
     override func awake(withContext context: Any?) {

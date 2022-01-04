@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2071D38A27847C890025B42C /* TestNotificationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071D38927847C890025B42C /* TestNotificationInterfaceController.swift */; };
 		20E5D0E627317F9B00FB4D47 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 20E5D0E427317F9B00FB4D47 /* Events.json */; };
 		20E5D0E727317F9B00FB4D47 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D0E527317F9B00FB4D47 /* Event.swift */; };
 		20E5D0EA273183EF00FB4D47 /* AWEventRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */; };
@@ -88,6 +89,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2071D38927847C890025B42C /* TestNotificationInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNotificationInterfaceController.swift; sourceTree = "<group>"; };
 		20E5D0E427317F9B00FB4D47 /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
 		20E5D0E527317F9B00FB4D47 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWEventRowController.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */,
 				20E5D0EB2731843800FB4D47 /* EventInterfaceController.swift */,
 				20E5D0ED273185E900FB4D47 /* EventTableInterfaceController.swift */,
+				2071D38927847C890025B42C /* TestNotificationInterfaceController.swift */,
 				20FD844327314554007C9602 /* ExtensionDelegate.swift */,
 				20FD844527314554007C9602 /* ComplicationController.swift */,
 				20FD844727314555007C9602 /* Assets.xcassets */,
@@ -496,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2071D38A27847C890025B42C /* TestNotificationInterfaceController.swift in Sources */,
 				20E5D0EC2731843800FB4D47 /* EventInterfaceController.swift in Sources */,
 				20E5D0E727317F9B00FB4D47 /* Event.swift in Sources */,
 				20FD844427314554007C9602 /* ExtensionDelegate.swift in Sources */,
