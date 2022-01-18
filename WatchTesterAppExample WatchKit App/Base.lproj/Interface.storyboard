@@ -41,13 +41,14 @@
                     <items>
                         <label alignment="left" text="Wrist location:" textAlignment="left" id="rh4-IS-3xw"/>
                         <label alignment="left" text="location" textAlignment="left" id="6pW-AR-3ey"/>
-                        <button width="1" alignment="left" verticalAlignment="bottom" title="Show notification" id="hBy-HF-8UJ">
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Check location" id="hBy-HF-8UJ">
                             <connections>
-                                <action selector="showNotification" destination="i5M-rz-IaN" id="W2n-Gh-aMu"/>
+                                <action selector="checkLocation" destination="i5M-rz-IaN" id="W2n-Gh-aMu"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
+                        <outlet property="checkLocationButton" destination="hBy-HF-8UJ" id="50h-l8-edY"/>
                         <outlet property="locationLabel" destination="6pW-AR-3ey" id="Hqa-P3-rsk"/>
                     </connections>
                 </controller>

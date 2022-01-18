@@ -4,7 +4,8 @@
 
 
   target 'WatchTesterAppExample WatchKit AppUITests' do
-    use_frameworks!
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks! :linkage => :dynamic
    
     # pod 'WatchTester', git: 'https://github.com/moskaliukzhanna/WatchTester.git', :branch => 'pod'
 

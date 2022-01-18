@@ -27,6 +27,7 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         tableButton.setAccessibilityIdentifier("table_button")
+        notificationButton.setAccessibilityIdentifier("notification_button")
         kittyImage.setImageNamed("studyCat")
         kittyImage.setTintColor(.black)
     }
