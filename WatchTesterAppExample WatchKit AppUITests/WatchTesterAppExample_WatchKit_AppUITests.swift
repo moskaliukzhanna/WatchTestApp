@@ -29,8 +29,11 @@ class WatchTesterAppExample_WatchKit_AppUITests: XCTestCase {
         // then start websocket connection
         watchTester = WatchTester(app: app)
         watchTester.connect()
+        switchWristLocation()
+        
         watchTester.fulfillComplition = { [weak self] in
             guard let self = self else { return }
+            self.switchWristLocation()
             self.expectation?.fulfill()
         }
     }
