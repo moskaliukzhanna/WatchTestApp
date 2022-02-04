@@ -15,13 +15,19 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var tableButton: WKInterfaceButton!
     @IBOutlet weak var kittyImage: WKInterfaceImage!
     @IBOutlet weak var messageLabel: WKInterfaceLabel!
+    @IBOutlet weak var goWristLocationButton: WKInterfaceButton!
     
     @IBAction func goToTable() {
         self.pushController(withName: "EventTableInterfaceController", context: nil)
     }
     
+    @IBAction func goToWristLocation() {
+        self.pushController(withName: "WristLocationInterfaceController", context: nil)
+    }
+    
     override func awake(withContext context: Any?) {
         tableButton.setAccessibilityIdentifier("table_button")
+        goWristLocationButton.setAccessibilityIdentifier("go_wristLocation")
         kittyImage.setImageNamed("studyCat")
         kittyImage.setTintColor(.black)
     }

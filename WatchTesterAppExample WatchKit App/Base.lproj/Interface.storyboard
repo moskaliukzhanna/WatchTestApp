@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19529" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch45"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19514"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -17,9 +17,15 @@
                                 <action selector="goToTable" destination="AgC-eL-Hgc" id="oEN-dE-9jh"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Go to Location" id="u5B-BD-sEe">
+                            <connections>
+                                <action selector="goToWristLocation" destination="AgC-eL-Hgc" id="PEp-VR-KZO"/>
+                            </connections>
+                        </button>
                         <imageView width="70" height="70" alignment="center" contentMode="scaleAspectFill" id="L1I-LY-ptX"/>
                     </items>
                     <connections>
+                        <outlet property="goWristLocationButton" destination="u5B-BD-sEe" id="7Hh-lH-exq"/>
                         <outlet property="kittyImage" destination="L1I-LY-ptX" id="csh-3b-EHs"/>
                         <outlet property="messageLabel" destination="fZt-c1-VTa" id="fdt-Vt-bwx"/>
                         <outlet property="tableButton" destination="JFK-WI-M7b" id="USM-gg-3Rn"/>
@@ -27,6 +33,27 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
+        </scene>
+        <!--WristLocationInterfaceController-->
+        <scene sceneID="exF-Kf-VF3">
+            <objects>
+                <controller identifier="WristLocationInterfaceController" id="xH6-jv-tmd" customClass="WristLocationInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Wrist Location:" id="1Vh-iG-HXN"/>
+                        <label alignment="left" text="left" id="otH-9P-e2W"/>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Check location" id="laF-AN-9Tc">
+                            <connections>
+                                <action selector="checkWristLocation" destination="xH6-jv-tmd" id="fvT-4r-mjL"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="checkWristLocationButton" destination="laF-AN-9Tc" id="kMd-gC-McB"/>
+                        <outlet property="wristLocationLabel" destination="otH-9P-e2W" id="jKw-h5-Y9P"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="209" y="-10"/>
         </scene>
         <!--EventTableInterfaceController-->
         <scene sceneID="BTz-zp-nES">
