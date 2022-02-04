@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2038EC8327AD5B2E00B4FD22 /* WristLocationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038EC8227AD5B2E00B4FD22 /* WristLocationInterfaceController.swift */; };
 		20E5D0E627317F9B00FB4D47 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 20E5D0E427317F9B00FB4D47 /* Events.json */; };
 		20E5D0E727317F9B00FB4D47 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D0E527317F9B00FB4D47 /* Event.swift */; };
 		20E5D0EA273183EF00FB4D47 /* AWEventRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */; };
@@ -88,6 +89,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2038EC8227AD5B2E00B4FD22 /* WristLocationInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristLocationInterfaceController.swift; sourceTree = "<group>"; };
 		20E5D0E427317F9B00FB4D47 /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
 		20E5D0E527317F9B00FB4D47 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWEventRowController.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		20FD844027314554007C9602 /* WatchTesterAppExample WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2038EC8227AD5B2E00B4FD22 /* WristLocationInterfaceController.swift */,
 				20E5D0E827317FA300FB4D47 /* Database */,
 				20FD844127314554007C9602 /* InterfaceController.swift */,
 				20E5D0E9273183EE00FB4D47 /* AWEventRowController.swift */,
@@ -496,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2038EC8327AD5B2E00B4FD22 /* WristLocationInterfaceController.swift in Sources */,
 				20E5D0EC2731843800FB4D47 /* EventInterfaceController.swift in Sources */,
 				20E5D0E727317F9B00FB4D47 /* Event.swift in Sources */,
 				20FD844427314554007C9602 /* ExtensionDelegate.swift in Sources */,
