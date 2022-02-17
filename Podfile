@@ -5,7 +5,7 @@
 target 'WatchTesterAppExample WatchKit Extension' do
   use_frameworks!
 
-     pod 'WatchTesterSwizzling', path: '../../WatchTester'
+    # pod 'WatchTesterSwizzling', path: '../../WatchTester'
 
 end
 
