@@ -2,13 +2,19 @@
 # platform :watchos, '7.0'
 
 
+target 'WatchTesterAppExample WatchKit Extension' do
+  use_frameworks!
 
-  target 'WatchTesterAppExample WatchKit AppUITests' do
-    use_frameworks!
-   
-    # pod 'WatchTester', git: 'https://github.com/moskaliukzhanna/WatchTester.git', :branch => 'pod'
+     pod 'WatchTesterSwizzling', path: '../../WatchTester'
 
-      pod 'WatchTester', path: '../../WatchTester'
+end
 
-  end
+target 'WatchTesterAppExample WatchKit AppUITests' do
+  use_frameworks!
+  
+  # pod 'WatchTester', git: 'https://github.com/moskaliukzhanna/WatchTester.git', :branch => 'pod'
+  
+  # pod 'WatchTester', path: '../../WatchTester'
+  
+end
 
