@@ -1,0 +1,6 @@
+framework module WatchTesterSwizzling {
+  umbrella header "WatchTesterSwizzling-umbrella.h"
+
+  export *
+  module * { export * }
+}

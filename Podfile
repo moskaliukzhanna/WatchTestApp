@@ -5,7 +5,7 @@
 target 'WatchTesterAppExample WatchKit Extension' do
   use_frameworks!
 
-    # pod 'WatchTesterSwizzling', path: '../../WatchTester'
+    pod 'WatchTesterSwizzling', path: '../../WatchTester'
 
 end
 
@@ -14,7 +14,7 @@ target 'WatchTesterAppExample WatchKit AppUITests' do
   
   # pod 'WatchTester', git: 'https://github.com/moskaliukzhanna/WatchTester.git', :branch => 'pod'
   
-  # pod 'WatchTester', path: '../../WatchTester'
+    pod 'WatchTester', path: '../../WatchTester'
   
 end
 

@@ -1,16 +1,21 @@
 PODS:
   - WatchTester (0.0.1)
+  - WatchTesterSwizzling (0.0.1)
 
 DEPENDENCIES:
   - WatchTester (from `../../WatchTester`)
+  - WatchTesterSwizzling (from `../../WatchTester`)
 
 EXTERNAL SOURCES:
   WatchTester:
     :path: "../../WatchTester"
+  WatchTesterSwizzling:
+    :path: "../../WatchTester"
 
 SPEC CHECKSUMS:
-  WatchTester: 8a72795997d4cb8ec4dcc3cb6ea2b8c80af7e2a1
+  WatchTester: 784ff62231b20fd11c7a6ce8cef26feb37d5eba3
+  WatchTesterSwizzling: 628870b617ddb1ac22285e9f216c165be554cc79
 
-PODFILE CHECKSUM: e56eff8cb5d54e1f437fac064b9f9b469015a9c1
+PODFILE CHECKSUM: 1520ad4b4b360a9ba16f7525712db749ab7c61b4
 
 COCOAPODS: 1.11.2

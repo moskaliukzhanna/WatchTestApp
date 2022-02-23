@@ -1,4 +1,4 @@
-module WatchTester {
+framework module WatchTester {
   umbrella header "WatchTester-umbrella.h"
 
   export *

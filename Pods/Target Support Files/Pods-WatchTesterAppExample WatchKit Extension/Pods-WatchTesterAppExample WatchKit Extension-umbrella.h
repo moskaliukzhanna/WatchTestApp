@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "WatchTester.h"
 
-FOUNDATION_EXPORT double WatchTesterVersionNumber;
-FOUNDATION_EXPORT const unsigned char WatchTesterVersionString[];
+FOUNDATION_EXPORT double Pods_WatchTesterAppExample_WatchKit_ExtensionVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WatchTesterAppExample_WatchKit_ExtensionVersionString[];
 

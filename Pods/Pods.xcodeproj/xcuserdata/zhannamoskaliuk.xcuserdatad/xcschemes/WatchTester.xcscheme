@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DFB38CEB438C541615A97C9BA634408"
-               BuildableName = "libWatchTester.a"
+               BuildableName = "WatchTester.framework"
                BlueprintName = "WatchTester"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

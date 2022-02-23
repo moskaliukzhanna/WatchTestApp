@@ -1,5 +1,5 @@
 {
-  "name": "WatchTester",
+  "name": "WatchTesterSwizzling",
   "version": "0.0.1",
   "summary": "Cocoa Pod library for watchOS",
   "authors": {
@@ -23,13 +23,12 @@
     "tag": "0.0.1"
   },
   "source_files": [
-    "WatchTester/WatchTester/**/*",
+    "WatchTester/WatchTesterSwizzling/**/*",
     "WatchTester/WebSocket/**",
     "WatchTester/Extensions/**",
     "WatchTester/config.json"
   ],
   "exclude_files": "WatchTester/**/*.{plist}",
   "resources": "WatchTester/config.json",
-  "frameworks": "XCTest",
   "swift_version": "5.0"
 }

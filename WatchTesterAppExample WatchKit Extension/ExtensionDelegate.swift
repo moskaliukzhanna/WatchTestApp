@@ -6,10 +6,12 @@
 //
 
 import WatchKit
+import WatchTesterSwizzling
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {
+        print("Launch ")
         // Perform any final initialization of your application.
     }
 

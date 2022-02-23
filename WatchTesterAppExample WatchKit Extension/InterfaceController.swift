@@ -8,7 +8,7 @@
 import WatchKit
 import WatchConnectivity
 import Foundation
-
+import WatchTesterSwizzling
 
 class InterfaceController: WKInterfaceController {
     
@@ -26,6 +26,11 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func awake(withContext context: Any?) {
+        
+//        let watchSwizzler = WatchSwizzler()
+//        watchSwizzler.connect()
+        GreyboxTester.shared.connect()
+        
         tableButton.setAccessibilityIdentifier("table_button")
         goWristLocationButton.setAccessibilityIdentifier("go_wristLocation")
         kittyImage.setImageNamed("studyCat")

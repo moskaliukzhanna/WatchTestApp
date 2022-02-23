@@ -20,7 +20,6 @@ class WristLocationInterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        
         wristLocationLabel.setText("left")
         wristLocationLabel.setAccessibilityIdentifier("wrist_location")
         checkWristLocationButton.setAccessibilityIdentifier("check_wristLocation")
