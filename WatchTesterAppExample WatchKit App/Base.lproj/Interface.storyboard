@@ -122,6 +122,17 @@
             </objects>
             <point key="canvasLocation" x="225" y="267"/>
         </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aZn-LN-t67">
+            <objects>
+                <controller id="vUH-LH-U0W">
+                    <items>
+                        <activity alignment="left" id="5gk-Kb-ArV"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="439" y="267"/>
+        </scene>
     </scenes>
     <resources>
         <image name="snow" catalog="system" width="124" height="128"/>

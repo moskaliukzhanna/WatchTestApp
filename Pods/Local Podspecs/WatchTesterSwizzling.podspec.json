@@ -25,7 +25,7 @@
   "source_files": [
     "WatchTester/WatchTesterSwizzling/**/*",
     "WatchTester/WebSocket/**",
-    "WatchTester/Extensions/**",
+    "WatchTester/Extensions/Codable+Helpers.swift",
     "WatchTester/config.json"
   ],
   "exclude_files": "WatchTester/**/*.{plist}",

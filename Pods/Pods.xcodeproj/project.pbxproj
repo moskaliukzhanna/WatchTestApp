@@ -7,140 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		018F166108E76E18C9205C28C5574EFC /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75089C957FD4BFCB126880D43770322B /* WebSocketManager.swift */; };
-		02C79A96FD56BA612FFB67B404866E5A /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D60012CB8A3A517C043C6DB8B44182CF /* GREYSwizzler.m */; };
-		06E1E7E4E10D51D31349D2B2DC5018CA /* GreyboxCoreMotionStopDeviceMotionUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917617A6BBBFAD6A04FE224D40855CE4 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */; };
-		0C4859AB52E58520F41CDB2EB1B43920 /* GREYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D35A9FD920986054322886261CC49F1C /* GREYDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FAB78075D646828534950896A7663CD /* CMDeviceMotion+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F3F4D5151FACF1FD00492673D2BDD /* CMDeviceMotion+Encodable.swift */; };
-		101ACF90BD3B872432BCD0073F8CA8DF /* CMAccelerometerData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F09B0CF42379F0B9332CAE797CD47D40 /* CMAccelerometerData+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDDB003EE9E898D30512408BECA42AA /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBA59DAD6CE22883741138AA8DC00D /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */; };
+		100C559630D328AE56ABD0662D794F4C /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725DDC7878AC81F78669FE68D57E06D0 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */; };
+		10351271F65A52D8130FE4CA84413D79 /* GreyboxCoreMotionAccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B0918D57467D05B38D82DAA054657 /* GreyboxCoreMotionAccelerometerData.swift */; };
 		1087A67F8B159960D2CA33CB2595329E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */; };
-		10ECA1599D71F01D2E884D65802C2AA3 /* WatchSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C8A63A33E3DFA1C65139CA40C9A4B /* WatchSwizzler.swift */; };
-		11B0148C859C9752C315123CA2C6F014 /* GreyboxUserNotificationCenterGetNotificationCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B836AD8626BA748ADAD2E0F6D85494 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */; };
-		13F3B038AC27BD8D6DBC4D3736CE20D6 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2655EBB2DB54634C5AD3EF8A9A753CB3 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */; };
-		14C60A0E1305E58C124BBC0CE369B762 /* FindCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD14761892EEA9B9F4140B717E2115 /* FindCommand.swift */; };
-		16A6579A607908E2AB1455E89CB73010 /* UNNotification+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E2AF4E9FDCD8E8C13FDEABC8B3EDC /* UNNotification+Encodable.swift */; };
-		174906DF5A5EC172DD22342F3459DB89 /* GreyboxWorkoutSessionDelegateDidChangeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67F744BAF22221C0A3CD94AC8F374C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */; };
-		1CF4A432C4B2EAA35CB36C620CD44499 /* MockupsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47952D8B73C012DEF24A0C92C42C2BC2 /* MockupsFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139CE7B3A46A6DE472C51F88A9848BEE /* GreyboxWorkoutSessionPause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CEB6A8BBE6A1D8F016DE467419D39 /* GreyboxWorkoutSessionPause.swift */; };
+		14C60A0E1305E58C124BBC0CE369B762 /* FindCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E440C1D6D1235DA5D38B476CD7CEFF /* FindCommand.swift */; };
+		161F48D622CB51423C971DA685CFD153 /* UNUserNotificationCenterDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70279ECC4C4E2D6C6C0EDE8E8811E032 /* UNUserNotificationCenterDelegateProxy.m */; };
+		17160F016A6624BE1C685DDA5126E19B /* GreyboxWorkoutSessionInitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6897E77C1FB02D03502BC19098F66B /* GreyboxWorkoutSessionInitHandler.swift */; };
 		1DD8713602C58B5C5FEE36878DA8EBBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */; };
-		2089D28192182CE26AFE769CEAFAAAC7 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82672B4D280A2C245A32765A293B074 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */; };
+		1DF285C1C1823B7C56EA1653B83693DB /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3CC41B8CD8A9D95942E822B84C5EF /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */; };
+		1FF39035A4E1F5F3E0DCB889AB62B4A2 /* GreyboxUserNotificationCenterRequestAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EC73A5655B1C934660CD11A97B73A /* GreyboxUserNotificationCenterRequestAuthorization.swift */; };
 		21A7E0EE2F5570801D8A143D4AC9C2D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B2F000A731A15F6BC0E43D63AC8DBB /* XCTest.framework */; };
-		231EBE106F7B58119A73038057542261 /* WatchTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E136977751FC0243A12FE0C0CB5ED8 /* WatchTester.swift */; };
-		266D6B7E41A483BA4A010FA94F7BE1A2 /* WatchTesterSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DACE0F772CDA5E3E18D76390C12BF8 /* WatchTesterSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27DA6CA191B78A8667984F4DDAB232D0 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8513465D0B381B1E0DBB2CB1463BAC6 /* Executor.swift */; };
-		2BC530714EC8E8775F5891E8573777A2 /* GREYSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A2FC73EA161AC4859E9E0D6DC8B4AF /* GREYSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		308D17382F9EA40F1A37C614F9F4FED4 /* GreyboxCoreMotionDeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A158A923A3855DA90C85F657DEE49 /* GreyboxCoreMotionDeviceMotion.swift */; };
-		355AACDCCC4AE2B8FF5D23BAEE1AB9CB /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451E814735AE108D38E0A87557E3C73 /* CoreMotionHelper.swift */; };
-		3765D8D30702867C04DBD287A84BE3C1 /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2AD9DFDB648307C4FF22AA386EBF1 /* WatchCommandResponse.swift */; };
-		37E11D09C83B9031E2FF7049D833BE52 /* CMDeviceMotion+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A56A1C26346C66F8D3667E541BACAD89 /* CMDeviceMotion+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AE10E6C319ECC6976AE007B073DE1BC /* MockupsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D862F94315E0C0C709AA67818662A79 /* MockupsFactory.m */; };
-		3B2BDFB219985239DD7A0BD20EE490C0 /* GreyboxUserNotificationCenterAddNotificationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82537E5385C70E28E5A26B260453D1E /* GreyboxUserNotificationCenterAddNotificationRequest.swift */; };
-		3F713247BACA5A355C26001C585D474F /* CMAccelerometerData+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D646A6D1950B352FF28B84B38CFF985 /* CMAccelerometerData+Encodable.swift */; };
-		41ADED4E96931C70525AC5212254BB3F /* HKWorkoutSession+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4EF886CB8C879E66792C851981E1B0 /* HKWorkoutSession+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4666AFDCE9CBD439159BFD35F4A73011 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D259216D0569690365C3BC44ED2DF /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */; };
-		4D3F9A046AB8A44E9B007BE96C450FD2 /* HKWorkoutSessionDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B84576DD3F8855A3EAC2DF3ABF4F38 /* HKWorkoutSessionDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DC6DCBE830488F210352FEC0A909EF3 /* GreyboxInterfaceDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7250D37FBBC4EEC5D630D092F6E2E00F /* GreyboxInterfaceDevice.swift */; };
-		506749A4F90927923EA49F8B1D918E28 /* ScreenshotCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28840745BC98CC248D2526643A709E /* ScreenshotCommand.swift */; };
-		5197AD4CC99E299A1B555D722952526C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01629688F49CF9D0EBBB08200C65648 /* Constants.swift */; };
-		5245F7D1F875E66B2C65C24938E1C29B /* UNUserNotificationCenter+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE614305D1440AF577775EF116A3E /* UNUserNotificationCenter+Additions.m */; };
-		56DF00AB8D2EFB10684B6478AFD81B71 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DAE09E6BE860F75879500331CC387 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */; };
-		5854A3AAEABF28F51A28DDD0E9716B0C /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */; };
-		5892D5116D321B3AE24A8AEDD1FB9FAA /* GREYSurrogateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D6A908A82E9FFE964CBD91EA413C6C /* GREYSurrogateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		231EBE106F7B58119A73038057542261 /* WatchTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36C66B71F85B8428EF52368A5E28625 /* WatchTester.swift */; };
+		2419634B11984EB4146C3D308C11EB86 /* GreyboxWorkoutSessionResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97BF973EB50404F673F475E88A0560 /* GreyboxWorkoutSessionResume.swift */; };
+		278DE9EB28D70F7343BA6B8BB9723FBE /* GreyboxUserNotificationCenterAddNotificationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D08A735E62F448FE486531A62BAE58 /* GreyboxUserNotificationCenterAddNotificationRequest.swift */; };
+		27DA6CA191B78A8667984F4DDAB232D0 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A49CA7DFD8AA801AE469C3E3DE044 /* Executor.swift */; };
+		2855D847F6B09458EA73C56E3F9838BF /* GREYFatalAsserts.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D5CF02CAECAAA3F627AF7293127562 /* GREYFatalAsserts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28EBD4A288BBAC4592BB262312C7BE0C /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD84139E935ED445F381CEE5B388FB84 /* Codable+Helpers.swift */; };
+		2DECDBDCBC80AAD3F661AC0DC743EF27 /* WatchTesterSwizzling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC43D7C039D9E672B4528C9F6D1548 /* WatchTesterSwizzling-dummy.m */; };
+		3765D8D30702867C04DBD287A84BE3C1 /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AC4C09E66014F1105C7D9E2F246D4 /* WatchCommandResponse.swift */; };
+		39B4E94C1FD113E218E843671CD78AB5 /* UNNotificationSettings+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A651FF092FB9B7F16BBF51CA285BBB /* UNNotificationSettings+Additions.m */; };
+		3AB89B1C52FE8F597824282CFACD5D38 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481926BB886A39BD09C96AD856BC9A84 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */; };
+		3B77B5A56C44DF860852CC2627244EF3 /* UNUserNotificationCenterDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AE11CA287819130D8DF794563D6BBD1B /* UNUserNotificationCenterDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8097EF6889B5F51F12323B7A29432E /* WKInterfaceController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BC607EB9344979F96E896FB5804C6F /* WKInterfaceController+Additions.m */; };
+		3C891D4FF9C4BC22495BC973F56F6BAC /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AC4C09E66014F1105C7D9E2F246D4 /* WatchCommandResponse.swift */; };
+		3CAC3EA62BB36A3D5BE7DA97C23784E3 /* HKWorkoutSession+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A9929E111F8EA04B36C5AA2D8251F /* HKWorkoutSession+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402B63EB4164BA6C8FE9AECFF1E0A454 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBE2A6933550E4E22F039332BA6FF4 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */; };
+		41C73A26B6ED79C24F429DA5204155CC /* MethodReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B26837E239A621A2C1262584E030A /* MethodReceiver.swift */; };
+		42E20A6452E3AAAAA5F2C6930D5F9222 /* GreyboxWorkoutSessionDelegateDidFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495964A535A3BE2AACFC1480B92B4A7B /* GreyboxWorkoutSessionDelegateDidFail.swift */; };
+		485CF9EE091689F1653CC4128A757D97 /* UNNotificationSettings+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B992B606FA8E545B4CF9ED13F97E764 /* UNNotificationSettings+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A3633C256865A995E5C4E2F2988477 /* UNNotificationSettings+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE804C59D6EB1BE62CFEA02CB77EA8 /* UNNotificationSettings+Encodable.swift */; };
+		4A2636331BB56BF8A7B6A4AD1344637C /* UNUserNotificationCenter+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 808EC44216BBAF8E389344B43D6F486D /* UNUserNotificationCenter+Additions.m */; };
+		4A6A87EAEF87B5451699751D2444F370 /* GREYSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9F825545C741EF325FC37627A27DA8 /* GREYSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C2C338331D0DFD233EC9EDC83F1C73C /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41F8E3AA82BEE8E135C03A615DEBED2 /* GREYSurrogateDelegate.m */; };
+		4E5A03F4A6DD01499FBA70FA9591BC60 /* HKWorkoutSessionDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 208754EF5476B9CE39541FCE50B516C6 /* HKWorkoutSessionDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506749A4F90927923EA49F8B1D918E28 /* ScreenshotCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEB851045B3673960F620B7D5AC72F /* ScreenshotCommand.swift */; };
+		5289D1C6EE5852055F90D38AD127516E /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD151B9C70897C6C5BE03172A1B12A7 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5737474D707F31CEC75F098D646ECDF0 /* GreyboxTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180586022750841CDC777398D410FF /* GreyboxTester.swift */; };
+		5776552914E06334DB358C0AD1E2EA7B /* UNNotificationAction+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B2E3363FC9AB6882C0651968710C0 /* UNNotificationAction+Encodable.swift */; };
+		586DCD24BEDE2A8DC5458833731F2F6E /* UNNotificationResponse+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CAD3233319DB78EA4B152E001C0F4 /* UNNotificationResponse+Encodable.swift */; };
 		5A693B973CC8AEC0030FFAC52D888183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */; };
-		5ED345BEFE22ED0A01C056D9BE672AB1 /* config.json in Sources */ = {isa = PBXBuildFile; fileRef = 48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */; };
-		5F094313263ABFDB40E23DBFFC5DBB16 /* CMDeviceMotion+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE7E20F23C01F483B57F6F2261160B /* CMDeviceMotion+Additions.m */; };
-		63299B53786A51E45E3C15401D2DBFF6 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F601B77CFB735EE9D17BCC1E33861F /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */; };
-		63F6E1DB5DCB833BC06CC7B3D80A63C4 /* GreyboxSwizzlingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C57CFC6AEDE7A5D2E3C27490B0DEA /* GreyboxSwizzlingInterface.swift */; };
-		643A81B003DF1E3DB7EDA14F4F53ABAD /* HKWorkoutSessionDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D542F8EA20DC9CB468BC133DA91307A /* HKWorkoutSessionDelegateProxy.m */; };
-		672801CB7DB1CEC3920A12E325E71000 /* GreyboxWorkoutSessionEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477E89EE2B3F1991C6E063A79434128 /* GreyboxWorkoutSessionEnd.swift */; };
+		5D7B02DA8A903481C93820E18D401821 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99856D589FBA7CAECA33C1A1DB609AE /* Axis.swift */; };
+		5E94981ACC00534A113E181D6F17FEE9 /* WatchTesterSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 1064B36440DB5569C1C6A799B216378C /* WatchTesterSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED345BEFE22ED0A01C056D9BE672AB1 /* config.json in Sources */ = {isa = PBXBuildFile; fileRef = 275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */; };
+		634D75FEE8D9284D7F88E746009DEA5C /* GreyboxCoreMotionStartAccelerometerUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5831B14E87574603B22314CA0F3A2 /* GreyboxCoreMotionStartAccelerometerUpdates.swift */; };
+		63BC6048072680BC005B643211FB22CC /* CMAccelerometerData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A18BD97BD2B6E1E50CF42DE38771CD21 /* CMAccelerometerData+Additions.m */; };
+		645C362493DC8B18A7FB9C980F765DC6 /* UNNotificationCategory+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF8318B63BBDFE76E16D86BB4D0093 /* UNNotificationCategory+Encodable.swift */; };
+		679B71CA64257B5C8A9D6D3AB4D1195E /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = E35F2B00128E58A22249D0DFC364C9F5 /* GREYSwizzler.m */; };
 		6A3043C70E38ABF22BDC197A2DD1FBD4 /* Pods-WatchTesterAppExample WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A70EC1E3BF6A60FE186A8240A53D46 /* Pods-WatchTesterAppExample WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B5390254667DCAE1D8BEC1FAED2688B /* UNUserNotificationCenter+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9C46306354828BCE2D72174BADEF7D /* UNUserNotificationCenter+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FA4058F208F308E456EB586E8746F32 /* HKWorkoutSession+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C353AD2DF4FF9F6F59F6A4A4DCD0463 /* HKWorkoutSession+Additions.m */; };
-		7552025F2A0F58A030674CF899A247D3 /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DD33F7CEE798F7131CCC2B887EC6E /* WebSocketTypes.swift */; };
-		7680BC2DAB4742B17B425A83A6E484CB /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5269708DB860C0F185B667AE1833631 /* Codable+Helpers.swift */; };
-		7941D5387B6C0E9EFC9FAD67A84BE5EF /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6469CAA8FBCC9426FD36C7E373C4C10B /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6FE04C6DB55A1A4D5C3B56DB538A8B /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9D4C1EEDBB61D78873983BB67202C /* Receiver.swift */; };
+		6DCA5DA82102644DF6AAA8323E5C8CBA /* GreyboxWorkoutSessionStopActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA181A6188999407C78E4D2D135E704F /* GreyboxWorkoutSessionStopActivity.swift */; };
+		6EBC4C29ED69C656D476B9629BB1ECA2 /* UNNotification+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC93CA61C1434343C09CA73366C029E /* UNNotification+Encodable.swift */; };
+		6FB5A5658F44EB52239C5A824B46C09D /* GREYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3C79325DB9606118C059D3E79D8F16 /* GREYDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7125DAF90E79D91AD285B84C17D04313 /* MockupsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D48CD6AA775A49622C3F089537A512A7 /* MockupsFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E2D3045817D9DA7608EDD239D1ACF4 /* GreyboxUserNotificationCenterGetNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BDCEC7D4ED5535F9E719AA240967AB /* GreyboxUserNotificationCenterGetNotificationSettings.swift */; };
+		72ED19A2257F49157986BF3B46C0C60E /* GreyboxWorkoutSessionStartActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FC08ACA9C56D55D0BB96254801CB8 /* GreyboxWorkoutSessionStartActivity.swift */; };
 		7A4CAF7ABEBA01F772869EC7966C9ADA /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB6777AEDA540C946E16F105E1762C /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m */; };
-		80C2A9BCCAC1025C41F2E1A39FF980F4 /* GreyboxWorkoutSessionStartActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE451D9B1CC6121634F2C2C44C9A211C /* GreyboxWorkoutSessionStartActivity.swift */; };
-		82644D457BC2C988E275DE71DB8F9F67 /* GreyboxUserNotificationCenterRequestAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9F5F2D4DC8930EE857E5AF70F074A /* GreyboxUserNotificationCenterRequestAuthorization.swift */; };
-		82EB365BEBB2BC8B12626272EC04EDAA /* UNNotificationAction+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070B44A6819D8579530D7A7B4C592D3 /* UNNotificationAction+Encodable.swift */; };
-		83C69B48E8228E594DC6D22AEB67A8BF /* HKWorkoutConfiguration+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A2CD35CFD8F3F618680EC946D6199 /* HKWorkoutConfiguration+Encodable.swift */; };
-		879A027FED71833FEC1B17E3D26234D0 /* CMMotionManager+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 56208B2881BE3923CF0B50F0D8971097 /* CMMotionManager+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BF14C38B4D637B438FD6DC484EDB560 /* GreyboxUserNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF22973A774FABFED8F9342F396D8F /* GreyboxUserNotificationCenter.swift */; };
-		8F4CA9C77180F43B75E5632AA2D67DAF /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7F05E2AA2E748DB272DE97E08A83C /* Receiver.swift */; };
-		920DE85853A222282CB6F9AF0327740A /* CGGraphics+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419DE5DE0FD24C74A663E0D7D664AFD /* CGGraphics+Helpers.swift */; };
-		929B2D5902F441341323814230EDEB6C /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF661DC75ABAE81B0D7075220B94467 /* Axis.swift */; };
-		92BB2E5BAC781EF091CA9DFE5EC66609 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E3732269C18FC561D510B56D689B61 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */; };
-		94C46C7E9AC1EDA32EAA04096AC91B57 /* config.json in Sources */ = {isa = PBXBuildFile; fileRef = 48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */; };
-		9527DEFC8A39E3C1AE2A2C77873F6EE1 /* GreyboxUserNotificationCenterSetNotificationCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD9E0C9A5BDE51D1B0B484AE24B413 /* GreyboxUserNotificationCenterSetNotificationCategories.swift */; };
-		966CD8CD8B0F32AB729198669456428C /* UNNotificationSettings+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95BE21F36D7613B91474C6FDB674BF /* UNNotificationSettings+Encodable.swift */; };
-		98F924422499BC2EF02E3676D36BEB59 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */; };
-		A039306CC944626516E019A3649486C9 /* WKInterfaceController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD1944642E6014B5C254D7597AEA0AA /* WKInterfaceController+Additions.m */; };
-		A56EDF0F6B0B64BD2582FB880A51521F /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675CD0F26B23EC013BA3B9CA2758385 /* GREYSurrogateDelegate.m */; };
+		7C693A7A57C3E93055DE2D3522354E7D /* CMDeviceMotion+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D942447646D902BBBA989822C0C5C0 /* CMDeviceMotion+Additions.m */; };
+		83821CE3316C12A744B34532D83BF0B7 /* GREYSurrogateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3FAB8B5E0E94DC11938326ED08C134 /* GREYSurrogateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CB5D353D9F64A65289F530077ED4E1 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25EEF5757BF60D71E28AB5F2EDEB45 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */; };
+		84B1A580102426FD04B68EE1B1474E09 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352E099D23AB1AF236CE0E8B92F74DE /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */; };
+		873B58FFCA661F0E07D0350D869A32DC /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76A9ACAD75AB2E67F289CF550E3748 /* WebSocketManager.swift */; };
+		8A3980D8615DE3140E8079D9EBBB491C /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AE7791F83CAE4D8E266FD2AD67633 /* CoreMotionHelper.swift */; };
+		8ED826F9D6DA66B877371D93555CBBB5 /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D731D60A74D059EE4D751C40599949 /* WebSocketTypes.swift */; };
+		920DE85853A222282CB6F9AF0327740A /* CGGraphics+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305043E1F4488C4AABB9F9457575CCF6 /* CGGraphics+Helpers.swift */; };
+		93C9FB8DEBA3916A8C92D09BFFB36438 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00447D8F0B1F2F657506D0AA6B1AE1 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */; };
+		94CDBB1236254094D54A7F7AEDF54EB9 /* HKWorkoutSessionState+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841219A0C2A06BE2A278C6F3F9B3ADFB /* HKWorkoutSessionState+Codable.swift */; };
+		95940319FE25F4B62A872C4CC5A0487C /* UNUserNotificationCenter+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1391A66AEFA2DF9A2437DCEC6FA55715 /* UNUserNotificationCenter+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F924422499BC2EF02E3676D36BEB59 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */; };
+		9FA375D40E963D80B1D8205034678754 /* GreyboxCoreMotionStopAccelerometerUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1E503049F784A2B1AA1AC13301F90 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */; };
+		A1C334B0E3CB71142F1B6E3F57994CC8 /* CMMotionManager+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42F89FFA53D86B983DBA5A334C824E /* CMMotionManager+Additions.m */; };
 		A59330EA0B996DAFACF0213F544E173F /* Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232ABDD84FDD77D911F562132096EEA7 /* Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5AF42F88B20F39ACA3D8C40BFA0666 /* UNNotificationSettings+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EC9D107C1A05B3BF126475B93357CA /* UNNotificationSettings+Additions.m */; };
-		AC8CAD77E24A178827E79D875216424A /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5269708DB860C0F185B667AE1833631 /* Codable+Helpers.swift */; };
-		AE80FE8AFC76B205DF882C4A6B611371 /* UNUserNotificationCenterDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13684F6CB2017865F88FC0C9DADC7E /* UNUserNotificationCenterDelegateProxy.m */; };
-		AE8A413EF1ECA9F7FDBBC8871FADE72C /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F633BD889679D4C0664D1DE6E1BB008 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */; };
-		AF044C9D06E8AC3E5F0558CCB34DA3BC /* WKInterfaceController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 50756D6796D0212D32AE04E6C044D607 /* WKInterfaceController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B36889704D59002C79C2043C69BB6166 /* WatchTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005495A1B700FC7C8DB81424BB958E1 /* WatchTester-dummy.m */; };
-		B43BDC1C597DAEE1E5FD67550D22F661 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022568148B0A24BE115C7A13A2804A4 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */; };
-		B62BD2C639489F07ABC58E85177A08E4 /* TapCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89664077A4E4F27C96D18646C643672 /* TapCommand.swift */; };
-		B9E5580082FF8EA02CE7828BAEBC909A /* GreyboxWebsocketInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9595E55ECF7778D2AFA6144AD13FB26 /* GreyboxWebsocketInterface.swift */; };
-		BC512E73199F1908DD6068903AFB2183 /* XCUIElement+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ECAA64AB8D53BB1A9A249E583C8030 /* XCUIElement+Helpers.swift */; };
-		BCF13F25A05970013554228FFA394A7F /* PropertyReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7402FF3B401A7C8F51D91FB415911F6 /* PropertyReceiver.swift */; };
-		BD7B019BAD6878A491EBC859DA0F1F4A /* WatchTesterSwizzling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B684CE125BA8770F039FB852783F1A5C /* WatchTesterSwizzling-dummy.m */; };
-		BE6A4C4F9ABF33E46606F608FF321406 /* GreyboxWorkoutSessionPrepare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443887E16D198369667166AC212C89E /* GreyboxWorkoutSessionPrepare.swift */; };
-		BF4DCE35C69D2B3061FF6CFB7E4376A3 /* WatchTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E02388A60ED7B5B837141B06D5382 /* WatchTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF75FC5E1B4C92B2655FDE1464145D6A /* UNNotificationResponse+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010AF0C12BEF2D78FBBA3CFF9F4F636 /* UNNotificationResponse+Encodable.swift */; };
-		C04A342668711C4F6009081CB139C9FF /* WKInterfaceDevice+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D1179FF9C5FE16F13487D39D2E57D4 /* WKInterfaceDevice+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C42329B8F9A397A959B6A41502A4F6E3 /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2AD9DFDB648307C4FF22AA386EBF1 /* WatchCommandResponse.swift */; };
-		C5CBF63A25AA01708D9D5A005FCC2559 /* GreyboxWorkoutSessionDelegateDidFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B3B6609878DBB867454E4C22A8193 /* GreyboxWorkoutSessionDelegateDidFail.swift */; };
-		C6BBE546173044BB25BDAD085C9D7220 /* UNNotificationCategory+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD73CBEA05079140143721570121D3 /* UNNotificationCategory+Encodable.swift */; };
-		C6E8364C790856CF2B5576F9DEFC7ECD /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA1416BC7D8DB4190801C47C06E7A9 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */; };
-		C86E8E2400880ED09454A78601B00918 /* GreyboxTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4850EDED3886CCDE99375B3E740D9CA4 /* GreyboxTester.swift */; };
-		C8EBA71F36BF359AF88FD2734A30F4CF /* GreyboxWorkoutSessionResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF523C060A46E84EAA797FB478AB8D /* GreyboxWorkoutSessionResume.swift */; };
-		C90176FE50FEE13B6D3A09213E8EE9FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */; };
-		C9E5E1C1A38E2B621CB517DABD9365EC /* GreyboxUserNotificationCenterGetNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D73890E8795A2AB6F11C4EA60B6F4AA /* GreyboxUserNotificationCenterGetNotificationSettings.swift */; };
-		CA9196A30D24FF257D4C4C2EC3B2AF42 /* GREYFatalAsserts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBC09E3E6B81A709F50BFCE9A0B841A /* GREYFatalAsserts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBCF0AC848D2E15FE761EDCEE8B7BC6B /* XCUIElement+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB08C6565F2D9AABB49F19C32E4E20 /* XCUIElement+Scroll.swift */; };
-		CD12407806D7504D079FB846C43E9E40 /* GreyboxCoreMotionStartAccelerometerUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EB5D1CFE1546D2FC1AF4AFBC5A4EA /* GreyboxCoreMotionStartAccelerometerUpdates.swift */; };
-		CF014DC8AABA84A65CB87E615B6C97B2 /* GreyboxWorkoutSessionPause.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B6D6C9FC2641DC5749274998F95F4 /* GreyboxWorkoutSessionPause.swift */; };
-		D3DA1F6FC86B9B76FEC5EFC34F04DFB1 /* CMAccelerometerData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E3142F4E7C3859735B62E8A506EC47 /* CMAccelerometerData+Additions.m */; };
-		D3F108F8098291CBD03DC1FE94148B87 /* ScrollCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC771C2072B3A4B6A60CF824E204654 /* ScrollCommand.swift */; };
-		D431AA5E04DEED511D59A045AD9F4C27 /* WatchTesterSwizzling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B20806770FF3F1EEBB7DD57A1E9B8F5 /* WatchTesterSwizzling-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7F10BABACFFE6A630CCC5E67422ACF4 /* GreyboxCoreMotionStopAccelerometerUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2111827929958CB8E9DCA7EB279FCFE1 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */; };
-		D86508ECA96CD6783F27218D7782E183 /* CMMotionManager+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284120CBA10BCFF5FF0F4ED66702A561 /* CMMotionManager+Additions.m */; };
-		DB70EDCDED6D89D93AA3AF590AB10E90 /* UNNotificationSettings+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 550367A0041CFBE98D9EC22AA812973A /* UNNotificationSettings+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD0E51E7C290D0504131AD040B3FDE8B /* GreyboxWorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAD2FA60855AC87CA63C54D02C167F /* GreyboxWorkoutSession.swift */; };
-		DDB03C0C72EFB7FA6DB65B06DC0BBE6A /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DD33F7CEE798F7131CCC2B887EC6E /* WebSocketTypes.swift */; };
-		DDD454A37996D3CC3F378B501BB45643 /* GreyboxCoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E330758A1E5D17A13510AFDD2A3CB73 /* GreyboxCoreMotion.swift */; };
-		DFD0BF906BA353F76224B8733732057A /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75089C957FD4BFCB126880D43770322B /* WebSocketManager.swift */; };
-		E04D80B7F27BBF6A43F80B37A331DBEE /* WKInterfaceDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 671173EDED2EBBCE5E669B60FA6BEBD3 /* WKInterfaceDevice+Additions.m */; };
-		E39F9F383DBDC9EDD68AA989EF01F4EA /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1300DAA4F3FAD4C665E96040EEA92 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */; };
-		E7B906F5368C581EC34E3C7994DFF28F /* GreyboxWorkoutSessionInitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967BA154E8317E136C3CE17D58AB4F2B /* GreyboxWorkoutSessionInitHandler.swift */; };
-		E921C3C0DB56E369A9E52178E5B3EE1B /* UNUserNotificationCenterDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CCACD9E3CF3388955E5CCBC5739C4549 /* UNUserNotificationCenterDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9F4F006B8FADC30E8AED6E700812CBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01629688F49CF9D0EBBB08200C65648 /* Constants.swift */; };
-		EEBE9AE19098AC54248C753ABA4D61CD /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF35DDC13C85BD1683E11F1B9A4F87A /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */; };
-		F0782EED10BA12A530909ED371CE6EEB /* GreyboxCoreMotionAccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE23AE5820EF2819A320DB8082468E4 /* GreyboxCoreMotionAccelerometerData.swift */; };
-		F4092ACDC0E153E118F1E87AA7C1EAAE /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7701BB98D189FA8A289D175EB01AA1 /* Command.swift */; };
-		F4D69CF757E229F9B6433C821271FEAF /* WatchTester-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1906DFFFCCDAEC5D03EA64F368FF7058 /* WatchTester-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6D442F5FEAC9061CA87295B8AB0E8F1 /* GreyboxWorkoutSessionStopActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DC01FF5CE4E8979D8F2FAA2B37DEA /* GreyboxWorkoutSessionStopActivity.swift */; };
-		F7B760B77D1E0E1C93F8B9C0FE7B0752 /* CommandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB85D12345118E20277A4D69714D58 /* CommandList.swift */; };
-		F965343547F94F25F0CB6F6F482EB1B3 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64246FB550979B11FA7142C691E208E6 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */; };
-		FADC8AAB9D648D1E4445C738289A7DC9 /* UNNotificationRequest+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B754F45A5567B249DCF9A8A11AF2CD /* UNNotificationRequest+Encodable.swift */; };
-		FB4F07C98B47BAEFA65E2FBA99A46623 /* HKWorkoutSessionState+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACE3D7A82FF050F00E183453DF494D /* HKWorkoutSessionState+Codable.swift */; };
-		FCFB167BEAE39FA7EEAF2381D63B52C5 /* MethodReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B66525494C667AEDA9FEE1F2B2860 /* MethodReceiver.swift */; };
+		A5A2AB5B8A0325C12BF42B554DBFF5F8 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9989B8A47BC55A03F4CD411CF882479E /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */; };
+		A774C6F7B301BC14DCA0E88711092DDA /* GreyboxUserNotificationCenterSetNotificationCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EC2A19910B24E331F1CC15770F89B /* GreyboxUserNotificationCenterSetNotificationCategories.swift */; };
+		AB33D4FE32038422C43C7BDEAD7A9E13 /* GreyboxWorkoutSessionEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5AD18A9291037894601D87C66B5B3 /* GreyboxWorkoutSessionEnd.swift */; };
+		AC006BAB6AEE10F70BDFFE9B1BAAA970 /* GreyboxUserNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4A73FD77C8578A8BBDE541D8CCD23 /* GreyboxUserNotificationCenter.swift */; };
+		AC8CAD77E24A178827E79D875216424A /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD84139E935ED445F381CEE5B388FB84 /* Codable+Helpers.swift */; };
+		B36889704D59002C79C2043C69BB6166 /* WatchTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58150305A92688A416766AA715CEA96 /* WatchTester-dummy.m */; };
+		B3ED86557EA202D615398CC6D80453FE /* UNNotificationRequest+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6368E1792177F3A639F6C2B8EBA2F7 /* UNNotificationRequest+Encodable.swift */; };
+		B46CF410600A2F1FA805A68B9F225C41 /* GreyboxWorkoutSessionPrepare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3702896B4EC54E7F01B150767F74625 /* GreyboxWorkoutSessionPrepare.swift */; };
+		B62BD2C639489F07ABC58E85177A08E4 /* TapCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766635FF1B72F758DCDE594E0FE84A20 /* TapCommand.swift */; };
+		B7A56247808485BB5E2DB289A2FC3E42 /* GreyboxUserNotificationCenterGetNotificationCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81A72641CB472EBB3BBC7DA06003D3 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */; };
+		B822C21A5DBA818AD12D4500FA4B0279 /* WKInterfaceDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DB35AFF60801E092433F202968702B /* WKInterfaceDevice+Additions.m */; };
+		B8B206EB56031F567BB7AE9D2DB8329E /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C8513D6BDA7084067434D09265C05 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */; };
+		BC512E73199F1908DD6068903AFB2183 /* XCUIElement+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118515AA456DAC7A4D53FB480FF3746B /* XCUIElement+Helpers.swift */; };
+		BDF19A298C9528AD0446248B5EA83FC3 /* WKInterfaceDevice+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FD6FBAFA5A7F0148395886D687AEC1 /* WKInterfaceDevice+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE22F74E0623A099CFAE65DB01B67F0A /* CMDeviceMotion+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A839065E6BB937F0949FC97F808BEE6 /* CMDeviceMotion+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4DCE35C69D2B3061FF6CFB7E4376A3 /* WatchTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A761405B49F91B1AF499B56A11F049 /* WatchTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D314CB68B578120F07E9A06FC4906D /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C17EA0DDDF018B2241AD2879B0C880 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */; };
+		C4EBDAAD304A79823377ECEDF7DA289D /* CMMotionManager+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 711E9238C77EFDFA5CB7B149F074AEF2 /* CMMotionManager+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62BCF89C6578EDE4AA001A8AFD98386 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */; };
+		CB206B870B97C8237F5EA8914B6E2B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */; };
+		CBCF0AC848D2E15FE761EDCEE8B7BC6B /* XCUIElement+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D0129A46B4A0CC6A8C2B7FB2D29E6 /* XCUIElement+Scroll.swift */; };
+		D00D6CBB4AC864813C0AA76CD5DDC3FA /* MockupsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEC53451099B41B2A7C52A7704A79DE /* MockupsFactory.m */; };
+		D04B4953386DF800A1D64EA530B26D63 /* GreyboxWebsocketInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF72355D91F6AD62D2D519BBF48670 /* GreyboxWebsocketInterface.swift */; };
+		D09D22B98C408843814B3EB2DF34FD75 /* CMDeviceMotion+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07C179B341D699E4887B06198523FB /* CMDeviceMotion+Encodable.swift */; };
+		D3F108F8098291CBD03DC1FE94148B87 /* ScrollCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943559DD4A931DBEFF20F2DD3CD37FF /* ScrollCommand.swift */; };
+		D59B89A1EBBFB65F33350FF220FA8897 /* GreyboxWorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804E543A264CD158ADD97548ED9B6E /* GreyboxWorkoutSession.swift */; };
+		D5CC70001C21D17226AA458AFFA76844 /* CMAccelerometerData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 939EECE9F6F299EA66BA555F96D12127 /* CMAccelerometerData+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB03C0C72EFB7FA6DB65B06DC0BBE6A /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D731D60A74D059EE4D751C40599949 /* WebSocketTypes.swift */; };
+		DFD0BF906BA353F76224B8733732057A /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76A9ACAD75AB2E67F289CF550E3748 /* WebSocketManager.swift */; };
+		E22B76EFE3D9D977A573CB443A71613D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01753664261D89D77ABCFB48DE48A1 /* Constants.swift */; };
+		E2F9C0A6653578B052E8860B12780E56 /* WKInterfaceController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776ABA23243BCE014014F9E874CD23A /* WKInterfaceController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7C50021082FA04108F29496F4491E96 /* GreyboxCoreMotionDeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084BDD5F52CD8A01969811F9BF3B586 /* GreyboxCoreMotionDeviceMotion.swift */; };
+		E9F4F006B8FADC30E8AED6E700812CBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01753664261D89D77ABCFB48DE48A1 /* Constants.swift */; };
+		EC34004E128C7AFB04DBC455EAFCF1C9 /* PropertyReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071318929CEA4222B96DCF354F9AF844 /* PropertyReceiver.swift */; };
+		EE0A58E83C8E57D7F54EAEBA5E9537C9 /* HKWorkoutSessionDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CD7DC402CF45C3980E95ABE9FCB40D /* HKWorkoutSessionDelegateProxy.m */; };
+		EE6FCB2A59710B1C3E07E67554394E4C /* CMAccelerometerData+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC13ABC467E7C5467743EAC3ADBA20 /* CMAccelerometerData+Encodable.swift */; };
+		F19825E88A187F25C2C7D4247BD6966D /* HKWorkoutConfiguration+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1637CDBEC9B7AB11D0AE5DBFA93E3C /* HKWorkoutConfiguration+Encodable.swift */; };
+		F2F98076EE5A8CEEE67D824107100C54 /* GreyboxWorkoutSessionDelegateDidChangeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD0663DD4152F1DACCBF9F8393738C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */; };
+		F4092ACDC0E153E118F1E87AA7C1EAAE /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA880F749AA500D3A4F9E2A99DFFC6D /* Command.swift */; };
+		F44CC86F8A84AD7F6EA47FD303D662FB /* GreyboxCoreMotionStopDeviceMotionUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EA4452CC9DC1E140C196E0347D18B6 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */; };
+		F4D69CF757E229F9B6433C821271FEAF /* WatchTester-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CFA4527333991B1D8378AAFA75BA29 /* WatchTester-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50ABEE9DDBC60FE4E3FC8C3823DBA9D /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A28936F665C98B8D26B2D1C0C625D1 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */; };
+		F6BC0419FF525F3164A049D9EE8D9E1F /* GreyboxCoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58116B136BF2961B53D102F5277AC958 /* GreyboxCoreMotion.swift */; };
+		F74C570349E95381E54E11759A7B42AD /* WatchTesterSwizzling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CA1CBC0F8578FC2220FF02768716DF /* WatchTesterSwizzling-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B760B77D1E0E1C93F8B9C0FE7B0752 /* CommandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36654AC4832EFFF9A667AF85D7628028 /* CommandList.swift */; };
+		FAA0A72B4EE4B3DF705DD610F491FF2A /* config.json in Sources */ = {isa = PBXBuildFile; fileRef = 275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */; };
+		FAA5729C5568A4AE3BE0C56143F1EDF5 /* WatchSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E459565AC02FA4D526E35BDDBAC1D /* WatchSwizzler.swift */; };
+		FDBFD87D5DD3398596D255FF1769BE32 /* GreyboxInterfaceDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA120D24A8AEB0EBD00858793941EE3 /* GreyboxInterfaceDevice.swift */; };
+		FDE7DBA912268E6F9AA168310BBF1306 /* HKWorkoutSession+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7742977ABD6C0AE71D0DF1C1491E04B /* HKWorkoutSession+Additions.m */; };
 		FEBBBF65CE88DC192DB05487F9987FF1 /* Pods-WatchTesterAppExample WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E0B5641F3498E4294ACB8088E335F0 /* Pods-WatchTesterAppExample WatchKit Extension-dummy.m */; };
+		FFBA13BB878DD3620B383A16A639FC1C /* GreyboxSwizzlingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE662716CB8042E68128C022643A6048 /* GreyboxSwizzlingInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CFD00E6D3D100569EB1F2FA4B40DEBC3 /* PBXContainerItemProxy */ = {
+		24A1961A7CE2B0F6561D1F44BFFDFF4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DBBBE466907C04A208CCFAEAC97FA67E;
 			remoteInfo = WatchTesterSwizzling;
 		};
-		EB2B236A038A8649CB4B23E1D5F8731B /* PBXContainerItemProxy */ = {
+		8BFA1BD2FE71CAC946E634EA944E6E34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -150,158 +150,158 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D1300DAA4F3FAD4C665E96040EEA92 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift; sourceTree = "<group>"; };
-		040A7DAC126D83C4CA8A6E5D4CC0FD16 /* WatchTesterSwizzling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WatchTesterSwizzling.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		04A2FC73EA161AC4859E9E0D6DC8B4AF /* GREYSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYSwizzler.h; sourceTree = "<group>"; };
-		04DACE0F772CDA5E3E18D76390C12BF8 /* WatchTesterSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchTesterSwizzling.h; sourceTree = "<group>"; };
-		05BAE614305D1440AF577775EF116A3E /* UNUserNotificationCenter+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNUserNotificationCenter+Additions.m"; sourceTree = "<group>"; };
-		08ECAA64AB8D53BB1A9A249E583C8030 /* XCUIElement+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Helpers.swift"; sourceTree = "<group>"; };
-		0AACE3D7A82FF050F00E183453DF494D /* HKWorkoutSessionState+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HKWorkoutSessionState+Codable.swift"; sourceTree = "<group>"; };
-		0BDA3A1FD4ACB330783FD684FDB8036B /* WatchTesterSwizzling-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTesterSwizzling-prefix.pch"; sourceTree = "<group>"; };
-		0C0C8A63A33E3DFA1C65139CA40C9A4B /* WatchSwizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSwizzler.swift; sourceTree = "<group>"; };
-		1070B44A6819D8579530D7A7B4C592D3 /* UNNotificationAction+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Encodable.swift"; sourceTree = "<group>"; };
-		109CC46983FEEEDD5CC53C87870FF6BB /* WatchTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.debug.xcconfig; sourceTree = "<group>"; };
-		11884701E8472C9C64E8A027CF06F2AF /* WatchTesterSwizzling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTesterSwizzling.debug.xcconfig; sourceTree = "<group>"; };
-		11D1179FF9C5FE16F13487D39D2E57D4 /* WKInterfaceDevice+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceDevice+Additions.h"; sourceTree = "<group>"; };
-		1443887E16D198369667166AC212C89E /* GreyboxWorkoutSessionPrepare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPrepare.swift; sourceTree = "<group>"; };
+		071318929CEA4222B96DCF354F9AF844 /* PropertyReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PropertyReceiver.swift; sourceTree = "<group>"; };
+		07D08A735E62F448FE486531A62BAE58 /* GreyboxUserNotificationCenterAddNotificationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterAddNotificationRequest.swift; sourceTree = "<group>"; };
+		0A01753664261D89D77ABCFB48DE48A1 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1064B36440DB5569C1C6A799B216378C /* WatchTesterSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchTesterSwizzling.h; sourceTree = "<group>"; };
+		118515AA456DAC7A4D53FB480FF3746B /* XCUIElement+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Helpers.swift"; sourceTree = "<group>"; };
+		1391A66AEFA2DF9A2437DCEC6FA55715 /* UNUserNotificationCenter+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNUserNotificationCenter+Additions.h"; sourceTree = "<group>"; };
 		14D18F937FB610B11E6F18717237B7AC /* Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		14E136977751FC0243A12FE0C0CB5ED8 /* WatchTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchTester.swift; sourceTree = "<group>"; };
-		165D259216D0569690365C3BC44ED2DF /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdates.swift; sourceTree = "<group>"; };
-		1906DFFFCCDAEC5D03EA64F368FF7058 /* WatchTester-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-umbrella.h"; sourceTree = "<group>"; };
-		19BCBE0EFD73EA71A52E9D23655E8DC8 /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1C67F744BAF22221C0A3CD94AC8F374C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidChangeState.swift; sourceTree = "<group>"; };
-		1D646A6D1950B352FF28B84B38CFF985 /* CMAccelerometerData+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CMAccelerometerData+Encodable.swift"; sourceTree = "<group>"; };
-		1F7701BB98D189FA8A289D175EB01AA1 /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		17941C47CA8A5E5B3E2A41040C210AFC /* WatchTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.debug.xcconfig; sourceTree = "<group>"; };
+		1A6368E1792177F3A639F6C2B8EBA2F7 /* UNNotificationRequest+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationRequest+Encodable.swift"; sourceTree = "<group>"; };
+		1A839065E6BB937F0949FC97F808BEE6 /* CMDeviceMotion+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMDeviceMotion+Additions.h"; sourceTree = "<group>"; };
+		1B992B606FA8E545B4CF9ED13F97E764 /* UNNotificationSettings+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNNotificationSettings+Additions.h"; sourceTree = "<group>"; };
+		1CF859FDF1DAC475E524C6587C48BF65 /* WatchTesterSwizzling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTesterSwizzling.debug.xcconfig; sourceTree = "<group>"; };
+		1E97BF973EB50404F673F475E88A0560 /* GreyboxWorkoutSessionResume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionResume.swift; sourceTree = "<group>"; };
 		1FAF3A1F2436494DA88B87E1602AB69A /* Pods-WatchTesterAppExample WatchKit AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppExample WatchKit AppUITests-Info.plist"; sourceTree = "<group>"; };
-		2005495A1B700FC7C8DB81424BB958E1 /* WatchTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTester-dummy.m"; sourceTree = "<group>"; };
+		208754EF5476B9CE39541FCE50B516C6 /* HKWorkoutSessionDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKWorkoutSessionDelegateProxy.h; sourceTree = "<group>"; };
 		20CBE630D6291C0ED5F1FCE76BEA3729 /* Pods-WatchTesterAppExample WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppExample WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		2111827929958CB8E9DCA7EB279FCFE1 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopAccelerometerUpdates.swift; sourceTree = "<group>"; };
+		20D5CF02CAECAAA3F627AF7293127562 /* GREYFatalAsserts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYFatalAsserts.h; sourceTree = "<group>"; };
+		210B0918D57467D05B38D82DAA054657 /* GreyboxCoreMotionAccelerometerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionAccelerometerData.swift; sourceTree = "<group>"; };
+		224EC2A19910B24E331F1CC15770F89B /* GreyboxUserNotificationCenterSetNotificationCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterSetNotificationCategories.swift; sourceTree = "<group>"; };
 		232ABDD84FDD77D911F562132096EEA7 /* Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterAppExample WatchKit AppUITests-umbrella.h"; sourceTree = "<group>"; };
-		235E02388A60ED7B5B837141B06D5382 /* WatchTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchTester.h; sourceTree = "<group>"; };
-		23D6A908A82E9FFE964CBD91EA413C6C /* GREYSurrogateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYSurrogateDelegate.h; sourceTree = "<group>"; };
-		2655EBB2DB54634C5AD3EF8A9A753CB3 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift; sourceTree = "<group>"; };
-		284120CBA10BCFF5FF0F4ED66702A561 /* CMMotionManager+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Additions.m"; sourceTree = "<group>"; };
+		242C8B8025B19A39681C0C66D37D2A9D /* WatchTester-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WatchTester-Info.plist"; sourceTree = "<group>"; };
+		25CD7DC402CF45C3980E95ABE9FCB40D /* HKWorkoutSessionDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HKWorkoutSessionDelegateProxy.m; sourceTree = "<group>"; };
+		275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */ = {isa = PBXFileReference; includeInIndex = 1; name = config.json; path = WatchTester/config.json; sourceTree = "<group>"; };
+		28C17EA0DDDF018B2241AD2879B0C880 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift; sourceTree = "<group>"; };
+		297AC4C09E66014F1105C7D9E2F246D4 /* WatchCommandResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCommandResponse.swift; sourceTree = "<group>"; };
+		2AC93CA61C1434343C09CA73366C029E /* UNNotification+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotification+Encodable.swift"; sourceTree = "<group>"; };
 		2CEB6777AEDA540C946E16F105E1762C /* Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterAppExample WatchKit AppUITests-dummy.m"; sourceTree = "<group>"; };
-		2D542F8EA20DC9CB468BC133DA91307A /* HKWorkoutSessionDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HKWorkoutSessionDelegateProxy.m; sourceTree = "<group>"; };
-		3022568148B0A24BE115C7A13A2804A4 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift; sourceTree = "<group>"; };
-		37CD14761892EEA9B9F4140B717E2115 /* FindCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FindCommand.swift; sourceTree = "<group>"; };
-		3E0DC01FF5CE4E8979D8F2FAA2B37DEA /* GreyboxWorkoutSessionStopActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStopActivity.swift; sourceTree = "<group>"; };
-		3F9B66525494C667AEDA9FEE1F2B2860 /* MethodReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MethodReceiver.swift; sourceTree = "<group>"; };
-		407B3B6609878DBB867454E4C22A8193 /* GreyboxWorkoutSessionDelegateDidFail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidFail.swift; sourceTree = "<group>"; };
+		305043E1F4488C4AABB9F9457575CCF6 /* CGGraphics+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGGraphics+Helpers.swift"; sourceTree = "<group>"; };
+		31CCD947540B4240FF0955FDDA11ABA1 /* WatchTesterSwizzling-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTesterSwizzling-prefix.pch"; sourceTree = "<group>"; };
+		35AC13ABC467E7C5467743EAC3ADBA20 /* CMAccelerometerData+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CMAccelerometerData+Encodable.swift"; sourceTree = "<group>"; };
+		36654AC4832EFFF9A667AF85D7628028 /* CommandList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommandList.swift; sourceTree = "<group>"; };
+		39A651FF092FB9B7F16BBF51CA285BBB /* UNNotificationSettings+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNNotificationSettings+Additions.m"; sourceTree = "<group>"; };
+		3D25EEF5757BF60D71E28AB5F2EDEB45 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift; sourceTree = "<group>"; };
+		3F5E459565AC02FA4D526E35BDDBAC1D /* WatchSwizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSwizzler.swift; sourceTree = "<group>"; };
+		41EA4452CC9DC1E140C196E0347D18B6 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopDeviceMotionUpdates.swift; sourceTree = "<group>"; };
 		443202D5E6D422941FBCE0BF72122C12 /* Pods-WatchTesterAppExample WatchKit AppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterAppExample WatchKit AppUITests"; path = Pods_WatchTesterAppExample_WatchKit_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E36EDE920766C9A8322580A109A861 /* WatchTesterSwizzling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WatchTesterSwizzling.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46E0B5641F3498E4294ACB8088E335F0 /* Pods-WatchTesterAppExample WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterAppExample WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		47952D8B73C012DEF24A0C92C42C2BC2 /* MockupsFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MockupsFactory.h; sourceTree = "<group>"; };
+		47B9D4C1EEDBB61D78873983BB67202C /* Receiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		47BF5B28D8A48B752E06904C6E1562CE /* Pods-WatchTesterAppExample WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterAppExample WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		47E3732269C18FC561D510B56D689B61 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateWillPresentNotification.swift; sourceTree = "<group>"; };
-		4850EDED3886CCDE99375B3E740D9CA4 /* GreyboxTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxTester.swift; sourceTree = "<group>"; };
-		48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = config.json; path = WatchTester/config.json; sourceTree = "<group>"; };
-		4A4EF886CB8C879E66792C851981E1B0 /* HKWorkoutSession+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKWorkoutSession+Additions.h"; sourceTree = "<group>"; };
-		4A95BE21F36D7613B91474C6FDB674BF /* UNNotificationSettings+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationSettings+Encodable.swift"; sourceTree = "<group>"; };
-		4BC771C2072B3A4B6A60CF824E204654 /* ScrollCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollCommand.swift; sourceTree = "<group>"; };
-		4C353AD2DF4FF9F6F59F6A4A4DCD0463 /* HKWorkoutSession+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKWorkoutSession+Additions.m"; sourceTree = "<group>"; };
-		4E13684F6CB2017865F88FC0C9DADC7E /* UNUserNotificationCenterDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UNUserNotificationCenterDelegateProxy.m; sourceTree = "<group>"; };
-		4F633BD889679D4C0664D1DE6E1BB008 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift; sourceTree = "<group>"; };
-		50756D6796D0212D32AE04E6C044D607 /* WKInterfaceController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+Additions.h"; sourceTree = "<group>"; };
-		515C87E83A10C7B1ACB443E9A983B0B0 /* WatchTesterSwizzling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTesterSwizzling.release.xcconfig; sourceTree = "<group>"; };
-		53E3142F4E7C3859735B62E8A506EC47 /* CMAccelerometerData+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMAccelerometerData+Additions.m"; sourceTree = "<group>"; };
+		481926BB886A39BD09C96AD856BC9A84 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift; sourceTree = "<group>"; };
+		48E5831B14E87574603B22314CA0F3A2 /* GreyboxCoreMotionStartAccelerometerUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdates.swift; sourceTree = "<group>"; };
+		495964A535A3BE2AACFC1480B92B4A7B /* GreyboxWorkoutSessionDelegateDidFail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidFail.swift; sourceTree = "<group>"; };
+		4E00447D8F0B1F2F657506D0AA6B1AE1 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetDeliveredNotifications.swift; sourceTree = "<group>"; };
+		52CD0663DD4152F1DACCBF9F8393738C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionDelegateDidChangeState.swift; sourceTree = "<group>"; };
 		54CCDE8BE089B9030EE6AD350D236D74 /* Pods-WatchTesterAppExample WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterAppExample WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		550367A0041CFBE98D9EC22AA812973A /* UNNotificationSettings+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNNotificationSettings+Additions.h"; sourceTree = "<group>"; };
-		56208B2881BE3923CF0B50F0D8971097 /* CMMotionManager+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Additions.h"; sourceTree = "<group>"; };
+		55BC607EB9344979F96E896FB5804C6F /* WKInterfaceController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+Additions.m"; sourceTree = "<group>"; };
+		5776ABA23243BCE014014F9E874CD23A /* WKInterfaceController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+Additions.h"; sourceTree = "<group>"; };
 		57C25D2A8E91C86322A4CD65E24144E9 /* Pods-WatchTesterAppExample WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		58116B136BF2961B53D102F5277AC958 /* GreyboxCoreMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotion.swift; sourceTree = "<group>"; };
 		5811A96314EC83B92C08532ACFA0AFE7 /* Pods-WatchTesterAppExample WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchTesterAppExample WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
-		59FD9E0C9A5BDE51D1B0B484AE24B413 /* GreyboxUserNotificationCenterSetNotificationCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterSetNotificationCategories.swift; sourceTree = "<group>"; };
 		5A6400C600E6A38AC6D58B612A9FA28D /* Pods-WatchTesterAppExample WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppExample WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
-		5CBC09E3E6B81A709F50BFCE9A0B841A /* GREYFatalAsserts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYFatalAsserts.h; sourceTree = "<group>"; };
-		5CE23AE5820EF2819A320DB8082468E4 /* GreyboxCoreMotionAccelerometerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionAccelerometerData.swift; sourceTree = "<group>"; };
-		5D862F94315E0C0C709AA67818662A79 /* MockupsFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MockupsFactory.m; sourceTree = "<group>"; };
-		5F9C46306354828BCE2D72174BADEF7D /* UNUserNotificationCenter+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNUserNotificationCenter+Additions.h"; sourceTree = "<group>"; };
+		5A9B2E3363FC9AB6882C0651968710C0 /* UNNotificationAction+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Encodable.swift"; sourceTree = "<group>"; };
+		5B5CEB6A8BBE6A1D8F016DE467419D39 /* GreyboxWorkoutSessionPause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPause.swift; sourceTree = "<group>"; };
+		5C8ACF4C1CCB63CEC8307E49F3E00E2F /* WatchTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTester.modulemap; sourceTree = "<group>"; };
+		61BDCEC7D4ED5535F9E719AA240967AB /* GreyboxUserNotificationCenterGetNotificationSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationSettings.swift; sourceTree = "<group>"; };
+		61CFA4527333991B1D8378AAFA75BA29 /* WatchTester-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-umbrella.h"; sourceTree = "<group>"; };
 		632CA9BDF000E2C932EDE3D9E69A74A2 /* Pods-WatchTesterAppExample WatchKit AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppExample WatchKit AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		64246FB550979B11FA7142C691E208E6 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift; sourceTree = "<group>"; };
-		6469CAA8FBCC9426FD36C7E373C4C10B /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		671173EDED2EBBCE5E669B60FA6BEBD3 /* WKInterfaceDevice+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceDevice+Additions.m"; sourceTree = "<group>"; };
-		6875FD79EACAC7E44BC8038AFF3D4188 /* WatchTesterSwizzling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTesterSwizzling.modulemap; sourceTree = "<group>"; };
-		691D43F536007ADB62BE1CACDFD9920F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63A761405B49F91B1AF499B56A11F049 /* WatchTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchTester.h; sourceTree = "<group>"; };
+		67B1E503049F784A2B1AA1AC13301F90 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopAccelerometerUpdates.swift; sourceTree = "<group>"; };
 		6D2D89E24638989E83E54AEBD1994EAC /* WatchTesterSwizzling */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WatchTesterSwizzling; path = WatchTesterSwizzling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D73890E8795A2AB6F11C4EA60B6F4AA /* GreyboxUserNotificationCenterGetNotificationSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationSettings.swift; sourceTree = "<group>"; };
-		700935103B85DBB3B60E0F81DFAC02C4 /* WatchTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTester.modulemap; sourceTree = "<group>"; };
-		7250D37FBBC4EEC5D630D092F6E2E00F /* GreyboxInterfaceDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxInterfaceDevice.swift; sourceTree = "<group>"; };
-		72F601B77CFB735EE9D17BCC1E33861F /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift; sourceTree = "<group>"; };
-		75089C957FD4BFCB126880D43770322B /* WebSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		6D3C79325DB9606118C059D3E79D8F16 /* GREYDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYDefines.h; sourceTree = "<group>"; };
+		6F5D11199CDF15DDAF31F213825C4440 /* WatchTesterSwizzling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTesterSwizzling.modulemap; sourceTree = "<group>"; };
+		70279ECC4C4E2D6C6C0EDE8E8811E032 /* UNUserNotificationCenterDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UNUserNotificationCenterDelegateProxy.m; sourceTree = "<group>"; };
+		711E9238C77EFDFA5CB7B149F074AEF2 /* CMMotionManager+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Additions.h"; sourceTree = "<group>"; };
+		725DDC7878AC81F78669FE68D57E06D0 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift; sourceTree = "<group>"; };
 		754BC3107F3FBEE708FB92A2A0189EE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7675CD0F26B23EC013BA3B9CA2758385 /* GREYSurrogateDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GREYSurrogateDelegate.m; sourceTree = "<group>"; };
-		79DD73CBEA05079140143721570121D3 /* UNNotificationCategory+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationCategory+Encodable.swift"; sourceTree = "<group>"; };
-		7D28840745BC98CC248D2526643A709E /* ScreenshotCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenshotCommand.swift; sourceTree = "<group>"; };
-		87B754F45A5567B249DCF9A8A11AF2CD /* UNNotificationRequest+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationRequest+Encodable.swift"; sourceTree = "<group>"; };
-		8A3F68498802EE3B1EC3CC05405E06A4 /* WatchTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.release.xcconfig; sourceTree = "<group>"; };
-		8E0A158A923A3855DA90C85F657DEE49 /* GreyboxCoreMotionDeviceMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionDeviceMotion.swift; sourceTree = "<group>"; };
-		8FEE78CFA8854900E69C4D02E2641353 /* WatchTester-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WatchTester-Info.plist"; sourceTree = "<group>"; };
-		917617A6BBBFAD6A04FE224D40855CE4 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStopDeviceMotionUpdates.swift; sourceTree = "<group>"; };
+		766635FF1B72F758DCDE594E0FE84A20 /* TapCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapCommand.swift; sourceTree = "<group>"; };
+		7943559DD4A931DBEFF20F2DD3CD37FF /* ScrollCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollCommand.swift; sourceTree = "<group>"; };
+		7BFBE2A6933550E4E22F039332BA6FF4 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetPendingNotificationRequests.swift; sourceTree = "<group>"; };
+		7FAC43D7C039D9E672B4528C9F6D1548 /* WatchTesterSwizzling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTesterSwizzling-dummy.m"; sourceTree = "<group>"; };
+		808EC44216BBAF8E389344B43D6F486D /* UNUserNotificationCenter+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNUserNotificationCenter+Additions.m"; sourceTree = "<group>"; };
+		82CBA59DAD6CE22883741138AA8DC00D /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateWillPresentNotification.swift; sourceTree = "<group>"; };
+		841219A0C2A06BE2A278C6F3F9B3ADFB /* HKWorkoutSessionState+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HKWorkoutSessionState+Codable.swift"; sourceTree = "<group>"; };
+		89D731D60A74D059EE4D751C40599949 /* WebSocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebSocketTypes.swift; sourceTree = "<group>"; };
+		8AE51B4A58FEE0861B474710AB017596 /* WatchTesterSwizzling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTesterSwizzling.release.xcconfig; sourceTree = "<group>"; };
+		8B2DE44757315D1A79DEAFFBEF5D4066 /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FA120D24A8AEB0EBD00858793941EE3 /* GreyboxInterfaceDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxInterfaceDevice.swift; sourceTree = "<group>"; };
+		8FE5AD18A9291037894601D87C66B5B3 /* GreyboxWorkoutSessionEnd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionEnd.swift; sourceTree = "<group>"; };
+		8FEF72355D91F6AD62D2D519BBF48670 /* GreyboxWebsocketInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWebsocketInterface.swift; sourceTree = "<group>"; };
 		91CE7162C919D66D1A001E8D4483C8BC /* Pods-WatchTesterAppExample WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		91EC9D107C1A05B3BF126475B93357CA /* UNNotificationSettings+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNNotificationSettings+Additions.m"; sourceTree = "<group>"; };
-		925C57CFC6AEDE7A5D2E3C27490B0DEA /* GreyboxSwizzlingInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxSwizzlingInterface.swift; sourceTree = "<group>"; };
-		9477E89EE2B3F1991C6E063A79434128 /* GreyboxWorkoutSessionEnd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionEnd.swift; sourceTree = "<group>"; };
-		967BA154E8317E136C3CE17D58AB4F2B /* GreyboxWorkoutSessionInitHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionInitHandler.swift; sourceTree = "<group>"; };
+		92180586022750841CDC777398D410FF /* GreyboxTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxTester.swift; sourceTree = "<group>"; };
+		92DB35AFF60801E092433F202968702B /* WKInterfaceDevice+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceDevice+Additions.m"; sourceTree = "<group>"; };
+		939EECE9F6F299EA66BA555F96D12127 /* CMAccelerometerData+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMAccelerometerData+Additions.h"; sourceTree = "<group>"; };
+		94A28936F665C98B8D26B2D1C0C625D1 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift; sourceTree = "<group>"; };
+		95CA1CBC0F8578FC2220FF02768716DF /* WatchTesterSwizzling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTesterSwizzling-umbrella.h"; sourceTree = "<group>"; };
 		96B2F000A731A15F6BC0E43D63AC8DBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9A7E2AF4E9FDCD8E8C13FDEABC8B3EDC /* UNNotification+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotification+Encodable.swift"; sourceTree = "<group>"; };
-		9B20806770FF3F1EEBB7DD57A1E9B8F5 /* WatchTesterSwizzling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTesterSwizzling-umbrella.h"; sourceTree = "<group>"; };
-		9BF35DDC13C85BD1683E11F1B9A4F87A /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DBAD2FA60855AC87CA63C54D02C167F /* GreyboxWorkoutSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSession.swift; sourceTree = "<group>"; };
-		9E330758A1E5D17A13510AFDD2A3CB73 /* GreyboxCoreMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotion.swift; sourceTree = "<group>"; };
-		A25A2CD35CFD8F3F618680EC946D6199 /* HKWorkoutConfiguration+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HKWorkoutConfiguration+Encodable.swift"; sourceTree = "<group>"; };
+		986D0129A46B4A0CC6A8C2B7FB2D29E6 /* XCUIElement+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Scroll.swift"; sourceTree = "<group>"; };
+		9989B8A47BC55A03F4CD411CF882479E /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift; sourceTree = "<group>"; };
+		9BD151B9C70897C6C5BE03172A1B12A7 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		9C1637CDBEC9B7AB11D0AE5DBFA93E3C /* HKWorkoutConfiguration+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HKWorkoutConfiguration+Encodable.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F42F89FFA53D86B983DBA5A334C824E /* CMMotionManager+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Additions.m"; sourceTree = "<group>"; };
+		A18BD97BD2B6E1E50CF42DE38771CD21 /* CMAccelerometerData+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMAccelerometerData+Additions.m"; sourceTree = "<group>"; };
+		A23AF430FF0C202FA1CE6573E0D05EDA /* WatchTesterSwizzling-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WatchTesterSwizzling-Info.plist"; sourceTree = "<group>"; };
 		A2A70EC1E3BF6A60FE186A8240A53D46 /* Pods-WatchTesterAppExample WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterAppExample WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
-		A419DE5DE0FD24C74A663E0D7D664AFD /* CGGraphics+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGGraphics+Helpers.swift"; sourceTree = "<group>"; };
+		A41F8E3AA82BEE8E135C03A615DEBED2 /* GREYSurrogateDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GREYSurrogateDelegate.m; sourceTree = "<group>"; };
 		A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WatchTester; path = WatchTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A56A1C26346C66F8D3667E541BACAD89 /* CMDeviceMotion+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMDeviceMotion+Additions.h"; sourceTree = "<group>"; };
+		A7742977ABD6C0AE71D0DF1C1491E04B /* HKWorkoutSession+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKWorkoutSession+Additions.m"; sourceTree = "<group>"; };
 		AB067446517AD50CDAA5F13CFEB3165C /* Pods-WatchTesterAppExample WatchKit AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterAppExample WatchKit AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE451D9B1CC6121634F2C2C44C9A211C /* GreyboxWorkoutSessionStartActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStartActivity.swift; sourceTree = "<group>"; };
-		B684CE125BA8770F039FB852783F1A5C /* WatchTesterSwizzling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTesterSwizzling-dummy.m"; sourceTree = "<group>"; };
-		B6AB85D12345118E20277A4D69714D58 /* CommandList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommandList.swift; sourceTree = "<group>"; };
-		BBD1944642E6014B5C254D7597AEA0AA /* WKInterfaceController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+Additions.m"; sourceTree = "<group>"; };
-		BBE2AD9DFDB648307C4FF22AA386EBF1 /* WatchCommandResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCommandResponse.swift; sourceTree = "<group>"; };
+		AC8EC73A5655B1C934660CD11A97B73A /* GreyboxUserNotificationCenterRequestAuthorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRequestAuthorization.swift; sourceTree = "<group>"; };
+		AC9F825545C741EF325FC37627A27DA8 /* GREYSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYSwizzler.h; sourceTree = "<group>"; };
+		AE11CA287819130D8DF794563D6BBD1B /* UNUserNotificationCenterDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UNUserNotificationCenterDelegateProxy.h; sourceTree = "<group>"; };
+		B07B26837E239A621A2C1262584E030A /* MethodReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MethodReceiver.swift; sourceTree = "<group>"; };
+		B24083513CED3F7E3DD43370E74FFA5D /* WatchTester-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-prefix.pch"; sourceTree = "<group>"; };
+		B352E099D23AB1AF236CE0E8B92F74DE /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartDeviceMotionUpdates.swift; sourceTree = "<group>"; };
+		B58150305A92688A416766AA715CEA96 /* WatchTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTester-dummy.m"; sourceTree = "<group>"; };
+		B6AEB851045B3673960F620B7D5AC72F /* ScreenshotCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenshotCommand.swift; sourceTree = "<group>"; };
+		B6FD6FBAFA5A7F0148395886D687AEC1 /* WKInterfaceDevice+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceDevice+Additions.h"; sourceTree = "<group>"; };
+		BA181A6188999407C78E4D2D135E704F /* GreyboxWorkoutSessionStopActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStopActivity.swift; sourceTree = "<group>"; };
+		BBEC53451099B41B2A7C52A7704A79DE /* MockupsFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MockupsFactory.m; sourceTree = "<group>"; };
+		BD3FAB8B5E0E94DC11938326ED08C134 /* GREYSurrogateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYSurrogateDelegate.h; sourceTree = "<group>"; };
+		BD84139E935ED445F381CEE5B388FB84 /* Codable+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
 		BEA984F5390C488F97903593D2AED4DD /* Pods-WatchTesterAppExample WatchKit Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterAppExample WatchKit Extension"; path = Pods_WatchTesterAppExample_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C010AF0C12BEF2D78FBBA3CFF9F4F636 /* UNNotificationResponse+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationResponse+Encodable.swift"; sourceTree = "<group>"; };
-		C01629688F49CF9D0EBBB08200C65648 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C5269708DB860C0F185B667AE1833631 /* Codable+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
-		C58DAE09E6BE860F75879500331CC387 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetDeliveredNotifications.swift; sourceTree = "<group>"; };
-		C82537E5385C70E28E5A26B260453D1E /* GreyboxUserNotificationCenterAddNotificationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterAddNotificationRequest.swift; sourceTree = "<group>"; };
-		C8513465D0B381B1E0DBB2CB1463BAC6 /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
-		C8DE7E20F23C01F483B57F6F2261160B /* CMDeviceMotion+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMDeviceMotion+Additions.m"; sourceTree = "<group>"; };
-		CBCF22973A774FABFED8F9342F396D8F /* GreyboxUserNotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenter.swift; sourceTree = "<group>"; };
-		CCACD9E3CF3388955E5CCBC5739C4549 /* UNUserNotificationCenterDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UNUserNotificationCenterDelegateProxy.h; sourceTree = "<group>"; };
-		CD1EB5D1CFE1546D2FC1AF4AFBC5A4EA /* GreyboxCoreMotionStartAccelerometerUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdates.swift; sourceTree = "<group>"; };
-		D25DB5C12D4090392EF9503DE89ED004 /* WatchTesterSwizzling-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WatchTesterSwizzling-Info.plist"; sourceTree = "<group>"; };
-		D2B84576DD3F8855A3EAC2DF3ABF4F38 /* HKWorkoutSessionDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKWorkoutSessionDelegateProxy.h; sourceTree = "<group>"; };
-		D35A9FD920986054322886261CC49F1C /* GREYDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GREYDefines.h; sourceTree = "<group>"; };
+		C084BDD5F52CD8A01969811F9BF3B586 /* GreyboxCoreMotionDeviceMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionDeviceMotion.swift; sourceTree = "<group>"; };
+		C36C66B71F85B8428EF52368A5E28625 /* WatchTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchTester.swift; sourceTree = "<group>"; };
+		C3E440C1D6D1235DA5D38B476CD7CEFF /* FindCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FindCommand.swift; sourceTree = "<group>"; };
+		C6804E543A264CD158ADD97548ED9B6E /* GreyboxWorkoutSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSession.swift; sourceTree = "<group>"; };
+		C6CF8318B63BBDFE76E16D86BB4D0093 /* UNNotificationCategory+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationCategory+Encodable.swift"; sourceTree = "<group>"; };
+		C80CAD3233319DB78EA4B152E001C0F4 /* UNNotificationResponse+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationResponse+Encodable.swift"; sourceTree = "<group>"; };
+		C99856D589FBA7CAECA33C1A1DB609AE /* Axis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		CA6A9929E111F8EA04B36C5AA2D8251F /* HKWorkoutSession+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKWorkoutSession+Additions.h"; sourceTree = "<group>"; };
+		CA76A9ACAD75AB2E67F289CF550E3748 /* WebSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		CC07C179B341D699E4887B06198523FB /* CMDeviceMotion+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CMDeviceMotion+Encodable.swift"; sourceTree = "<group>"; };
+		D20FC08ACA9C56D55D0BB96254801CB8 /* GreyboxWorkoutSessionStartActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionStartActivity.swift; sourceTree = "<group>"; };
+		D2D942447646D902BBBA989822C0C5C0 /* CMDeviceMotion+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMDeviceMotion+Additions.m"; sourceTree = "<group>"; };
+		D48CD6AA775A49622C3F089537A512A7 /* MockupsFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MockupsFactory.h; sourceTree = "<group>"; };
 		D49A3FF2A58C1DF8FF4E8BAE0187C571 /* Pods-WatchTesterAppExample WatchKit AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchTesterAppExample WatchKit AppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D60012CB8A3A517C043C6DB8B44182CF /* GREYSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GREYSwizzler.m; sourceTree = "<group>"; };
-		D82672B4D280A2C245A32765A293B074 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift; sourceTree = "<group>"; };
-		DB37126BBB91AAC78AC7C36D6F0E1469 /* WatchTester-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-prefix.pch"; sourceTree = "<group>"; };
-		DCF661DC75ABAE81B0D7075220B94467 /* Axis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
-		DEE7F05E2AA2E748DB272DE97E08A83C /* Receiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
-		E0DB08C6565F2D9AABB49F19C32E4E20 /* XCUIElement+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Scroll.swift"; sourceTree = "<group>"; };
+		DC3C8513D6BDA7084067434D09265C05 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift; sourceTree = "<group>"; };
 		E25F451BE944B1B3C16E47E9C0076C8A /* Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppExample WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7402FF3B401A7C8F51D91FB415911F6 /* PropertyReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PropertyReceiver.swift; sourceTree = "<group>"; };
-		E9595E55ECF7778D2AFA6144AD13FB26 /* GreyboxWebsocketInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWebsocketInterface.swift; sourceTree = "<group>"; };
-		E96B6D6C9FC2641DC5749274998F95F4 /* GreyboxWorkoutSessionPause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPause.swift; sourceTree = "<group>"; };
-		EBCA1416BC7D8DB4190801C47C06E7A9 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetPendingNotificationRequests.swift; sourceTree = "<group>"; };
-		F01F3F4D5151FACF1FD00492673D2BDD /* CMDeviceMotion+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CMDeviceMotion+Encodable.swift"; sourceTree = "<group>"; };
-		F09B0CF42379F0B9332CAE797CD47D40 /* CMAccelerometerData+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMAccelerometerData+Additions.h"; sourceTree = "<group>"; };
+		E2EE804C59D6EB1BE62CFEA02CB77EA8 /* UNNotificationSettings+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UNNotificationSettings+Encodable.swift"; sourceTree = "<group>"; };
+		E35F2B00128E58A22249D0DFC364C9F5 /* GREYSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GREYSwizzler.m; sourceTree = "<group>"; };
+		E3702896B4EC54E7F01B150767F74625 /* GreyboxWorkoutSessionPrepare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionPrepare.swift; sourceTree = "<group>"; };
+		E4A4A73FD77C8578A8BBDE541D8CCD23 /* GreyboxUserNotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenter.swift; sourceTree = "<group>"; };
+		EC1AE7791F83CAE4D8E266FD2AD67633 /* CoreMotionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		EC54AB5C3AA76AA9EF7FE062026D4510 /* WatchTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.release.xcconfig; sourceTree = "<group>"; };
+		EE1A49CA7DFD8AA801AE469C3E3DE044 /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
+		EE662716CB8042E68128C022643A6048 /* GreyboxSwizzlingInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxSwizzlingInterface.swift; sourceTree = "<group>"; };
+		EF6897E77C1FB02D03502BC19098F66B /* GreyboxWorkoutSessionInitHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionInitHandler.swift; sourceTree = "<group>"; };
 		F12AEAF9BA4141F7CD7297257615C6A6 /* Pods-WatchTesterAppExample WatchKit AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterAppExample WatchKit AppUITests.modulemap"; sourceTree = "<group>"; };
-		F451E814735AE108D38E0A87557E3C73 /* CoreMotionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
-		F82DD33F7CEE798F7131CCC2B887EC6E /* WebSocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebSocketTypes.swift; sourceTree = "<group>"; };
-		F89664077A4E4F27C96D18646C643672 /* TapCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapCommand.swift; sourceTree = "<group>"; };
-		F8B9F5F2D4DC8930EE857E5AF70F074A /* GreyboxUserNotificationCenterRequestAuthorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRequestAuthorization.swift; sourceTree = "<group>"; };
-		F9B836AD8626BA748ADAD2E0F6D85494 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationCategories.swift; sourceTree = "<group>"; };
-		FEAF523C060A46E84EAA797FB478AB8D /* GreyboxWorkoutSessionResume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxWorkoutSessionResume.swift; sourceTree = "<group>"; };
+		F2DF23E8E753ACAED1AA7E0102105D7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4A3CC41B8CD8A9D95942E822B84C5EF /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift; sourceTree = "<group>"; };
+		FBA880F749AA500D3A4F9E2A99DFFC6D /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		FF81A72641CB472EBB3BBC7DA06003D3 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreyboxUserNotificationCenterGetNotificationCategories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29BA8047EBF512AE7A2EA3853B9A4E5C /* Frameworks */ = {
+		7476C2B12B0FDE95DD0757EA942653C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90176FE50FEE13B6D3A09213E8EE9FB /* Foundation.framework in Frameworks */,
+				CB206B870B97C8237F5EA8914B6E2B60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,86 +333,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0550733C017127E1658EDE7E88D2758D /* Pod */ = {
+		0290AD9A12BE0D078739BFB881F437D4 /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				691D43F536007ADB62BE1CACDFD9920F /* LICENSE */,
-				040A7DAC126D83C4CA8A6E5D4CC0FD16 /* WatchTesterSwizzling.podspec */,
+				FBA880F749AA500D3A4F9E2A99DFFC6D /* Command.swift */,
+				36654AC4832EFFF9A667AF85D7628028 /* CommandList.swift */,
+				C3E440C1D6D1235DA5D38B476CD7CEFF /* FindCommand.swift */,
+				B6AEB851045B3673960F620B7D5AC72F /* ScreenshotCommand.swift */,
+				7943559DD4A931DBEFF20F2DD3CD37FF /* ScrollCommand.swift */,
+				766635FF1B72F758DCDE594E0FE84A20 /* TapCommand.swift */,
 			);
-			name = Pod;
+			name = Command;
+			path = Command;
 			sourceTree = "<group>";
 		};
-		0882519E83FAB5B248A7757ED5B85B00 /* Delegate */ = {
+		02AC14390AE7A70BA822043EF4CF4EB3 /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				9BF35DDC13C85BD1683E11F1B9A4F87A /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */,
-				2655EBB2DB54634C5AD3EF8A9A753CB3 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */,
-				47E3732269C18FC561D510B56D689B61 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */,
+				1B992B606FA8E545B4CF9ED13F97E764 /* UNNotificationSettings+Additions.h */,
+				39A651FF092FB9B7F16BBF51CA285BBB /* UNNotificationSettings+Additions.m */,
 			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		11B6182867B7081C38828E4C9FB2A12D /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				F09B0CF42379F0B9332CAE797CD47D40 /* CMAccelerometerData+Additions.h */,
-				53E3142F4E7C3859735B62E8A506EC47 /* CMAccelerometerData+Additions.m */,
-				A56A1C26346C66F8D3667E541BACAD89 /* CMDeviceMotion+Additions.h */,
-				C8DE7E20F23C01F483B57F6F2261160B /* CMDeviceMotion+Additions.m */,
-				F451E814735AE108D38E0A87557E3C73 /* CoreMotionHelper.swift */,
-			);
+			name = Types;
 			path = Types;
 			sourceTree = "<group>";
 		};
-		154282A78704DEC5D704138394661DB2 /* Swizzling */ = {
+		1C875253DA28B8A9F31D7C46976EE946 /* UNUserNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				1596E4D4D0CBAF56B21F983B6EE05599 /* Common */,
-				A4CDB0D8927399959DDB2EA81D919E9A /* CoreMotion */,
-				68576A5452AE7DFCD114A176B44157B7 /* HKWorkoutSession */,
-				1E2C771FE243F30052152472B594AB70 /* UNUserNotificationCenter */,
-				E0AE6FF55D53EDE1D01C025E9567FE5F /* WKInterfaceController */,
-				5022E1777E8AD5651B15121D244BC899 /* WKInterfaceDevice */,
+				1391A66AEFA2DF9A2437DCEC6FA55715 /* UNUserNotificationCenter+Additions.h */,
+				808EC44216BBAF8E389344B43D6F486D /* UNUserNotificationCenter+Additions.m */,
+				AE11CA287819130D8DF794563D6BBD1B /* UNUserNotificationCenterDelegateProxy.h */,
+				70279ECC4C4E2D6C6C0EDE8E8811E032 /* UNUserNotificationCenterDelegateProxy.m */,
+				02AC14390AE7A70BA822043EF4CF4EB3 /* Types */,
 			);
-			path = Swizzling;
-			sourceTree = "<group>";
-		};
-		1596E4D4D0CBAF56B21F983B6EE05599 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				6469CAA8FBCC9426FD36C7E373C4C10B /* Macros.h */,
-				C892D22B42AC2CB021698E1DC246D430 /* GREY */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		1E2C771FE243F30052152472B594AB70 /* UNUserNotificationCenter */ = {
-			isa = PBXGroup;
-			children = (
-				5F9C46306354828BCE2D72174BADEF7D /* UNUserNotificationCenter+Additions.h */,
-				05BAE614305D1440AF577775EF116A3E /* UNUserNotificationCenter+Additions.m */,
-				CCACD9E3CF3388955E5CCBC5739C4549 /* UNUserNotificationCenterDelegateProxy.h */,
-				4E13684F6CB2017865F88FC0C9DADC7E /* UNUserNotificationCenterDelegateProxy.m */,
-				BD4B6904BA6993DA831D9550E160BED0 /* Types */,
-			);
+			name = UNUserNotificationCenter;
 			path = UNUserNotificationCenter;
 			sourceTree = "<group>";
 		};
-		2E98629D11E2E0A6EE104F9B9DD82E3F /* CoreMotion */ = {
+		1FA889D8F3F5B4CF0FAF49215A493F0D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9E330758A1E5D17A13510AFDD2A3CB73 /* GreyboxCoreMotion.swift */,
-				5CE23AE5820EF2819A320DB8082468E4 /* GreyboxCoreMotionAccelerometerData.swift */,
-				8E0A158A923A3855DA90C85F657DEE49 /* GreyboxCoreMotionDeviceMotion.swift */,
-				CD1EB5D1CFE1546D2FC1AF4AFBC5A4EA /* GreyboxCoreMotionStartAccelerometerUpdates.swift */,
-				03D1300DAA4F3FAD4C665E96040EEA92 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */,
-				165D259216D0569690365C3BC44ED2DF /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */,
-				4F633BD889679D4C0664D1DE6E1BB008 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */,
-				2111827929958CB8E9DCA7EB279FCFE1 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */,
-				917617A6BBBFAD6A04FE224D40855CE4 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */,
-				3581D05037389DD6076E7F60429681A4 /* Types */,
+				305043E1F4488C4AABB9F9457575CCF6 /* CGGraphics+Helpers.swift */,
+				118515AA456DAC7A4D53FB480FF3746B /* XCUIElement+Helpers.swift */,
+				986D0129A46B4A0CC6A8C2B7FB2D29E6 /* XCUIElement+Scroll.swift */,
 			);
-			path = CoreMotion;
+			name = Extensions;
+			path = WatchTester/Extensions;
+			sourceTree = "<group>";
+		};
+		2994B530F7F5F8026C23B6EB923D7D73 /* WatchTesterSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				275386ABF8F1C431A2532F6FDFD2B4A1 /* config.json */,
+				4BE0D6F902883C9F9566937B519B23B2 /* Extensions */,
+				C06F54149A4C005D0209F8F31F76B566 /* Pod */,
+				E4C1BA0F6AE87CE0EC1CCF9BCFCE9C7E /* Support Files */,
+				31F08E7F9F8CAE48D93E406AE3A25B09 /* WatchTesterSwizzling */,
+				72A1081862852DBD80B29BAA8FBA5843 /* WebSocket */,
+			);
+			name = WatchTesterSwizzling;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		31E412B544AD9679DC67ABE7CC29E9B8 /* watchOS */ = {
@@ -424,87 +404,91 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
-		3581D05037389DD6076E7F60429681A4 /* Types */ = {
+		31F08E7F9F8CAE48D93E406AE3A25B09 /* WatchTesterSwizzling */ = {
 			isa = PBXGroup;
 			children = (
-				DCF661DC75ABAE81B0D7075220B94467 /* Axis.swift */,
-				1D646A6D1950B352FF28B84B38CFF985 /* CMAccelerometerData+Encodable.swift */,
-				F01F3F4D5151FACF1FD00492673D2BDD /* CMDeviceMotion+Encodable.swift */,
+				92180586022750841CDC777398D410FF /* GreyboxTester.swift */,
+				3F5E459565AC02FA4D526E35BDDBAC1D /* WatchSwizzler.swift */,
+				1064B36440DB5569C1C6A799B216378C /* WatchTesterSwizzling.h */,
+				9FAE056727E5F0BFF047A8F0120A2900 /* Swizzling */,
+				C6931CFF6E4B756E68EC094FE1742B7E /* Tester */,
 			);
-			path = Types;
+			name = WatchTesterSwizzling;
+			path = WatchTester/WatchTesterSwizzling;
 			sourceTree = "<group>";
 		};
-		3890B226DFE2D8DDC907B33C0746B1E3 /* Pod */ = {
+		410D6BDF8B4627DE9EB4C5873C35F391 /* CoreMotion */ = {
 			isa = PBXGroup;
 			children = (
-				19BCBE0EFD73EA71A52E9D23655E8DC8 /* WatchTester.podspec */,
+				711E9238C77EFDFA5CB7B149F074AEF2 /* CMMotionManager+Additions.h */,
+				9F42F89FFA53D86B983DBA5A334C824E /* CMMotionManager+Additions.m */,
+				855CEF51095F65B9080D7E863808A276 /* Types */,
 			);
-			name = Pod;
+			name = CoreMotion;
+			path = CoreMotion;
 			sourceTree = "<group>";
 		};
-		492B4BD78493AFAAF2A1A4F97A858E47 /* WebSocket */ = {
+		4BE0D6F902883C9F9566937B519B23B2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C01629688F49CF9D0EBBB08200C65648 /* Constants.swift */,
-				BBE2AD9DFDB648307C4FF22AA386EBF1 /* WatchCommandResponse.swift */,
-				75089C957FD4BFCB126880D43770322B /* WebSocketManager.swift */,
-				F82DD33F7CEE798F7131CCC2B887EC6E /* WebSocketTypes.swift */,
-			);
-			name = WebSocket;
-			path = WatchTester/WebSocket;
-			sourceTree = "<group>";
-		};
-		5022E1777E8AD5651B15121D244BC899 /* WKInterfaceDevice */ = {
-			isa = PBXGroup;
-			children = (
-				11D1179FF9C5FE16F13487D39D2E57D4 /* WKInterfaceDevice+Additions.h */,
-				671173EDED2EBBCE5E669B60FA6BEBD3 /* WKInterfaceDevice+Additions.m */,
-			);
-			path = WKInterfaceDevice;
-			sourceTree = "<group>";
-		};
-		554B44E9AF709936D59F1EDC8C38A0BD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				A419DE5DE0FD24C74A663E0D7D664AFD /* CGGraphics+Helpers.swift */,
-				C5269708DB860C0F185B667AE1833631 /* Codable+Helpers.swift */,
-				08ECAA64AB8D53BB1A9A249E583C8030 /* XCUIElement+Helpers.swift */,
-				E0DB08C6565F2D9AABB49F19C32E4E20 /* XCUIElement+Scroll.swift */,
+				BD84139E935ED445F381CEE5B388FB84 /* Codable+Helpers.swift */,
 			);
 			name = Extensions;
 			path = WatchTester/Extensions;
 			sourceTree = "<group>";
 		};
-		5D691F0054D18653BAF4B66A183C46F0 /* UNUserNotificationCenter */ = {
+		4C18A41D2067404272011F1F51F11696 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CBCF22973A774FABFED8F9342F396D8F /* GreyboxUserNotificationCenter.swift */,
-				C82537E5385C70E28E5A26B260453D1E /* GreyboxUserNotificationCenterAddNotificationRequest.swift */,
-				C58DAE09E6BE860F75879500331CC387 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */,
-				F9B836AD8626BA748ADAD2E0F6D85494 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */,
-				6D73890E8795A2AB6F11C4EA60B6F4AA /* GreyboxUserNotificationCenterGetNotificationSettings.swift */,
-				EBCA1416BC7D8DB4190801C47C06E7A9 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */,
-				3022568148B0A24BE115C7A13A2804A4 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */,
-				72F601B77CFB735EE9D17BCC1E33861F /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */,
-				64246FB550979B11FA7142C691E208E6 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */,
-				D82672B4D280A2C245A32765A293B074 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */,
-				F8B9F5F2D4DC8930EE857E5AF70F074A /* GreyboxUserNotificationCenterRequestAuthorization.swift */,
-				59FD9E0C9A5BDE51D1B0B484AE24B413 /* GreyboxUserNotificationCenterSetNotificationCategories.swift */,
-				0882519E83FAB5B248A7757ED5B85B00 /* Delegate */,
-				7ABE5F63F4934587D80523E86DF2F9D0 /* Types */,
+				8B2DE44757315D1A79DEAFFBEF5D4066 /* WatchTester.podspec */,
 			);
-			path = UNUserNotificationCenter;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		68576A5452AE7DFCD114A176B44157B7 /* HKWorkoutSession */ = {
+		4D753445F6EF1253E1A4B28F677DCCC6 /* WatchTester */ = {
 			isa = PBXGroup;
 			children = (
-				4A4EF886CB8C879E66792C851981E1B0 /* HKWorkoutSession+Additions.h */,
-				4C353AD2DF4FF9F6F59F6A4A4DCD0463 /* HKWorkoutSession+Additions.m */,
-				D2B84576DD3F8855A3EAC2DF3ABF4F38 /* HKWorkoutSessionDelegateProxy.h */,
-				2D542F8EA20DC9CB468BC133DA91307A /* HKWorkoutSessionDelegateProxy.m */,
+				1FA889D8F3F5B4CF0FAF49215A493F0D /* Extensions */,
+				4C18A41D2067404272011F1F51F11696 /* Pod */,
+				5053F4A3F9572ED948F9923EAC16DE21 /* Support Files */,
+				A989E692C8CD5291324243C2A160C158 /* WatchTester */,
 			);
-			path = HKWorkoutSession;
+			name = WatchTester;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5053F4A3F9572ED948F9923EAC16DE21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8ACF4C1CCB63CEC8307E49F3E00E2F /* WatchTester.modulemap */,
+				B58150305A92688A416766AA715CEA96 /* WatchTester-dummy.m */,
+				242C8B8025B19A39681C0C66D37D2A9D /* WatchTester-Info.plist */,
+				B24083513CED3F7E3DD43370E74FFA5D /* WatchTester-prefix.pch */,
+				61CFA4527333991B1D8378AAFA75BA29 /* WatchTester-umbrella.h */,
+				17941C47CA8A5E5B3E2A41040C210AFC /* WatchTester.debug.xcconfig */,
+				EC54AB5C3AA76AA9EF7FE062026D4510 /* WatchTester.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "WatchTestApp/Pods/Target Support Files/WatchTester";
+			sourceTree = "<group>";
+		};
+		54D46832E61B39E201EAD7D059178B22 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				9C1637CDBEC9B7AB11D0AE5DBFA93E3C /* HKWorkoutConfiguration+Encodable.swift */,
+				841219A0C2A06BE2A278C6F3F9B3ADFB /* HKWorkoutSessionState+Codable.swift */,
+			);
+			name = Types;
+			path = Types;
+			sourceTree = "<group>";
+		};
+		650E735C0BE7DE01C5E2EB7F6902CACE /* WKInterfaceDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8FA120D24A8AEB0EBD00858793941EE3 /* GreyboxInterfaceDevice.swift */,
+			);
+			name = WKInterfaceDevice;
+			path = WKInterfaceDevice;
 			sourceTree = "<group>";
 		};
 		69D788A8FDE6F26B034397E46C99A2CE /* Products */ = {
@@ -518,89 +502,121 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73E4A98EF34EC104D21A816AC31D0AC0 /* WatchTesterSwizzling */ = {
+		6AC50956CA0522064B401726656F7C4A /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4850EDED3886CCDE99375B3E740D9CA4 /* GreyboxTester.swift */,
-				0C0C8A63A33E3DFA1C65139CA40C9A4B /* WatchSwizzler.swift */,
-				04DACE0F772CDA5E3E18D76390C12BF8 /* WatchTesterSwizzling.h */,
-				154282A78704DEC5D704138394661DB2 /* Swizzling */,
-				EA86789CC4A8B853F067BF814CCD5F1A /* Tester */,
+				9BD151B9C70897C6C5BE03172A1B12A7 /* Macros.h */,
+				D17CC15B771EEBE0EA93D84F8C685207 /* GREY */,
 			);
-			name = WatchTesterSwizzling;
-			path = WatchTester/WatchTesterSwizzling;
+			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		7ABE5F63F4934587D80523E86DF2F9D0 /* Types */ = {
+		72A1081862852DBD80B29BAA8FBA5843 /* WebSocket */ = {
 			isa = PBXGroup;
 			children = (
-				9A7E2AF4E9FDCD8E8C13FDEABC8B3EDC /* UNNotification+Encodable.swift */,
-				1070B44A6819D8579530D7A7B4C592D3 /* UNNotificationAction+Encodable.swift */,
-				79DD73CBEA05079140143721570121D3 /* UNNotificationCategory+Encodable.swift */,
-				87B754F45A5567B249DCF9A8A11AF2CD /* UNNotificationRequest+Encodable.swift */,
-				C010AF0C12BEF2D78FBBA3CFF9F4F636 /* UNNotificationResponse+Encodable.swift */,
-				4A95BE21F36D7613B91474C6FDB674BF /* UNNotificationSettings+Encodable.swift */,
+				0A01753664261D89D77ABCFB48DE48A1 /* Constants.swift */,
+				297AC4C09E66014F1105C7D9E2F246D4 /* WatchCommandResponse.swift */,
+				CA76A9ACAD75AB2E67F289CF550E3748 /* WebSocketManager.swift */,
+				89D731D60A74D059EE4D751C40599949 /* WebSocketTypes.swift */,
 			);
+			name = WebSocket;
+			path = WatchTester/WebSocket;
+			sourceTree = "<group>";
+		};
+		855CEF51095F65B9080D7E863808A276 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				939EECE9F6F299EA66BA555F96D12127 /* CMAccelerometerData+Additions.h */,
+				A18BD97BD2B6E1E50CF42DE38771CD21 /* CMAccelerometerData+Additions.m */,
+				1A839065E6BB937F0949FC97F808BEE6 /* CMDeviceMotion+Additions.h */,
+				D2D942447646D902BBBA989822C0C5C0 /* CMDeviceMotion+Additions.m */,
+				EC1AE7791F83CAE4D8E266FD2AD67633 /* CoreMotionHelper.swift */,
+			);
+			name = Types;
 			path = Types;
 			sourceTree = "<group>";
 		};
-		7AC29EAD4913C7798267C546A8C3D0F0 /* Support Files */ = {
+		8C8FEAC87E9C668B7B2B675B16BDA16B /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				6875FD79EACAC7E44BC8038AFF3D4188 /* WatchTesterSwizzling.modulemap */,
-				B684CE125BA8770F039FB852783F1A5C /* WatchTesterSwizzling-dummy.m */,
-				D25DB5C12D4090392EF9503DE89ED004 /* WatchTesterSwizzling-Info.plist */,
-				0BDA3A1FD4ACB330783FD684FDB8036B /* WatchTesterSwizzling-prefix.pch */,
-				9B20806770FF3F1EEBB7DD57A1E9B8F5 /* WatchTesterSwizzling-umbrella.h */,
-				11884701E8472C9C64E8A027CF06F2AF /* WatchTesterSwizzling.debug.xcconfig */,
-				515C87E83A10C7B1ACB443E9A983B0B0 /* WatchTesterSwizzling.release.xcconfig */,
+				52CD0663DD4152F1DACCBF9F8393738C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */,
+				495964A535A3BE2AACFC1480B92B4A7B /* GreyboxWorkoutSessionDelegateDidFail.swift */,
 			);
-			name = "Support Files";
-			path = "WatchTestApp/Pods/Target Support Files/WatchTesterSwizzling";
+			name = Delegate;
+			path = Delegate;
 			sourceTree = "<group>";
 		};
-		933E054A18C874F2EB9317EAB4F6C3E5 /* Development Pods */ = {
+		9670D5D2B2F3E5851A3C7EAF514B7021 /* WKInterfaceDevice */ = {
 			isa = PBXGroup;
 			children = (
-				AB2491E2769ADD12572EFCD5AEBD5D7D /* WatchTester */,
-				AB603DFC5232F7DF56CC5EAAA27B797D /* WatchTesterSwizzling */,
+				B6FD6FBAFA5A7F0148395886D687AEC1 /* WKInterfaceDevice+Additions.h */,
+				92DB35AFF60801E092433F202968702B /* WKInterfaceDevice+Additions.m */,
 			);
-			name = "Development Pods";
+			name = WKInterfaceDevice;
+			path = WKInterfaceDevice;
 			sourceTree = "<group>";
 		};
-		A4CDB0D8927399959DDB2EA81D919E9A /* CoreMotion */ = {
+		9DFDB9DAF18E9F8647BCC7D5C094A5D0 /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				56208B2881BE3923CF0B50F0D8971097 /* CMMotionManager+Additions.h */,
-				284120CBA10BCFF5FF0F4ED66702A561 /* CMMotionManager+Additions.m */,
-				11B6182867B7081C38828E4C9FB2A12D /* Types */,
+				2AC93CA61C1434343C09CA73366C029E /* UNNotification+Encodable.swift */,
+				5A9B2E3363FC9AB6882C0651968710C0 /* UNNotificationAction+Encodable.swift */,
+				C6CF8318B63BBDFE76E16D86BB4D0093 /* UNNotificationCategory+Encodable.swift */,
+				1A6368E1792177F3A639F6C2B8EBA2F7 /* UNNotificationRequest+Encodable.swift */,
+				C80CAD3233319DB78EA4B152E001C0F4 /* UNNotificationResponse+Encodable.swift */,
+				E2EE804C59D6EB1BE62CFEA02CB77EA8 /* UNNotificationSettings+Encodable.swift */,
 			);
-			path = CoreMotion;
+			name = Types;
+			path = Types;
 			sourceTree = "<group>";
 		};
-		AB2491E2769ADD12572EFCD5AEBD5D7D /* WatchTester */ = {
+		9E15F823912323ACBD67B70236923720 /* UNUserNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				3890B226DFE2D8DDC907B33C0746B1E3 /* Pod */,
-				F7C43756A8AAE286182ADF6A906C6A80 /* Support Files */,
-				E41BD5CD2986F04CCF08C68A23082224 /* WatchTester */,
+				E4A4A73FD77C8578A8BBDE541D8CCD23 /* GreyboxUserNotificationCenter.swift */,
+				07D08A735E62F448FE486531A62BAE58 /* GreyboxUserNotificationCenterAddNotificationRequest.swift */,
+				4E00447D8F0B1F2F657506D0AA6B1AE1 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift */,
+				FF81A72641CB472EBB3BBC7DA06003D3 /* GreyboxUserNotificationCenterGetNotificationCategories.swift */,
+				61BDCEC7D4ED5535F9E719AA240967AB /* GreyboxUserNotificationCenterGetNotificationSettings.swift */,
+				7BFBE2A6933550E4E22F039332BA6FF4 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift */,
+				F4A3CC41B8CD8A9D95942E822B84C5EF /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift */,
+				9989B8A47BC55A03F4CD411CF882479E /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift */,
+				725DDC7878AC81F78669FE68D57E06D0 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift */,
+				28C17EA0DDDF018B2241AD2879B0C880 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift */,
+				AC8EC73A5655B1C934660CD11A97B73A /* GreyboxUserNotificationCenterRequestAuthorization.swift */,
+				224EC2A19910B24E331F1CC15770F89B /* GreyboxUserNotificationCenterSetNotificationCategories.swift */,
+				B6A10825AA0C6DFAF8D5A75810FC550A /* Delegate */,
+				9DFDB9DAF18E9F8647BCC7D5C094A5D0 /* Types */,
+			);
+			name = UNUserNotificationCenter;
+			path = UNUserNotificationCenter;
+			sourceTree = "<group>";
+		};
+		9FAE056727E5F0BFF047A8F0120A2900 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				6AC50956CA0522064B401726656F7C4A /* Common */,
+				410D6BDF8B4627DE9EB4C5873C35F391 /* CoreMotion */,
+				C73CFA0363C326C3775CE8CBD88854E4 /* HKWorkoutSession */,
+				1C875253DA28B8A9F31D7C46976EE946 /* UNUserNotificationCenter */,
+				B7F2FCF7DB66070776AD52F9C5E59206 /* WKInterfaceController */,
+				9670D5D2B2F3E5851A3C7EAF514B7021 /* WKInterfaceDevice */,
+			);
+			name = Swizzling;
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		A989E692C8CD5291324243C2A160C158 /* WatchTester */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A49CA7DFD8AA801AE469C3E3DE044 /* Executor.swift */,
+				63A761405B49F91B1AF499B56A11F049 /* WatchTester.h */,
+				C36C66B71F85B8428EF52368A5E28625 /* WatchTester.swift */,
+				0290AD9A12BE0D078739BFB881F437D4 /* Command */,
 			);
 			name = WatchTester;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AB603DFC5232F7DF56CC5EAAA27B797D /* WatchTesterSwizzling */ = {
-			isa = PBXGroup;
-			children = (
-				48FB2DE6F1B19C0247F4BFD78B653EF2 /* config.json */,
-				554B44E9AF709936D59F1EDC8C38A0BD /* Extensions */,
-				0550733C017127E1658EDE7E88D2758D /* Pod */,
-				7AC29EAD4913C7798267C546A8C3D0F0 /* Support Files */,
-				73E4A98EF34EC104D21A816AC31D0AC0 /* WatchTesterSwizzling */,
-				492B4BD78493AFAAF2A1A4F97A858E47 /* WebSocket */,
-			);
-			name = WatchTesterSwizzling;
-			path = ../..;
+			path = WatchTester/WatchTester;
 			sourceTree = "<group>";
 		};
 		B28CE43407CEAC117D2A976683A764D8 /* Frameworks */ = {
@@ -609,6 +625,27 @@
 				31E412B544AD9679DC67ABE7CC29E9B8 /* watchOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6A10825AA0C6DFAF8D5A75810FC550A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				481926BB886A39BD09C96AD856BC9A84 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift */,
+				94A28936F665C98B8D26B2D1C0C625D1 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift */,
+				82CBA59DAD6CE22883741138AA8DC00D /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift */,
+			);
+			name = Delegate;
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B7F2FCF7DB66070776AD52F9C5E59206 /* WKInterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				5776ABA23243BCE014014F9E874CD23A /* WKInterfaceController+Additions.h */,
+				55BC607EB9344979F96E896FB5804C6F /* WKInterfaceController+Additions.m */,
+			);
+			name = WKInterfaceController;
+			path = WKInterfaceController;
 			sourceTree = "<group>";
 		};
 		B930300860136CFE819CBDC2726D57F5 /* Pods-WatchTesterAppExample WatchKit Extension */ = {
@@ -628,79 +665,104 @@
 			path = "Target Support Files/Pods-WatchTesterAppExample WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		BB989F79A73D9204EAC4F960504A55CC /* WKInterfaceDevice */ = {
+		BA677CA7376018975155D4C766638E45 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7250D37FBBC4EEC5D630D092F6E2E00F /* GreyboxInterfaceDevice.swift */,
+				4D753445F6EF1253E1A4B28F677DCCC6 /* WatchTester */,
+				2994B530F7F5F8026C23B6EB923D7D73 /* WatchTesterSwizzling */,
 			);
-			path = WKInterfaceDevice;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BD4B6904BA6993DA831D9550E160BED0 /* Types */ = {
+		C06F54149A4C005D0209F8F31F76B566 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				550367A0041CFBE98D9EC22AA812973A /* UNNotificationSettings+Additions.h */,
-				91EC9D107C1A05B3BF126475B93357CA /* UNNotificationSettings+Additions.m */,
+				F2DF23E8E753ACAED1AA7E0102105D7A /* LICENSE */,
+				44E36EDE920766C9A8322580A109A861 /* WatchTesterSwizzling.podspec */,
 			);
-			path = Types;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C892D22B42AC2CB021698E1DC246D430 /* GREY */ = {
+		C6931CFF6E4B756E68EC094FE1742B7E /* Tester */ = {
 			isa = PBXGroup;
 			children = (
-				D35A9FD920986054322886261CC49F1C /* GREYDefines.h */,
-				5CBC09E3E6B81A709F50BFCE9A0B841A /* GREYFatalAsserts.h */,
-				23D6A908A82E9FFE964CBD91EA413C6C /* GREYSurrogateDelegate.h */,
-				7675CD0F26B23EC013BA3B9CA2758385 /* GREYSurrogateDelegate.m */,
-				04A2FC73EA161AC4859E9E0D6DC8B4AF /* GREYSwizzler.h */,
-				D60012CB8A3A517C043C6DB8B44182CF /* GREYSwizzler.m */,
+				EE662716CB8042E68128C022643A6048 /* GreyboxSwizzlingInterface.swift */,
+				8FEF72355D91F6AD62D2D519BBF48670 /* GreyboxWebsocketInterface.swift */,
+				B07B26837E239A621A2C1262584E030A /* MethodReceiver.swift */,
+				D48CD6AA775A49622C3F089537A512A7 /* MockupsFactory.h */,
+				BBEC53451099B41B2A7C52A7704A79DE /* MockupsFactory.m */,
+				071318929CEA4222B96DCF354F9AF844 /* PropertyReceiver.swift */,
+				47B9D4C1EEDBB61D78873983BB67202C /* Receiver.swift */,
+				FF996F6795403E2A3C74C9D8B0862599 /* CoreMotion */,
+				EB308A73C5FFA25FD33BC9B678BDD550 /* HKWorkoutSession */,
+				9E15F823912323ACBD67B70236923720 /* UNUserNotificationCenter */,
+				650E735C0BE7DE01C5E2EB7F6902CACE /* WKInterfaceDevice */,
 			);
-			path = GREY;
+			name = Tester;
+			path = Tester;
+			sourceTree = "<group>";
+		};
+		C73CFA0363C326C3775CE8CBD88854E4 /* HKWorkoutSession */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A9929E111F8EA04B36C5AA2D8251F /* HKWorkoutSession+Additions.h */,
+				A7742977ABD6C0AE71D0DF1C1491E04B /* HKWorkoutSession+Additions.m */,
+				208754EF5476B9CE39541FCE50B516C6 /* HKWorkoutSessionDelegateProxy.h */,
+				25CD7DC402CF45C3980E95ABE9FCB40D /* HKWorkoutSessionDelegateProxy.m */,
+			);
+			name = HKWorkoutSession;
+			path = HKWorkoutSession;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				933E054A18C874F2EB9317EAB4F6C3E5 /* Development Pods */,
+				BA677CA7376018975155D4C766638E45 /* Development Pods */,
 				B28CE43407CEAC117D2A976683A764D8 /* Frameworks */,
 				69D788A8FDE6F26B034397E46C99A2CE /* Products */,
 				E92C0253B062593418B7EE37AE307F78 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D4583217FE57E43941F931F9080ABE2C /* Command */ = {
+		CF6378794D5318C0512BF7205A4BF61D /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				1F7701BB98D189FA8A289D175EB01AA1 /* Command.swift */,
-				B6AB85D12345118E20277A4D69714D58 /* CommandList.swift */,
-				37CD14761892EEA9B9F4140B717E2115 /* FindCommand.swift */,
-				7D28840745BC98CC248D2526643A709E /* ScreenshotCommand.swift */,
-				4BC771C2072B3A4B6A60CF824E204654 /* ScrollCommand.swift */,
-				F89664077A4E4F27C96D18646C643672 /* TapCommand.swift */,
+				C99856D589FBA7CAECA33C1A1DB609AE /* Axis.swift */,
+				35AC13ABC467E7C5467743EAC3ADBA20 /* CMAccelerometerData+Encodable.swift */,
+				CC07C179B341D699E4887B06198523FB /* CMDeviceMotion+Encodable.swift */,
 			);
-			path = Command;
+			name = Types;
+			path = Types;
 			sourceTree = "<group>";
 		};
-		E0AE6FF55D53EDE1D01C025E9567FE5F /* WKInterfaceController */ = {
+		D17CC15B771EEBE0EA93D84F8C685207 /* GREY */ = {
 			isa = PBXGroup;
 			children = (
-				50756D6796D0212D32AE04E6C044D607 /* WKInterfaceController+Additions.h */,
-				BBD1944642E6014B5C254D7597AEA0AA /* WKInterfaceController+Additions.m */,
+				6D3C79325DB9606118C059D3E79D8F16 /* GREYDefines.h */,
+				20D5CF02CAECAAA3F627AF7293127562 /* GREYFatalAsserts.h */,
+				BD3FAB8B5E0E94DC11938326ED08C134 /* GREYSurrogateDelegate.h */,
+				A41F8E3AA82BEE8E135C03A615DEBED2 /* GREYSurrogateDelegate.m */,
+				AC9F825545C741EF325FC37627A27DA8 /* GREYSwizzler.h */,
+				E35F2B00128E58A22249D0DFC364C9F5 /* GREYSwizzler.m */,
 			);
-			path = WKInterfaceController;
+			name = GREY;
+			path = GREY;
 			sourceTree = "<group>";
 		};
-		E41BD5CD2986F04CCF08C68A23082224 /* WatchTester */ = {
+		E4C1BA0F6AE87CE0EC1CCF9BCFCE9C7E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8513465D0B381B1E0DBB2CB1463BAC6 /* Executor.swift */,
-				235E02388A60ED7B5B837141B06D5382 /* WatchTester.h */,
-				14E136977751FC0243A12FE0C0CB5ED8 /* WatchTester.swift */,
-				D4583217FE57E43941F931F9080ABE2C /* Command */,
+				6F5D11199CDF15DDAF31F213825C4440 /* WatchTesterSwizzling.modulemap */,
+				7FAC43D7C039D9E672B4528C9F6D1548 /* WatchTesterSwizzling-dummy.m */,
+				A23AF430FF0C202FA1CE6573E0D05EDA /* WatchTesterSwizzling-Info.plist */,
+				31CCD947540B4240FF0955FDDA11ABA1 /* WatchTesterSwizzling-prefix.pch */,
+				95CA1CBC0F8578FC2220FF02768716DF /* WatchTesterSwizzling-umbrella.h */,
+				1CF859FDF1DAC475E524C6587C48BF65 /* WatchTesterSwizzling.debug.xcconfig */,
+				8AE51B4A58FEE0861B474710AB017596 /* WatchTesterSwizzling.release.xcconfig */,
 			);
-			name = WatchTester;
-			path = WatchTester/WatchTester;
+			name = "Support Files";
+			path = "WatchTestApp/Pods/Target Support Files/WatchTesterSwizzling";
 			sourceTree = "<group>";
 		};
 		E92C0253B062593418B7EE37AE307F78 /* Targets Support Files */ = {
@@ -712,22 +774,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EA86789CC4A8B853F067BF814CCD5F1A /* Tester */ = {
+		EB308A73C5FFA25FD33BC9B678BDD550 /* HKWorkoutSession */ = {
 			isa = PBXGroup;
 			children = (
-				925C57CFC6AEDE7A5D2E3C27490B0DEA /* GreyboxSwizzlingInterface.swift */,
-				E9595E55ECF7778D2AFA6144AD13FB26 /* GreyboxWebsocketInterface.swift */,
-				3F9B66525494C667AEDA9FEE1F2B2860 /* MethodReceiver.swift */,
-				47952D8B73C012DEF24A0C92C42C2BC2 /* MockupsFactory.h */,
-				5D862F94315E0C0C709AA67818662A79 /* MockupsFactory.m */,
-				E7402FF3B401A7C8F51D91FB415911F6 /* PropertyReceiver.swift */,
-				DEE7F05E2AA2E748DB272DE97E08A83C /* Receiver.swift */,
-				2E98629D11E2E0A6EE104F9B9DD82E3F /* CoreMotion */,
-				F18EA8EBBC1D4D3C06418774371A80D4 /* HKWorkoutSession */,
-				5D691F0054D18653BAF4B66A183C46F0 /* UNUserNotificationCenter */,
-				BB989F79A73D9204EAC4F960504A55CC /* WKInterfaceDevice */,
+				C6804E543A264CD158ADD97548ED9B6E /* GreyboxWorkoutSession.swift */,
+				8FE5AD18A9291037894601D87C66B5B3 /* GreyboxWorkoutSessionEnd.swift */,
+				EF6897E77C1FB02D03502BC19098F66B /* GreyboxWorkoutSessionInitHandler.swift */,
+				5B5CEB6A8BBE6A1D8F016DE467419D39 /* GreyboxWorkoutSessionPause.swift */,
+				E3702896B4EC54E7F01B150767F74625 /* GreyboxWorkoutSessionPrepare.swift */,
+				1E97BF973EB50404F673F475E88A0560 /* GreyboxWorkoutSessionResume.swift */,
+				D20FC08ACA9C56D55D0BB96254801CB8 /* GreyboxWorkoutSessionStartActivity.swift */,
+				BA181A6188999407C78E4D2D135E704F /* GreyboxWorkoutSessionStopActivity.swift */,
+				8C8FEAC87E9C668B7B2B675B16BDA16B /* Delegate */,
+				54D46832E61B39E201EAD7D059178B22 /* Types */,
 			);
-			path = Tester;
+			name = HKWorkoutSession;
+			path = HKWorkoutSession;
 			sourceTree = "<group>";
 		};
 		ED3D0C024F59F191564C834955F05B9C /* Pods-WatchTesterAppExample WatchKit AppUITests */ = {
@@ -747,84 +809,27 @@
 			path = "Target Support Files/Pods-WatchTesterAppExample WatchKit AppUITests";
 			sourceTree = "<group>";
 		};
-		F18EA8EBBC1D4D3C06418774371A80D4 /* HKWorkoutSession */ = {
+		FF996F6795403E2A3C74C9D8B0862599 /* CoreMotion */ = {
 			isa = PBXGroup;
 			children = (
-				9DBAD2FA60855AC87CA63C54D02C167F /* GreyboxWorkoutSession.swift */,
-				9477E89EE2B3F1991C6E063A79434128 /* GreyboxWorkoutSessionEnd.swift */,
-				967BA154E8317E136C3CE17D58AB4F2B /* GreyboxWorkoutSessionInitHandler.swift */,
-				E96B6D6C9FC2641DC5749274998F95F4 /* GreyboxWorkoutSessionPause.swift */,
-				1443887E16D198369667166AC212C89E /* GreyboxWorkoutSessionPrepare.swift */,
-				FEAF523C060A46E84EAA797FB478AB8D /* GreyboxWorkoutSessionResume.swift */,
-				AE451D9B1CC6121634F2C2C44C9A211C /* GreyboxWorkoutSessionStartActivity.swift */,
-				3E0DC01FF5CE4E8979D8F2FAA2B37DEA /* GreyboxWorkoutSessionStopActivity.swift */,
-				FB8ED88157DF75A01A6532C9EB15C2E7 /* Delegate */,
-				F4294C04377EBA556555097C91DB93CF /* Types */,
+				58116B136BF2961B53D102F5277AC958 /* GreyboxCoreMotion.swift */,
+				210B0918D57467D05B38D82DAA054657 /* GreyboxCoreMotionAccelerometerData.swift */,
+				C084BDD5F52CD8A01969811F9BF3B586 /* GreyboxCoreMotionDeviceMotion.swift */,
+				48E5831B14E87574603B22314CA0F3A2 /* GreyboxCoreMotionStartAccelerometerUpdates.swift */,
+				DC3C8513D6BDA7084067434D09265C05 /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift */,
+				B352E099D23AB1AF236CE0E8B92F74DE /* GreyboxCoreMotionStartDeviceMotionUpdates.swift */,
+				3D25EEF5757BF60D71E28AB5F2EDEB45 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift */,
+				67B1E503049F784A2B1AA1AC13301F90 /* GreyboxCoreMotionStopAccelerometerUpdates.swift */,
+				41EA4452CC9DC1E140C196E0347D18B6 /* GreyboxCoreMotionStopDeviceMotionUpdates.swift */,
+				CF6378794D5318C0512BF7205A4BF61D /* Types */,
 			);
-			path = HKWorkoutSession;
-			sourceTree = "<group>";
-		};
-		F4294C04377EBA556555097C91DB93CF /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				A25A2CD35CFD8F3F618680EC946D6199 /* HKWorkoutConfiguration+Encodable.swift */,
-				0AACE3D7A82FF050F00E183453DF494D /* HKWorkoutSessionState+Codable.swift */,
-			);
-			path = Types;
-			sourceTree = "<group>";
-		};
-		F7C43756A8AAE286182ADF6A906C6A80 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				700935103B85DBB3B60E0F81DFAC02C4 /* WatchTester.modulemap */,
-				2005495A1B700FC7C8DB81424BB958E1 /* WatchTester-dummy.m */,
-				8FEE78CFA8854900E69C4D02E2641353 /* WatchTester-Info.plist */,
-				DB37126BBB91AAC78AC7C36D6F0E1469 /* WatchTester-prefix.pch */,
-				1906DFFFCCDAEC5D03EA64F368FF7058 /* WatchTester-umbrella.h */,
-				109CC46983FEEEDD5CC53C87870FF6BB /* WatchTester.debug.xcconfig */,
-				8A3F68498802EE3B1EC3CC05405E06A4 /* WatchTester.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "WatchTestApp/Pods/Target Support Files/WatchTester";
-			sourceTree = "<group>";
-		};
-		FB8ED88157DF75A01A6532C9EB15C2E7 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				1C67F744BAF22221C0A3CD94AC8F374C /* GreyboxWorkoutSessionDelegateDidChangeState.swift */,
-				407B3B6609878DBB867454E4C22A8193 /* GreyboxWorkoutSessionDelegateDidFail.swift */,
-			);
-			path = Delegate;
+			name = CoreMotion;
+			path = CoreMotion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		785258D02DAA52C28B0AA2591E6CE34C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				101ACF90BD3B872432BCD0073F8CA8DF /* CMAccelerometerData+Additions.h in Headers */,
-				37E11D09C83B9031E2FF7049D833BE52 /* CMDeviceMotion+Additions.h in Headers */,
-				879A027FED71833FEC1B17E3D26234D0 /* CMMotionManager+Additions.h in Headers */,
-				0C4859AB52E58520F41CDB2EB1B43920 /* GREYDefines.h in Headers */,
-				CA9196A30D24FF257D4C4C2EC3B2AF42 /* GREYFatalAsserts.h in Headers */,
-				5892D5116D321B3AE24A8AEDD1FB9FAA /* GREYSurrogateDelegate.h in Headers */,
-				2BC530714EC8E8775F5891E8573777A2 /* GREYSwizzler.h in Headers */,
-				41ADED4E96931C70525AC5212254BB3F /* HKWorkoutSession+Additions.h in Headers */,
-				4D3F9A046AB8A44E9B007BE96C450FD2 /* HKWorkoutSessionDelegateProxy.h in Headers */,
-				7941D5387B6C0E9EFC9FAD67A84BE5EF /* Macros.h in Headers */,
-				1CF4A432C4B2EAA35CB36C620CD44499 /* MockupsFactory.h in Headers */,
-				DB70EDCDED6D89D93AA3AF590AB10E90 /* UNNotificationSettings+Additions.h in Headers */,
-				6B5390254667DCAE1D8BEC1FAED2688B /* UNUserNotificationCenter+Additions.h in Headers */,
-				E921C3C0DB56E369A9E52178E5B3EE1B /* UNUserNotificationCenterDelegateProxy.h in Headers */,
-				266D6B7E41A483BA4A010FA94F7BE1A2 /* WatchTesterSwizzling.h in Headers */,
-				D431AA5E04DEED511D59A045AD9F4C27 /* WatchTesterSwizzling-umbrella.h in Headers */,
-				AF044C9D06E8AC3E5F0558CCB34DA3BC /* WKInterfaceController+Additions.h in Headers */,
-				C04A342668711C4F6009081CB139C9FF /* WKInterfaceDevice+Additions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E5103E203FB9DD68D9ED0632F05A7DF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -850,6 +855,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A87341E6A9BCDAEBC5925C7EEA128B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CC70001C21D17226AA458AFFA76844 /* CMAccelerometerData+Additions.h in Headers */,
+				BE22F74E0623A099CFAE65DB01B67F0A /* CMDeviceMotion+Additions.h in Headers */,
+				C4EBDAAD304A79823377ECEDF7DA289D /* CMMotionManager+Additions.h in Headers */,
+				6FB5A5658F44EB52239C5A824B46C09D /* GREYDefines.h in Headers */,
+				2855D847F6B09458EA73C56E3F9838BF /* GREYFatalAsserts.h in Headers */,
+				83821CE3316C12A744B34532D83BF0B7 /* GREYSurrogateDelegate.h in Headers */,
+				4A6A87EAEF87B5451699751D2444F370 /* GREYSwizzler.h in Headers */,
+				3CAC3EA62BB36A3D5BE7DA97C23784E3 /* HKWorkoutSession+Additions.h in Headers */,
+				4E5A03F4A6DD01499FBA70FA9591BC60 /* HKWorkoutSessionDelegateProxy.h in Headers */,
+				5289D1C6EE5852055F90D38AD127516E /* Macros.h in Headers */,
+				7125DAF90E79D91AD285B84C17D04313 /* MockupsFactory.h in Headers */,
+				485CF9EE091689F1653CC4128A757D97 /* UNNotificationSettings+Additions.h in Headers */,
+				95940319FE25F4B62A872C4CC5A0487C /* UNUserNotificationCenter+Additions.h in Headers */,
+				3B77B5A56C44DF860852CC2627244EF3 /* UNUserNotificationCenterDelegateProxy.h in Headers */,
+				5E94981ACC00534A113E181D6F17FEE9 /* WatchTesterSwizzling.h in Headers */,
+				F74C570349E95381E54E11759A7B42AD /* WatchTesterSwizzling-umbrella.h in Headers */,
+				E2F9C0A6653578B052E8860B12780E56 /* WKInterfaceController+Additions.h in Headers */,
+				BDF19A298C9528AD0446248B5EA83FC3 /* WKInterfaceDevice+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -865,7 +895,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EB1B2C0FE437FE7A30CC07F2B3662CD /* PBXTargetDependency */,
+				6D1DC447E6B7761B7C34BE5A6741E778 /* PBXTargetDependency */,
 			);
 			name = "Pods-WatchTesterAppExample WatchKit AppUITests";
 			productName = Pods_WatchTesterAppExample_WatchKit_AppUITests;
@@ -884,7 +914,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8C7C516BA4293430C560F72C5977D7D8 /* PBXTargetDependency */,
+				E6EE59EAA9BF55B9454C6B935C1A9E06 /* PBXTargetDependency */,
 			);
 			name = "Pods-WatchTesterAppExample WatchKit Extension";
 			productName = Pods_WatchTesterAppExample_WatchKit_Extension;
@@ -911,12 +941,12 @@
 		};
 		DBBBE466907C04A208CCFAEAC97FA67E /* WatchTesterSwizzling */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FEBA9F9451F270DA3D04978368C9D3 /* Build configuration list for PBXNativeTarget "WatchTesterSwizzling" */;
+			buildConfigurationList = EB81D71715118CE31CEF7C86781169C7 /* Build configuration list for PBXNativeTarget "WatchTesterSwizzling" */;
 			buildPhases = (
-				785258D02DAA52C28B0AA2591E6CE34C /* Headers */,
-				9DB06A41FC8B88A5C6B1C3D5D2A77401 /* Sources */,
-				29BA8047EBF512AE7A2EA3853B9A4E5C /* Frameworks */,
-				5D0F996ADD1A1C080A0AF42D39114C72 /* Resources */,
+				E9A87341E6A9BCDAEBC5925C7EEA128B /* Headers */,
+				EACA34712B70F0950866265EA5F65A81 /* Sources */,
+				7476C2B12B0FDE95DD0757EA942653C6 /* Frameworks */,
+				B9AF037B1B3BD598D0B7D910F1127C89 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -965,18 +995,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D0F996ADD1A1C080A0AF42D39114C72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5854A3AAEABF28F51A28DDD0E9716B0C /* config.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8558F08DD9F5DEC96E901C208D255A6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AF037B1B3BD598D0B7D910F1127C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62BCF89C6578EDE4AA001A8AFD98386 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,108 +1062,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DB06A41FC8B88A5C6B1C3D5D2A77401 /* Sources */ = {
+		EACA34712B70F0950866265EA5F65A81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929B2D5902F441341323814230EDEB6C /* Axis.swift in Sources */,
-				D3DA1F6FC86B9B76FEC5EFC34F04DFB1 /* CMAccelerometerData+Additions.m in Sources */,
-				3F713247BACA5A355C26001C585D474F /* CMAccelerometerData+Encodable.swift in Sources */,
-				5F094313263ABFDB40E23DBFFC5DBB16 /* CMDeviceMotion+Additions.m in Sources */,
-				0FAB78075D646828534950896A7663CD /* CMDeviceMotion+Encodable.swift in Sources */,
-				D86508ECA96CD6783F27218D7782E183 /* CMMotionManager+Additions.m in Sources */,
-				7680BC2DAB4742B17B425A83A6E484CB /* Codable+Helpers.swift in Sources */,
-				94C46C7E9AC1EDA32EAA04096AC91B57 /* config.json in Sources */,
-				5197AD4CC99E299A1B555D722952526C /* Constants.swift in Sources */,
-				355AACDCCC4AE2B8FF5D23BAEE1AB9CB /* CoreMotionHelper.swift in Sources */,
-				DDD454A37996D3CC3F378B501BB45643 /* GreyboxCoreMotion.swift in Sources */,
-				F0782EED10BA12A530909ED371CE6EEB /* GreyboxCoreMotionAccelerometerData.swift in Sources */,
-				308D17382F9EA40F1A37C614F9F4FED4 /* GreyboxCoreMotionDeviceMotion.swift in Sources */,
-				CD12407806D7504D079FB846C43E9E40 /* GreyboxCoreMotionStartAccelerometerUpdates.swift in Sources */,
-				E39F9F383DBDC9EDD68AA989EF01F4EA /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift in Sources */,
-				4666AFDCE9CBD439159BFD35F4A73011 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift in Sources */,
-				AE8A413EF1ECA9F7FDBBC8871FADE72C /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift in Sources */,
-				D7F10BABACFFE6A630CCC5E67422ACF4 /* GreyboxCoreMotionStopAccelerometerUpdates.swift in Sources */,
-				06E1E7E4E10D51D31349D2B2DC5018CA /* GreyboxCoreMotionStopDeviceMotionUpdates.swift in Sources */,
-				4DC6DCBE830488F210352FEC0A909EF3 /* GreyboxInterfaceDevice.swift in Sources */,
-				63F6E1DB5DCB833BC06CC7B3D80A63C4 /* GreyboxSwizzlingInterface.swift in Sources */,
-				C86E8E2400880ED09454A78601B00918 /* GreyboxTester.swift in Sources */,
-				8BF14C38B4D637B438FD6DC484EDB560 /* GreyboxUserNotificationCenter.swift in Sources */,
-				3B2BDFB219985239DD7A0BD20EE490C0 /* GreyboxUserNotificationCenterAddNotificationRequest.swift in Sources */,
-				EEBE9AE19098AC54248C753ABA4D61CD /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift in Sources */,
-				13F3B038AC27BD8D6DBC4D3736CE20D6 /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift in Sources */,
-				92BB2E5BAC781EF091CA9DFE5EC66609 /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift in Sources */,
-				56DF00AB8D2EFB10684B6478AFD81B71 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift in Sources */,
-				11B0148C859C9752C315123CA2C6F014 /* GreyboxUserNotificationCenterGetNotificationCategories.swift in Sources */,
-				C9E5E1C1A38E2B621CB517DABD9365EC /* GreyboxUserNotificationCenterGetNotificationSettings.swift in Sources */,
-				C6E8364C790856CF2B5576F9DEFC7ECD /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift in Sources */,
-				B43BDC1C597DAEE1E5FD67550D22F661 /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift in Sources */,
-				63299B53786A51E45E3C15401D2DBFF6 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift in Sources */,
-				F965343547F94F25F0CB6F6F482EB1B3 /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift in Sources */,
-				2089D28192182CE26AFE769CEAFAAAC7 /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift in Sources */,
-				82644D457BC2C988E275DE71DB8F9F67 /* GreyboxUserNotificationCenterRequestAuthorization.swift in Sources */,
-				9527DEFC8A39E3C1AE2A2C77873F6EE1 /* GreyboxUserNotificationCenterSetNotificationCategories.swift in Sources */,
-				B9E5580082FF8EA02CE7828BAEBC909A /* GreyboxWebsocketInterface.swift in Sources */,
-				DD0E51E7C290D0504131AD040B3FDE8B /* GreyboxWorkoutSession.swift in Sources */,
-				174906DF5A5EC172DD22342F3459DB89 /* GreyboxWorkoutSessionDelegateDidChangeState.swift in Sources */,
-				C5CBF63A25AA01708D9D5A005FCC2559 /* GreyboxWorkoutSessionDelegateDidFail.swift in Sources */,
-				672801CB7DB1CEC3920A12E325E71000 /* GreyboxWorkoutSessionEnd.swift in Sources */,
-				E7B906F5368C581EC34E3C7994DFF28F /* GreyboxWorkoutSessionInitHandler.swift in Sources */,
-				CF014DC8AABA84A65CB87E615B6C97B2 /* GreyboxWorkoutSessionPause.swift in Sources */,
-				BE6A4C4F9ABF33E46606F608FF321406 /* GreyboxWorkoutSessionPrepare.swift in Sources */,
-				C8EBA71F36BF359AF88FD2734A30F4CF /* GreyboxWorkoutSessionResume.swift in Sources */,
-				80C2A9BCCAC1025C41F2E1A39FF980F4 /* GreyboxWorkoutSessionStartActivity.swift in Sources */,
-				F6D442F5FEAC9061CA87295B8AB0E8F1 /* GreyboxWorkoutSessionStopActivity.swift in Sources */,
-				A56EDF0F6B0B64BD2582FB880A51521F /* GREYSurrogateDelegate.m in Sources */,
-				02C79A96FD56BA612FFB67B404866E5A /* GREYSwizzler.m in Sources */,
-				83C69B48E8228E594DC6D22AEB67A8BF /* HKWorkoutConfiguration+Encodable.swift in Sources */,
-				6FA4058F208F308E456EB586E8746F32 /* HKWorkoutSession+Additions.m in Sources */,
-				643A81B003DF1E3DB7EDA14F4F53ABAD /* HKWorkoutSessionDelegateProxy.m in Sources */,
-				FB4F07C98B47BAEFA65E2FBA99A46623 /* HKWorkoutSessionState+Codable.swift in Sources */,
-				FCFB167BEAE39FA7EEAF2381D63B52C5 /* MethodReceiver.swift in Sources */,
-				3AE10E6C319ECC6976AE007B073DE1BC /* MockupsFactory.m in Sources */,
-				BCF13F25A05970013554228FFA394A7F /* PropertyReceiver.swift in Sources */,
-				8F4CA9C77180F43B75E5632AA2D67DAF /* Receiver.swift in Sources */,
-				16A6579A607908E2AB1455E89CB73010 /* UNNotification+Encodable.swift in Sources */,
-				82EB365BEBB2BC8B12626272EC04EDAA /* UNNotificationAction+Encodable.swift in Sources */,
-				C6BBE546173044BB25BDAD085C9D7220 /* UNNotificationCategory+Encodable.swift in Sources */,
-				FADC8AAB9D648D1E4445C738289A7DC9 /* UNNotificationRequest+Encodable.swift in Sources */,
-				BF75FC5E1B4C92B2655FDE1464145D6A /* UNNotificationResponse+Encodable.swift in Sources */,
-				AA5AF42F88B20F39ACA3D8C40BFA0666 /* UNNotificationSettings+Additions.m in Sources */,
-				966CD8CD8B0F32AB729198669456428C /* UNNotificationSettings+Encodable.swift in Sources */,
-				5245F7D1F875E66B2C65C24938E1C29B /* UNUserNotificationCenter+Additions.m in Sources */,
-				AE80FE8AFC76B205DF882C4A6B611371 /* UNUserNotificationCenterDelegateProxy.m in Sources */,
-				C42329B8F9A397A959B6A41502A4F6E3 /* WatchCommandResponse.swift in Sources */,
-				10ECA1599D71F01D2E884D65802C2AA3 /* WatchSwizzler.swift in Sources */,
-				BD7B019BAD6878A491EBC859DA0F1F4A /* WatchTesterSwizzling-dummy.m in Sources */,
-				018F166108E76E18C9205C28C5574EFC /* WebSocketManager.swift in Sources */,
-				7552025F2A0F58A030674CF899A247D3 /* WebSocketTypes.swift in Sources */,
-				A039306CC944626516E019A3649486C9 /* WKInterfaceController+Additions.m in Sources */,
-				E04D80B7F27BBF6A43F80B37A331DBEE /* WKInterfaceDevice+Additions.m in Sources */,
+				5D7B02DA8A903481C93820E18D401821 /* Axis.swift in Sources */,
+				63BC6048072680BC005B643211FB22CC /* CMAccelerometerData+Additions.m in Sources */,
+				EE6FCB2A59710B1C3E07E67554394E4C /* CMAccelerometerData+Encodable.swift in Sources */,
+				7C693A7A57C3E93055DE2D3522354E7D /* CMDeviceMotion+Additions.m in Sources */,
+				D09D22B98C408843814B3EB2DF34FD75 /* CMDeviceMotion+Encodable.swift in Sources */,
+				A1C334B0E3CB71142F1B6E3F57994CC8 /* CMMotionManager+Additions.m in Sources */,
+				28EBD4A288BBAC4592BB262312C7BE0C /* Codable+Helpers.swift in Sources */,
+				FAA0A72B4EE4B3DF705DD610F491FF2A /* config.json in Sources */,
+				E22B76EFE3D9D977A573CB443A71613D /* Constants.swift in Sources */,
+				8A3980D8615DE3140E8079D9EBBB491C /* CoreMotionHelper.swift in Sources */,
+				F6BC0419FF525F3164A049D9EE8D9E1F /* GreyboxCoreMotion.swift in Sources */,
+				10351271F65A52D8130FE4CA84413D79 /* GreyboxCoreMotionAccelerometerData.swift in Sources */,
+				E7C50021082FA04108F29496F4491E96 /* GreyboxCoreMotionDeviceMotion.swift in Sources */,
+				634D75FEE8D9284D7F88E746009DEA5C /* GreyboxCoreMotionStartAccelerometerUpdates.swift in Sources */,
+				B8B206EB56031F567BB7AE9D2DB8329E /* GreyboxCoreMotionStartAccelerometerUpdatesWithHandler.swift in Sources */,
+				84B1A580102426FD04B68EE1B1474E09 /* GreyboxCoreMotionStartDeviceMotionUpdates.swift in Sources */,
+				83CB5D353D9F64A65289F530077ED4E1 /* GreyboxCoreMotionStartDeviceMotionUpdatesWithHandler.swift in Sources */,
+				9FA375D40E963D80B1D8205034678754 /* GreyboxCoreMotionStopAccelerometerUpdates.swift in Sources */,
+				F44CC86F8A84AD7F6EA47FD303D662FB /* GreyboxCoreMotionStopDeviceMotionUpdates.swift in Sources */,
+				FDBFD87D5DD3398596D255FF1769BE32 /* GreyboxInterfaceDevice.swift in Sources */,
+				FFBA13BB878DD3620B383A16A639FC1C /* GreyboxSwizzlingInterface.swift in Sources */,
+				5737474D707F31CEC75F098D646ECDF0 /* GreyboxTester.swift in Sources */,
+				AC006BAB6AEE10F70BDFFE9B1BAAA970 /* GreyboxUserNotificationCenter.swift in Sources */,
+				278DE9EB28D70F7343BA6B8BB9723FBE /* GreyboxUserNotificationCenterAddNotificationRequest.swift in Sources */,
+				3AB89B1C52FE8F597824282CFACD5D38 /* GreyboxUserNotificationCenterDelegateDidReceiveResponse.swift in Sources */,
+				F50ABEE9DDBC60FE4E3FC8C3823DBA9D /* GreyboxUserNotificationCenterDelegateOpenSettingsForNotification.swift in Sources */,
+				0DDDB003EE9E898D30512408BECA42AA /* GreyboxUserNotificationCenterDelegateWillPresentNotification.swift in Sources */,
+				93C9FB8DEBA3916A8C92D09BFFB36438 /* GreyboxUserNotificationCenterGetDeliveredNotifications.swift in Sources */,
+				B7A56247808485BB5E2DB289A2FC3E42 /* GreyboxUserNotificationCenterGetNotificationCategories.swift in Sources */,
+				72E2D3045817D9DA7608EDD239D1ACF4 /* GreyboxUserNotificationCenterGetNotificationSettings.swift in Sources */,
+				402B63EB4164BA6C8FE9AECFF1E0A454 /* GreyboxUserNotificationCenterGetPendingNotificationRequests.swift in Sources */,
+				1DF285C1C1823B7C56EA1653B83693DB /* GreyboxUserNotificationCenterRemoveAllDeliveredNotifications.swift in Sources */,
+				A5A2AB5B8A0325C12BF42B554DBFF5F8 /* GreyboxUserNotificationCenterRemoveAllPendingNotificationRequests.swift in Sources */,
+				100C559630D328AE56ABD0662D794F4C /* GreyboxUserNotificationCenterRemoveDeliveredNotifications.swift in Sources */,
+				C2D314CB68B578120F07E9A06FC4906D /* GreyboxUserNotificationCenterRemovePendingNotificationRequests.swift in Sources */,
+				1FF39035A4E1F5F3E0DCB889AB62B4A2 /* GreyboxUserNotificationCenterRequestAuthorization.swift in Sources */,
+				A774C6F7B301BC14DCA0E88711092DDA /* GreyboxUserNotificationCenterSetNotificationCategories.swift in Sources */,
+				D04B4953386DF800A1D64EA530B26D63 /* GreyboxWebsocketInterface.swift in Sources */,
+				D59B89A1EBBFB65F33350FF220FA8897 /* GreyboxWorkoutSession.swift in Sources */,
+				F2F98076EE5A8CEEE67D824107100C54 /* GreyboxWorkoutSessionDelegateDidChangeState.swift in Sources */,
+				42E20A6452E3AAAAA5F2C6930D5F9222 /* GreyboxWorkoutSessionDelegateDidFail.swift in Sources */,
+				AB33D4FE32038422C43C7BDEAD7A9E13 /* GreyboxWorkoutSessionEnd.swift in Sources */,
+				17160F016A6624BE1C685DDA5126E19B /* GreyboxWorkoutSessionInitHandler.swift in Sources */,
+				139CE7B3A46A6DE472C51F88A9848BEE /* GreyboxWorkoutSessionPause.swift in Sources */,
+				B46CF410600A2F1FA805A68B9F225C41 /* GreyboxWorkoutSessionPrepare.swift in Sources */,
+				2419634B11984EB4146C3D308C11EB86 /* GreyboxWorkoutSessionResume.swift in Sources */,
+				72ED19A2257F49157986BF3B46C0C60E /* GreyboxWorkoutSessionStartActivity.swift in Sources */,
+				6DCA5DA82102644DF6AAA8323E5C8CBA /* GreyboxWorkoutSessionStopActivity.swift in Sources */,
+				4C2C338331D0DFD233EC9EDC83F1C73C /* GREYSurrogateDelegate.m in Sources */,
+				679B71CA64257B5C8A9D6D3AB4D1195E /* GREYSwizzler.m in Sources */,
+				F19825E88A187F25C2C7D4247BD6966D /* HKWorkoutConfiguration+Encodable.swift in Sources */,
+				FDE7DBA912268E6F9AA168310BBF1306 /* HKWorkoutSession+Additions.m in Sources */,
+				EE0A58E83C8E57D7F54EAEBA5E9537C9 /* HKWorkoutSessionDelegateProxy.m in Sources */,
+				94CDBB1236254094D54A7F7AEDF54EB9 /* HKWorkoutSessionState+Codable.swift in Sources */,
+				41C73A26B6ED79C24F429DA5204155CC /* MethodReceiver.swift in Sources */,
+				D00D6CBB4AC864813C0AA76CD5DDC3FA /* MockupsFactory.m in Sources */,
+				EC34004E128C7AFB04DBC455EAFCF1C9 /* PropertyReceiver.swift in Sources */,
+				6C6FE04C6DB55A1A4D5C3B56DB538A8B /* Receiver.swift in Sources */,
+				6EBC4C29ED69C656D476B9629BB1ECA2 /* UNNotification+Encodable.swift in Sources */,
+				5776552914E06334DB358C0AD1E2EA7B /* UNNotificationAction+Encodable.swift in Sources */,
+				645C362493DC8B18A7FB9C980F765DC6 /* UNNotificationCategory+Encodable.swift in Sources */,
+				B3ED86557EA202D615398CC6D80453FE /* UNNotificationRequest+Encodable.swift in Sources */,
+				586DCD24BEDE2A8DC5458833731F2F6E /* UNNotificationResponse+Encodable.swift in Sources */,
+				39B4E94C1FD113E218E843671CD78AB5 /* UNNotificationSettings+Additions.m in Sources */,
+				48A3633C256865A995E5C4E2F2988477 /* UNNotificationSettings+Encodable.swift in Sources */,
+				4A2636331BB56BF8A7B6A4AD1344637C /* UNUserNotificationCenter+Additions.m in Sources */,
+				161F48D622CB51423C971DA685CFD153 /* UNUserNotificationCenterDelegateProxy.m in Sources */,
+				3C891D4FF9C4BC22495BC973F56F6BAC /* WatchCommandResponse.swift in Sources */,
+				FAA5729C5568A4AE3BE0C56143F1EDF5 /* WatchSwizzler.swift in Sources */,
+				2DECDBDCBC80AAD3F661AC0DC743EF27 /* WatchTesterSwizzling-dummy.m in Sources */,
+				873B58FFCA661F0E07D0350D869A32DC /* WebSocketManager.swift in Sources */,
+				8ED826F9D6DA66B877371D93555CBBB5 /* WebSocketTypes.swift in Sources */,
+				3B8097EF6889B5F51F12323B7A29432E /* WKInterfaceController+Additions.m in Sources */,
+				B822C21A5DBA818AD12D4500FA4B0279 /* WKInterfaceDevice+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8C7C516BA4293430C560F72C5977D7D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WatchTesterSwizzling;
-			target = DBBBE466907C04A208CCFAEAC97FA67E /* WatchTesterSwizzling */;
-			targetProxy = CFD00E6D3D100569EB1F2FA4B40DEBC3 /* PBXContainerItemProxy */;
-		};
-		8EB1B2C0FE437FE7A30CC07F2B3662CD /* PBXTargetDependency */ = {
+		6D1DC447E6B7761B7C34BE5A6741E778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WatchTester;
 			target = 8DFB38CEB438C541615A97C9BA634408 /* WatchTester */;
-			targetProxy = EB2B236A038A8649CB4B23E1D5F8731B /* PBXContainerItemProxy */;
+			targetProxy = 8BFA1BD2FE71CAC946E634EA944E6E34 /* PBXContainerItemProxy */;
+		};
+		E6EE59EAA9BF55B9454C6B935C1A9E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WatchTesterSwizzling;
+			target = DBBBE466907C04A208CCFAEAC97FA67E /* WatchTesterSwizzling */;
+			targetProxy = 24A1961A7CE2B0F6561D1F44BFFDFF4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		172CA4758D628A2277397FA07F7E4661 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A3F68498802EE3B1EC3CC05405E06A4 /* WatchTester.release.xcconfig */;
+			baseConfigurationReference = EC54AB5C3AA76AA9EF7FE062026D4510 /* WatchTester.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1155,6 +1185,42 @@
 				MODULEMAP_FILE = "Target Support Files/WatchTester/WatchTester.modulemap";
 				PRODUCT_MODULE_NAME = WatchTester;
 				PRODUCT_NAME = WatchTester;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		191003D2C6CEBBFAFE8AA7B283AE5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE51B4A58FEE0861B474710AB017596 /* WatchTesterSwizzling.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling.modulemap";
+				PRODUCT_MODULE_NAME = WatchTesterSwizzling;
+				PRODUCT_NAME = WatchTesterSwizzling;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1372,7 +1438,7 @@
 		};
 		8B7659C0157BA983D49B35DE20DA4E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109CC46983FEEEDD5CC53C87870FF6BB /* WatchTester.debug.xcconfig */;
+			baseConfigurationReference = 17941C47CA8A5E5B3E2A41040C210AFC /* WatchTester.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1394,77 +1460,6 @@
 				MODULEMAP_FILE = "Target Support Files/WatchTester/WatchTester.modulemap";
 				PRODUCT_MODULE_NAME = WatchTester;
 				PRODUCT_NAME = WatchTester;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Debug;
-		};
-		999B9063E5FBE2D1A33AF6BF26A6DD74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515C87E83A10C7B1ACB443E9A983B0B0 /* WatchTesterSwizzling.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling.modulemap";
-				PRODUCT_MODULE_NAME = WatchTesterSwizzling;
-				PRODUCT_NAME = WatchTesterSwizzling;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Release;
-		};
-		B1390D39413C89C1B9A6312333CC3E44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11884701E8472C9C64E8A027CF06F2AF /* WatchTesterSwizzling.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling.modulemap";
-				PRODUCT_MODULE_NAME = WatchTesterSwizzling;
-				PRODUCT_NAME = WatchTesterSwizzling;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1513,6 +1508,41 @@
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
+		};
+		EA7FF44AFA6A7A24A628C04774FB4AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF859FDF1DAC475E524C6587C48BF65 /* WatchTesterSwizzling.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WatchTesterSwizzling/WatchTesterSwizzling.modulemap";
+				PRODUCT_MODULE_NAME = WatchTesterSwizzling;
+				PRODUCT_NAME = WatchTesterSwizzling;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
 		};
 		EDA70554EADC566F5C43F9E468985D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1572,15 +1602,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FEBA9F9451F270DA3D04978368C9D3 /* Build configuration list for PBXNativeTarget "WatchTesterSwizzling" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1390D39413C89C1B9A6312333CC3E44 /* Debug */,
-				999B9063E5FBE2D1A33AF6BF26A6DD74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1595,6 +1616,15 @@
 			buildConfigurations = (
 				8B7659C0157BA983D49B35DE20DA4E5B /* Debug */,
 				172CA4758D628A2277397FA07F7E4661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB81D71715118CE31CEF7C86781169C7 /* Build configuration list for PBXNativeTarget "WatchTesterSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7FF44AFA6A7A24A628C04774FB4AFA /* Debug */,
+				191003D2C6CEBBFAFE8AA7B283AE5540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
