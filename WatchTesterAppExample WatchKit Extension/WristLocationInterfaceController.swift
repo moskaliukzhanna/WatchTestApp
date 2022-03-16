@@ -15,7 +15,7 @@ class WristLocationInterfaceController: WKInterfaceController {
     @IBOutlet weak var checkWristLocationButton: WKInterfaceButton!
     
     @IBAction func checkWristLocation() {
-        checkLocation()
+        checkBatteryState()
     }
     
     override func awake(withContext context: Any?) {
@@ -34,6 +34,16 @@ class WristLocationInterfaceController: WKInterfaceController {
             wristLocationLabel.setText("right")
         @unknown default:
             wristLocationLabel.setText("unknown")
+        }
+    }
+    
+    private func checkBatteryState() {
+        let batteryState = WKInterfaceDevice.current().batteryState
+        switch batteryState {
+        case .charging:
+            wristLocationLabel.setText("Charging")
+        default:
+            wristLocationLabel.setText("Not charging")
         }
     }
 }
