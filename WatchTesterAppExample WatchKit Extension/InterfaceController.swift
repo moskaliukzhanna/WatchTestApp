@@ -31,6 +31,7 @@ class InterfaceController: WKInterfaceController {
 //        watchSwizzler.connect()
         GreyboxTester.shared.connect()
         
+        messageLabel.setAccessibilityIdentifier("message_label")
         tableButton.setAccessibilityIdentifier("table_button")
         goWristLocationButton.setAccessibilityIdentifier("go_wristLocation")
         kittyImage.setImageNamed("studyCat")
