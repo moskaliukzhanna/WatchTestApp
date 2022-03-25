@@ -109,7 +109,15 @@
             <objects>
                 <controller identifier="EventInterfaceController" id="3O7-Nc-9DB" customClass="EventInterfaceController" customModule="WatchTesterAppExample_WatchKit_Extension">
                     <items>
-                        <imageView width="80" height="80" alignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="YPD-MN-EqV"/>
+                        <imageView width="80" height="80" alignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="YPD-MN-EqV">
+                            <gestureRecognizers>
+                                <longPressGestureRecognizer id="ivR-mi-VFS">
+                                    <connections>
+                                        <action selector="longPress:" destination="3O7-Nc-9DB" id="ICF-Vi-wvj"/>
+                                    </connections>
+                                </longPressGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
                         <label height="20" alignment="center" text="Label" textAlignment="center" id="QCq-rD-Qif"/>
                         <label height="20" alignment="center" text="Label" id="Y9i-IG-MbI"/>
                     </items>
@@ -117,6 +125,7 @@
                         <outlet property="eventCategory" destination="QCq-rD-Qif" id="pyg-3Q-vTC"/>
                         <outlet property="eventImage" destination="YPD-MN-EqV" id="Z1D-kE-Hbv"/>
                         <outlet property="eventLabel" destination="Y9i-IG-MbI" id="zWe-xp-oeN"/>
+                        <outlet property="longPressGesture" destination="ivR-mi-VFS" id="fhE-xB-xKx"/>
                     </connections>
                 </controller>
             </objects>
